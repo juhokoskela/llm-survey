@@ -1,0 +1,2 @@
+ALTER TYPE "public"."question_id" ADD VALUE 'B10_prior_topic_familiarity' BEFORE 'S1_emotion_related_behavior';--> statement-breakpoint
+ALTER TYPE "public"."question_id" ADD VALUE 'D5_english_comfort';

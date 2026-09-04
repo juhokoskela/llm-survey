@@ -1,0 +1,1 @@
+ALTER TABLE "sessions" ADD COLUMN "withdrawal_token_hash" text;

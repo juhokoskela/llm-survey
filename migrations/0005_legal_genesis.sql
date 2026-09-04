@@ -1,0 +1,2 @@
+ALTER TABLE "answers" DROP CONSTRAINT "answers_value_present_check";--> statement-breakpoint
+ALTER TABLE "answers" ADD CONSTRAINT "answers_value_present_check" CHECK (num_nonnulls("answers"."value_number", "answers"."value_text", "answers"."value_json") = 1);

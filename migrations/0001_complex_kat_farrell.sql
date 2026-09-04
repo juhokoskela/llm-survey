@@ -1,0 +1,1 @@
+ALTER TABLE "answers" ADD CONSTRAINT "answers_value_present_check" CHECK ("answers"."value_number" is not null or "answers"."value_text" is not null or "answers"."value_json" is not null);

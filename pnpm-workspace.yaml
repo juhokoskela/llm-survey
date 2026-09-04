@@ -1,0 +1,13 @@
+packages:
+  - .
+
+overrides:
+  postcss: ^8.5.15
+  esbuild: ^0.25.12
+
+allowBuilds:
+  cpu-features: true
+  esbuild: true
+  protobufjs: true
+  sharp: true
+  ssh2: true

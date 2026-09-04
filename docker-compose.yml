@@ -1,0 +1,61 @@
+services:
+  db:
+    image: postgres:18.4
+    container_name: llm-survey-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: llm_survey
+      POSTGRES_USER: llm_survey
+      POSTGRES_PASSWORD: llm_survey_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  migrate:
+    build:
+      context: .
+      target: migrate
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgres://llm_survey:llm_survey_password@db:5432/llm_survey
+    command: pnpm db:migrate
+    restart: "no"
+
+  app:
+    build:
+      context: .
+      target: runner
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    environment:
+      DATABASE_URL: postgres://llm_survey:llm_survey_password@db:5432/llm_survey
+      STUDY_BASE_URL: http://127.0.0.1:3000
+      RESEARCH_CONTACT_EMAIL: "research@juhokoskela.fi"
+      PRIVACY_NOTICE_LAST_UPDATED: "2026-06-02"
+      RATE_LIMIT_SECRET: "llm-survey-local-rate-limit-secret"
+      RUN_MIGRATIONS_ON_STARTUP: "false"
+    ports:
+      - "3000:3000"
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "node -e \"fetch('http://127.0.0.1:3000').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))\"",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+volumes:
+  postgres_data:
