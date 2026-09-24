@@ -49,7 +49,8 @@ export type DerivedResponseFields = {
   technicalExpertiseTier: 0 | 1 | 2 | 3 | null;
   usageIntensity: 0 | 1 | 2 | 3 | null;
   mindTheoryBackground: boolean;
-  classificationAmbiguous: boolean;
+  technicalClassificationAmbiguous: boolean;
+  usageClassificationAmbiguous: boolean;
   veryFastCompletionFlag: boolean;
   straightliningFlag: boolean;
   lowEnglishComfortFlag: boolean;
@@ -72,7 +73,8 @@ export function deriveResponseFields(
     technicalExpertiseTier: technical.tier,
     usageIntensity: usage.intensity,
     mindTheoryBackground: deriveMindTheoryBackground(answerMap),
-    classificationAmbiguous: technical.ambiguous || usage.ambiguous,
+    technicalClassificationAmbiguous: technical.ambiguous,
+    usageClassificationAmbiguous: usage.ambiguous,
     veryFastCompletionFlag:
       completionTimeSeconds !== null &&
       completionTimeSeconds < VERY_FAST_COMPLETION_SECONDS,
@@ -148,11 +150,9 @@ function deriveTechnicalExpertise(answerMap: AnswerMap): {
   }
 
   const tier = signals.length > 0 ? (Math.max(...signals) as 0 | 1 | 2 | 3) : null;
-  const distinctSignals = new Set(signals);
-
   return {
     tier,
-    ambiguous: ambiguous || distinctSignals.size > 1,
+    ambiguous,
   };
 }
 
