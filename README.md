@@ -1,6 +1,20 @@
-# LLM Survey
+# LLM affect and consciousness perception survey
 
-Next.js App Router + Drizzle scaffold for the LLM survey MVP described in `docs/survey-master-plan.md` and `outputs/llm-survey-mvp-implementation-plan.md`.
+This repository contains the survey application and public materials for the independent preprint **What counts as evidence of an AI mind? An exploratory vignette study of functional affect, inner experience, and welfare precaution**.
+
+The study asked how people interpret different kinds of evidence about fictional AI systems. It separated emotion-related behavior, functional affect-like processing, actual feeling, inner experience, welfare-directed precaution, and general developer caution.
+
+The paper is exploratory overall: one expertise hypothesis was specified before data collection, while the headline vignette comparisons were selected after data inspection.
+
+## Study materials
+
+- [`paper_draft_v3.md`](paper_draft_v3.md) is the current paper draft.
+- [`output/pdf/what-counts-as-evidence-of-an-ai-mind.pdf`](output/pdf/what-counts-as-evidence-of-an-ai-mind.pdf) is the formatted preprint.
+- [`repro/`](repro/) is the reproducibility package, including analysis code, the survey instrument, study plans, the qualitative codebook, and generated figures.
+- [`repro/materials/survey-master-plan.md`](repro/materials/survey-master-plan.md) is the full private pre-data master plan dated June 1, 2026. It was not publicly preregistered.
+- [`docs/llm-survey-mvp-implementation-plan.md`](docs/llm-survey-mvp-implementation-plan.md) documents the application implementation plan.
+
+Participant-level data and the raw production dump are not public. The analysis scripts accept local paths to authorized copies; see [`repro/analysis/README.md`](repro/analysis/README.md) for reproduction commands.
 
 ## Local setup
 
@@ -71,3 +85,7 @@ App Runner is not available in `eu-north-1`, so ECS Fargate is used to preserve
 the Sweden region assumption. Route 53 DNS is handled from the separate DNS
 account after deployment; see `infra/cdk/README.md` for deploy, DNS, rollback,
 and destroy commands.
+
+## License
+
+Application, infrastructure, migration, test, and executable script files use the [MIT License](LICENSES/MIT.txt). The paper, survey materials, documentation, and figures use the [Creative Commons Attribution 4.0 International license](LICENSES/CC-BY-4.0.txt). See [LICENSE](LICENSE) for the exact path-based boundary and data exclusions.

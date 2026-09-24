@@ -2,7 +2,7 @@
 
 **Date:** 2026-06-02 (rev. 3)
 **Purpose:** Build brief for the survey MVP web app.
-**Authoritative instrument:** `docs/survey-master-plan.md` (v0.7 instrument).
+**Authoritative instrument:** `repro/materials/survey-master-plan.md` (v0.7 instrument).
 
 The master plan is authoritative for instrument text, question IDs, page ordering, and the analysis plan. Where this brief and the master plan disagree, the master plan wins, except at the points below marked "Overrides the master plan." Lift instrument copy from the master plan verbatim. Do not invent or reword it.
 
@@ -21,7 +21,7 @@ Build a production-ready, mobile-first survey web app that measures how responde
 ## 2. Inputs for the build
 
 - This brief.
-- `docs/survey-master-plan.md`, authoritative for copy, IDs, ordering, and analysis.
+- `repro/materials/survey-master-plan.md`, authoritative for copy, IDs, ordering, and analysis.
 - The design sketches, for visuals only.
 
 If any instrument wording is missing, scaffold with copy marked `// PLACEHOLDER`. Do not improvise final survey text.
@@ -94,7 +94,7 @@ These are the pieces most easily dropped.
 - **`answers`**: `id`, `session_id` (FK), `question_id`, `section_id`, `scenario_id` (nullable), `value_number`, `value_text`, `value_json`, `answered_at`.
 - **`page_timings`**: `id`, `session_id`, `page_id`, `scenario_id` (nullable), `entered_at`, `left_at`, `duration_seconds`.
 
-Overrides the master plan: the derived classification variables (`technical_expertise_tier`, `usage_intensity`, `mind_theory_background`, `classification_ambiguous`) are computed at export time from the raw B-answers using the §9 rules, not in the app. The rules may change after launch, and a dumb app lets you recompute deterministically from raw answers without a migration. Runtime-only facts (timing, check pass/fail) are the exception and are stored at submission.
+Overrides the master plan: the derived classification variables (`technical_expertise_tier`, `usage_intensity`, `mind_theory_background`, `technical_classification_ambiguous`, `usage_classification_ambiguous`) are computed at export time from the raw B-answers using the §9 rules, not in the app. The rules may change after launch, and a dumb app lets you recompute deterministically from raw answers without a migration. Runtime-only facts (timing, check pass/fail) are the exception and are stored at submission.
 
 Use the stable IDs exactly: B1-B10, S1-S6, AC1, CC1, C1, F1-F8, G1-G9, T1-T4, I1-I2, D1-D5.
 
