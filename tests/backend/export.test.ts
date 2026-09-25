@@ -7,7 +7,7 @@ import { completeAnswers, completeStoredAnswers } from "./fixtures";
 
 describe("CSV export", () => {
   it("keeps the stable leading column order", () => {
-    expect(EXPORT_COLUMNS.slice(0, 18)).toEqual([
+    expect(EXPORT_COLUMNS.slice(0, 19)).toEqual([
       "session_id",
       "completed_at",
       "completion_time_seconds",
@@ -20,7 +20,8 @@ describe("CSV export", () => {
       "technical_expertise_tier",
       "usage_intensity",
       "mind_theory_background",
-      "classification_ambiguous",
+      "technical_classification_ambiguous",
+      "usage_classification_ambiguous",
       "very_fast_completion_flag",
       "straightlining_flag",
       "low_english_comfort_flag",
@@ -51,6 +52,8 @@ describe("CSV export", () => {
     expect(row.B6_llm_use_cases).toBe("Coding|Research|Work automation");
     expect(row.B10_prior_topic_familiarity).toBe("3");
     expect(row.D5_english_comfort).toBe("Very comfortable");
+    expect(row.technical_classification_ambiguous).toBe("false");
+    expect(row.usage_classification_ambiguous).toBe("false");
     expect(row.very_fast_completion_flag).toBe("true");
     expect(row.straightlining_flag).toBe("true");
     expect(row.low_english_comfort_flag).toBe("false");

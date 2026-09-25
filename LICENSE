@@ -1,7 +1,42 @@
+LICENSING NOTICE
+
 Copyright 2026 Juho Koskela
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+This repository uses separate licenses for software and research materials.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+MIT License
+-----------
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+The MIT License applies to the software and files that support building,
+testing, running, or deploying it. This includes:
+
+- application source and tests under src/ and tests/;
+- infrastructure, migrations, and executable scripts under infra/,
+  migrations/, and scripts/;
+- analysis code under repro/analysis/, except its README.md file; and
+- root-level software configuration, package manifests, lockfiles, environment
+  examples, Docker files, and build files.
+
+The full license text is in LICENSES/MIT.txt.
+
+Creative Commons Attribution 4.0 International
+----------------------------------------------
+
+All other original content in this repository is licensed under the Creative
+Commons Attribution 4.0 International license. This includes the paper,
+research plans, survey instrument, codebook, data dictionary, documentation,
+READMEs, manifests, and figures.
+
+When reusing this material, credit Juho Koskela, link to the source repository
+at https://github.com/juhokoskela/llm-survey when reasonably practical, link to
+the license, and indicate whether you made changes. The full license text is in
+LICENSES/CC-BY-4.0.txt. The canonical license page is
+https://creativecommons.org/licenses/by/4.0/.
+
+Excluded material
+-----------------
+
+Participant-level data, raw production dumps, completed-response exports, and
+other ignored or uncommitted data files are not part of the public repository
+and receive no license grant through this notice. Third-party material retains
+its own license.

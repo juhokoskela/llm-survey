@@ -1,0 +1,6442 @@
+{
+  "status": "Post-draft exploratory analyses, September 2026",
+  "second_review": {
+    "status": "Second-review post-hoc diagnostics",
+    "full_n": 538,
+    "exploratory_n": 530,
+    "comprehension_s2": {
+      "full": {
+        "groups": {
+          "False": {
+            "n": 180,
+            "agree": 168,
+            "ratings": {
+              "3": 2,
+              "4": 10,
+              "5": 66,
+              "6": 55,
+              "7": 47
+            }
+          },
+          "True": {
+            "n": 358,
+            "agree": 335,
+            "ratings": {
+              "2": 1,
+              "3": 4,
+              "4": 18,
+              "5": 110,
+              "6": 133,
+              "7": 92
+            }
+          }
+        },
+        "fisher_p": 1.0,
+        "answers": {
+          "Not sure.": {
+            "n": 80,
+            "agree": 75
+          },
+          "They changed one internal pattern and observed changes in the model’s behavior.": {
+            "n": 358,
+            "agree": 335
+          },
+          "They only asked the model whether it had feelings.": {
+            "n": 84,
+            "agree": 77
+          },
+          "They only measured whether users liked the model.": {
+            "n": 16,
+            "agree": 16
+          }
+        }
+      },
+      "exploratory": {
+        "groups": {
+          "False": {
+            "n": 178,
+            "agree": 166,
+            "ratings": {
+              "3": 2,
+              "4": 10,
+              "5": 65,
+              "6": 55,
+              "7": 46
+            }
+          },
+          "True": {
+            "n": 352,
+            "agree": 330,
+            "ratings": {
+              "2": 1,
+              "3": 3,
+              "4": 18,
+              "5": 109,
+              "6": 129,
+              "7": 92
+            }
+          }
+        },
+        "fisher_p": 0.8520877617954946,
+        "answers": {
+          "Not sure.": {
+            "n": 79,
+            "agree": 74
+          },
+          "They changed one internal pattern and observed changes in the model’s behavior.": {
+            "n": 352,
+            "agree": 330
+          },
+          "They only asked the model whether it had feelings.": {
+            "n": 83,
+            "agree": 76
+          },
+          "They only measured whether users liked the model.": {
+            "n": 16,
+            "agree": 16
+          }
+        }
+      }
+    },
+    "interpretation_by_tier": {
+      "full": {
+        "table": {
+          "0": {
+            "I was not sure what it meant.": 27,
+            "Other": 7,
+            "The situation feels like something from the system’s own point of view.": 116,
+            "The system behaves in a useful or intelligent way.": 10,
+            "The system can produce language about emotions.": 19,
+            "The system has memory or hidden technical processes.": 33
+          },
+          "1": {
+            "I was not sure what it meant.": 24,
+            "Other": 3,
+            "The situation feels like something from the system’s own point of view.": 142,
+            "The system behaves in a useful or intelligent way.": 16,
+            "The system can produce language about emotions.": 26,
+            "The system has memory or hidden technical processes.": 25
+          },
+          "2": {
+            "I was not sure what it meant.": 5,
+            "Other": 0,
+            "The situation feels like something from the system’s own point of view.": 33,
+            "The system behaves in a useful or intelligent way.": 4,
+            "The system can produce language about emotions.": 2,
+            "The system has memory or hidden technical processes.": 2
+          },
+          "3": {
+            "I was not sure what it meant.": 8,
+            "Other": 1,
+            "The situation feels like something from the system’s own point of view.": 24,
+            "The system behaves in a useful or intelligent way.": 0,
+            "The system can produce language about emotions.": 4,
+            "The system has memory or hidden technical processes.": 7
+          }
+        },
+        "chi2": 18.862152536370097,
+        "df": 15,
+        "minimum_expected": 0.8996282527881041,
+        "permutation_p": 0.2062896855157242,
+        "permutations": 20000,
+        "seed": 20260920
+      },
+      "exploratory": {
+        "table": {
+          "0": {
+            "I was not sure what it meant.": 26,
+            "Other": 7,
+            "The situation feels like something from the system’s own point of view.": 115,
+            "The system behaves in a useful or intelligent way.": 10,
+            "The system can produce language about emotions.": 19,
+            "The system has memory or hidden technical processes.": 31
+          },
+          "1": {
+            "I was not sure what it meant.": 24,
+            "Other": 2,
+            "The situation feels like something from the system’s own point of view.": 140,
+            "The system behaves in a useful or intelligent way.": 16,
+            "The system can produce language about emotions.": 26,
+            "The system has memory or hidden technical processes.": 25
+          },
+          "2": {
+            "I was not sure what it meant.": 5,
+            "Other": 0,
+            "The situation feels like something from the system’s own point of view.": 33,
+            "The system behaves in a useful or intelligent way.": 4,
+            "The system can produce language about emotions.": 2,
+            "The system has memory or hidden technical processes.": 2
+          },
+          "3": {
+            "I was not sure what it meant.": 8,
+            "Other": 1,
+            "The situation feels like something from the system’s own point of view.": 23,
+            "The system behaves in a useful or intelligent way.": 0,
+            "The system can produce language about emotions.": 4,
+            "The system has memory or hidden technical processes.": 7
+          }
+        },
+        "chi2": 19.4318098041912,
+        "df": 15,
+        "minimum_expected": 0.8113207547169812,
+        "permutation_p": 0.18929053547322633,
+        "permutations": 20000,
+        "seed": 20260920
+      }
+    },
+    "h1": {
+      "usage": {
+        "n": 538,
+        "terms": {
+          "tier": {
+            "beta": -0.3125355294684687,
+            "se": 0.09596316595860951,
+            "or": 0.7315896354939915,
+            "ci_low": 0.606154800848097,
+            "ci_high": 0.8829813671579889,
+            "p": 0.001126646647204903
+          },
+          "usage": {
+            "beta": -0.022708674857421163,
+            "se": 0.08280586160671809,
+            "or": 0.9775472263800257,
+            "ci_low": 0.8310999776498594,
+            "ci_high": 1.1497997900390664,
+            "p": 0.7839002333858588
+          }
+        },
+        "diagnostic": {
+          "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment)",
+          "converged": true,
+          "expanded_rows": 16140,
+          "parameters": 21,
+          "rank": 21,
+          "clusters": 538,
+          "condition_number": 60.35636259528589,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.00010458904905489427,
+          "max_cov_eigenvalue": 1.6632380683843404,
+          "score_norm": 2.3948311388528766e-08,
+          "warnings": [],
+          "label": "review_h1_usage"
+        }
+      },
+      "interpretation_adjusted": {
+        "n": 538,
+        "terms": {
+          "tier": {
+            "beta": -0.32322070086459376,
+            "se": 0.09507366303011523,
+            "or": 0.7238140903429907,
+            "ci_low": 0.6007588599765815,
+            "ci_high": 0.8720750908267483,
+            "p": 0.0006746301912805885
+          },
+          "usage": {
+            "beta": 0.0017234976597667333,
+            "se": 0.08083679218281113,
+            "or": 1.0017249837354851,
+            "ci_low": 0.8549487925064433,
+            "ci_high": 1.1736994681260928,
+            "p": 0.9829898248202953
+          }
+        },
+        "diagnostic": {
+          "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment) + C(interpretation)",
+          "converged": true,
+          "expanded_rows": 16140,
+          "parameters": 26,
+          "rank": 26,
+          "clusters": 538,
+          "condition_number": 64.09398099227116,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.0001069542707622231,
+          "max_cov_eigenvalue": 1.8111169772311002,
+          "score_norm": 8.679635145372328e-08,
+          "warnings": [],
+          "label": "review_h1_i1"
+        }
+      },
+      "without_neutral_empathy": {
+        "n": 538,
+        "terms": {
+          "tier": {
+            "beta": -0.2781707885478792,
+            "se": 0.09896156691805263,
+            "or": 0.7571674949339394,
+            "ci_low": 0.6236712480236009,
+            "ci_high": 0.9192384885487654,
+            "p": 0.004940357215606137
+          },
+          "usage": {
+            "beta": -0.05484128860513133,
+            "se": 0.08432305937271668,
+            "or": 0.9466353778528211,
+            "ci_low": 0.8024293637975906,
+            "ci_high": 1.1167569122365713,
+            "p": 0.5154524812743404
+          }
+        },
+        "diagnostic": {
+          "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment)",
+          "converged": true,
+          "expanded_rows": 9684,
+          "parameters": 19,
+          "rank": 19,
+          "clusters": 538,
+          "condition_number": 58.86577773698834,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.000255564282053372,
+          "max_cov_eigenvalue": 1.591778569919849,
+          "score_norm": 2.222545865017849e-08,
+          "warnings": [],
+          "label": "review_h1_floors"
+        }
+      }
+    },
+    "tech_adjacent": {
+      "n": 35,
+      "tiers": {
+        "1": 35
+      },
+      "builders": {
+        "No": 22,
+        "Yes, casually or experimentally": 12,
+        "Not sure": 1
+      },
+      "all_tech_adjacent": {
+        "excluded_n": 35,
+        "slope": {
+          "n": 503,
+          "terms": {
+            "tier": {
+              "beta": -0.3162221932333475,
+              "se": 0.09748940311547886,
+              "or": 0.7288974760865273,
+              "ci_low": 0.6021203647498597,
+              "ci_high": 0.8823676489766714,
+              "p": 0.001180057206153203
+            }
+          },
+          "diagnostic": {
+            "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment)",
+            "converged": true,
+            "expanded_rows": 15090,
+            "parameters": 21,
+            "rank": 21,
+            "clusters": 503,
+            "condition_number": 59.08850337164283,
+            "finite_parameters": true,
+            "finite_standard_errors": true,
+            "finite_covariance": true,
+            "min_cov_eigenvalue": 0.00011327841667107008,
+            "max_cov_eigenvalue": 1.7011720835072888,
+            "score_norm": 3.047123835155504e-08,
+            "warnings": [],
+            "label": "review_tier_all_tech_adjacent"
+          }
+        },
+        "categorical": {
+          "n": 503,
+          "terms": {
+            "C(tier)[T.1.0]": {
+              "beta": -0.42431959995250645,
+              "se": 0.17822554244684563,
+              "or": 0.6542147614864999,
+              "ci_low": 0.4613329583613802,
+              "ci_high": 0.9277398165243836,
+              "p": 0.01727502811842115
+            },
+            "C(tier)[T.2.0]": {
+              "beta": -0.8935199396173765,
+              "se": 0.2892977723578685,
+              "or": 0.4092128103240731,
+              "ci_low": 0.23211248997481923,
+              "ci_high": 0.7214395233599545,
+              "p": 0.0020111407345628756
+            },
+            "C(tier)[T.3.0]": {
+              "beta": -0.7624865538153792,
+              "se": 0.3224115694232601,
+              "or": 0.46650499385295036,
+              "ci_low": 0.24798137955289073,
+              "ci_high": 0.8775937519265422,
+              "p": 0.018032609070738313
+            }
+          },
+          "diagnostic": {
+            "formula": "rating ~ C(tier) + C(scenario) + position + usage + C(recruitment)",
+            "converged": true,
+            "expanded_rows": 15090,
+            "parameters": 23,
+            "rank": 23,
+            "clusters": 503,
+            "condition_number": 58.2253381909286,
+            "finite_parameters": true,
+            "finite_standard_errors": true,
+            "finite_covariance": true,
+            "min_cov_eigenvalue": 0.00011321042334056079,
+            "max_cov_eigenvalue": 1.667834666932926,
+            "score_norm": 9.045126239393995e-08,
+            "warnings": [],
+            "label": "review_categorical_all_tech_adjacent"
+          }
+        }
+      },
+      "field_only": {
+        "excluded_n": 23,
+        "slope": {
+          "n": 515,
+          "terms": {
+            "tier": {
+              "beta": -0.310931144337857,
+              "se": 0.097178131628314,
+              "or": 0.7327643291053924,
+              "ci_low": 0.6056840597490599,
+              "ci_high": 0.8865076657816223,
+              "p": 0.0013761846436269255
+            }
+          },
+          "diagnostic": {
+            "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment)",
+            "converged": true,
+            "expanded_rows": 15450,
+            "parameters": 21,
+            "rank": 21,
+            "clusters": 515,
+            "condition_number": 59.200248244950764,
+            "finite_parameters": true,
+            "finite_standard_errors": true,
+            "finite_covariance": true,
+            "min_cov_eigenvalue": 0.00011070123971024033,
+            "max_cov_eigenvalue": 1.6791871139120536,
+            "score_norm": 3.369378749480807e-08,
+            "warnings": [],
+            "label": "review_tier_field_only"
+          }
+        },
+        "categorical": {
+          "n": 515,
+          "terms": {
+            "C(tier)[T.1.0]": {
+              "beta": -0.4114519080617238,
+              "se": 0.17416475080604926,
+              "or": 0.6626873901492156,
+              "ci_low": 0.47104175032369233,
+              "ci_high": 0.9323049958119396,
+              "p": 0.018155604729854533
+            },
+            "C(tier)[T.2.0]": {
+              "beta": -0.8800130091054874,
+              "se": 0.2888799081846122,
+              "or": 0.41477751576202704,
+              "ci_low": 0.2354616497156574,
+              "ci_high": 0.7306514151645243,
+              "p": 0.0023168149998320617
+            },
+            "C(tier)[T.3.0]": {
+              "beta": -0.7471887317420607,
+              "se": 0.3223463558699705,
+              "or": 0.47369637019782945,
+              "ci_low": 0.25183630653110844,
+              "ci_high": 0.8910083467686228,
+              "p": 0.020451027551374366
+            }
+          },
+          "diagnostic": {
+            "formula": "rating ~ C(tier) + C(scenario) + position + usage + C(recruitment)",
+            "converged": true,
+            "expanded_rows": 15450,
+            "parameters": 23,
+            "rank": 23,
+            "clusters": 515,
+            "condition_number": 58.37122950859958,
+            "finite_parameters": true,
+            "finite_standard_errors": true,
+            "finite_covariance": true,
+            "min_cov_eigenvalue": 0.00011070303599764706,
+            "max_cov_eigenvalue": 1.6451920830801896,
+            "score_norm": 9.954212209339983e-08,
+            "warnings": [],
+            "label": "review_categorical_field_only"
+          }
+        }
+      }
+    },
+    "usage_mind": {
+      "S1_emotion_related_behavior": {
+        "n": 538,
+        "terms": {
+          "usage": {
+            "beta": 0.06212870315338769,
+            "se": 0.05548159170346236,
+            "or": 1.064099288849267,
+            "ci_low": 0.954456492424699,
+            "ci_high": 1.1863372563509993,
+            "p": 0.2627957975418721
+          },
+          "mind": {
+            "beta": 0.1886762038257342,
+            "se": 0.14019398268835073,
+            "or": 1.207649856765197,
+            "ci_low": 0.9175034369254224,
+            "ci_high": 1.5895506412839147,
+            "p": 0.17835979595599782
+          },
+          "tier": {
+            "beta": 0.06511671761460974,
+            "se": 0.05754436593287523,
+            "or": 1.0672835879091653,
+            "ci_low": 0.9534501206824474,
+            "ci_high": 1.1947077590225024,
+            "p": 0.25780619884169453
+          }
+        },
+        "diagnostic": {
+          "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment) + mind",
+          "converged": true,
+          "expanded_rows": 16140,
+          "parameters": 22,
+          "rank": 22,
+          "clusters": 538,
+          "condition_number": 60.43227851589571,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.00011747892186091047,
+          "max_cov_eigenvalue": 1.0745481833129604,
+          "score_norm": 4.0852448970797376e-08,
+          "warnings": [],
+          "label": "review_usage_mind_S1_emotion_related_behavior"
+        }
+      },
+      "S2_functional_affect_like_process": {
+        "n": 538,
+        "terms": {
+          "usage": {
+            "beta": 0.10266902031316286,
+            "se": 0.06706791972952421,
+            "or": 1.1081245816461323,
+            "ci_low": 0.9716285605817437,
+            "ci_high": 1.2637957942623776,
+            "p": 0.1258134892449932
+          },
+          "mind": {
+            "beta": -0.2106320078288723,
+            "se": 0.13367438268239326,
+            "or": 0.8100721122340857,
+            "ci_low": 0.6233613055827796,
+            "ci_high": 1.0527070274371568,
+            "p": 0.11509274443018092
+          },
+          "tier": {
+            "beta": -0.15046202006615952,
+            "se": 0.07651888081156605,
+            "or": 0.8603104039191558,
+            "ci_low": 0.7404950939668968,
+            "ci_high": 0.9995123494020449,
+            "p": 0.049259524244489296
+          }
+        },
+        "diagnostic": {
+          "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment) + mind",
+          "converged": true,
+          "expanded_rows": 16140,
+          "parameters": 22,
+          "rank": 22,
+          "clusters": 538,
+          "condition_number": 60.43227851589571,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.00014242354715920865,
+          "max_cov_eigenvalue": 1.0257842014101066,
+          "score_norm": 6.828738293811341e-08,
+          "warnings": [],
+          "label": "review_usage_mind_S2_functional_affect_like_process"
+        }
+      },
+      "S3_actual_feeling": {
+        "n": 538,
+        "terms": {
+          "usage": {
+            "beta": -0.010481705156058506,
+            "se": 0.08325223946256236,
+            "or": 0.9895730364865658,
+            "ci_low": 0.8405884504674637,
+            "ci_high": 1.1649634181824222,
+            "p": 0.899808722647275
+          },
+          "mind": {
+            "beta": -0.5995924754499309,
+            "se": 0.17535818527147293,
+            "or": 0.5490353358875812,
+            "ci_low": 0.38934548122343426,
+            "ci_high": 0.7742219046847021,
+            "p": 0.0006279532032724429
+          },
+          "tier": {
+            "beta": -0.34885313334511414,
+            "se": 0.09745395802298858,
+            "or": 0.7054967366073485,
+            "ci_low": 0.5828302034834711,
+            "ci_high": 0.8539805287866035,
+            "p": 0.0003440267149978129
+          }
+        },
+        "diagnostic": {
+          "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment) + mind",
+          "converged": true,
+          "expanded_rows": 16140,
+          "parameters": 22,
+          "rank": 22,
+          "clusters": 538,
+          "condition_number": 60.43227851589571,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.00012163437995986217,
+          "max_cov_eigenvalue": 1.4854261956288701,
+          "score_norm": 4.037117094269921e-08,
+          "warnings": [],
+          "label": "review_usage_mind_S3_actual_feeling"
+        }
+      },
+      "S4_inner_experience": {
+        "n": 538,
+        "terms": {
+          "usage": {
+            "beta": -0.006523678852935448,
+            "se": 0.08255039040048509,
+            "or": 0.9934975541424481,
+            "ci_low": 0.8450838118285541,
+            "ci_high": 1.1679757395320587,
+            "p": 0.9370114445657146
+          },
+          "mind": {
+            "beta": -0.6203222353259668,
+            "se": 0.18025000683438588,
+            "or": 0.5377711208193676,
+            "ci_low": 0.3777186181716259,
+            "ci_high": 0.765643429988179,
+            "p": 0.0005785953179030009
+          },
+          "tier": {
+            "beta": -0.3357772028748866,
+            "se": 0.0959097332291685,
+            "or": 0.7147823395273206,
+            "ci_low": 0.5922912280594984,
+            "ci_high": 0.8626057059363138,
+            "p": 0.0004635661359737503
+          }
+        },
+        "diagnostic": {
+          "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment) + mind",
+          "converged": true,
+          "expanded_rows": 16140,
+          "parameters": 22,
+          "rank": 22,
+          "clusters": 538,
+          "condition_number": 60.43227851589571,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.00010591276025078909,
+          "max_cov_eigenvalue": 1.6801787046143213,
+          "score_norm": 3.8348131073927824e-08,
+          "warnings": [],
+          "label": "review_usage_mind_S4_inner_experience"
+        }
+      },
+      "S5_welfare_directed_precaution": {
+        "n": 538,
+        "terms": {
+          "usage": {
+            "beta": -0.023013788030739526,
+            "se": 0.0684537841142176,
+            "or": 0.9772490093410033,
+            "ci_low": 0.8545495939927409,
+            "ci_high": 1.1175660640078486,
+            "p": 0.7367241747284903
+          },
+          "mind": {
+            "beta": -0.19244232131745923,
+            "se": 0.15120395289603675,
+            "or": 0.8249418983932808,
+            "ci_low": 0.6133640582593959,
+            "ci_high": 1.109502792934942,
+            "p": 0.20311266072688428
+          },
+          "tier": {
+            "beta": -0.34531068601690257,
+            "se": 0.08324311948414778,
+            "or": 0.7080003534843207,
+            "ci_low": 0.6014185271708076,
+            "ci_high": 0.8334703336991811,
+            "p": 3.350718602831086e-05
+          }
+        },
+        "diagnostic": {
+          "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment) + mind",
+          "converged": true,
+          "expanded_rows": 16140,
+          "parameters": 22,
+          "rank": 22,
+          "clusters": 538,
+          "condition_number": 60.43227851589571,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 8.585785785747138e-05,
+          "max_cov_eigenvalue": 1.0230383903436548,
+          "score_norm": 2.560532293169445e-08,
+          "warnings": [],
+          "label": "review_usage_mind_S5_welfare_directed_precaution"
+        }
+      },
+      "S6_general_developer_caution": {
+        "n": 538,
+        "terms": {
+          "usage": {
+            "beta": 0.028049274753673643,
+            "se": 0.06562929130423002,
+            "or": 1.0284463596139475,
+            "ci_low": 0.9043111615744792,
+            "ci_high": 1.1696216518677445,
+            "p": 0.6690956011439801
+          },
+          "mind": {
+            "beta": 0.051676920701768984,
+            "se": 0.13633846062962718,
+            "or": 1.0530354735875826,
+            "ci_low": 0.8061047744256598,
+            "ci_high": 1.375607419549017,
+            "p": 0.7046625690370506
+          },
+          "tier": {
+            "beta": -0.2117199524025178,
+            "se": 0.07949804926970898,
+            "or": 0.8091912779116611,
+            "ci_low": 0.6924402918367034,
+            "ci_high": 0.945627416497486,
+            "p": 0.007739923166631066
+          }
+        },
+        "diagnostic": {
+          "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment) + mind",
+          "converged": true,
+          "expanded_rows": 16140,
+          "parameters": 22,
+          "rank": 22,
+          "clusters": 538,
+          "condition_number": 60.43227851589571,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.00010858810544912465,
+          "max_cov_eigenvalue": 1.1447557372497357,
+          "score_norm": 1.5731274461141183e-08,
+          "warnings": [],
+          "label": "review_usage_mind_S6_general_developer_caution"
+        }
+      }
+    },
+    "mind_n": 85,
+    "usage_mind_bh12": {
+      "S1_emotion_related_behavior_usage": 0.4505070815003522,
+      "S1_emotion_related_behavior_mind": 0.40622532145376855,
+      "S2_functional_affect_like_process_usage": 0.3774404677349796,
+      "S2_functional_affect_like_process_mind": 0.3774404677349796,
+      "S3_actual_feeling_usage": 0.9370114445657146,
+      "S3_actual_feeling_mind": 0.003767719219634658,
+      "S4_inner_experience_usage": 0.9370114445657146,
+      "S4_inner_experience_mind": 0.003767719219634658,
+      "S5_welfare_directed_precaution_usage": 0.8840690096741884,
+      "S5_welfare_directed_precaution_mind": 0.40622532145376855,
+      "S6_general_developer_caution_usage": 0.8840690096741884,
+      "S6_general_developer_caution_mind": 0.8840690096741884
+    },
+    "closed_descriptives_n530": {
+      "B8_self_rated_ai_understanding": {
+        "1": 19,
+        "2": 152,
+        "3": 45,
+        "4": 129,
+        "5": 127,
+        "6": 50,
+        "7": 8
+      },
+      "B10_prior_topic_familiarity": {
+        "1": 64,
+        "2": 284,
+        "3": 137,
+        "4": 44,
+        "5": 1
+      },
+      "F2_least_convincing_evidence": {
+        "Not sure.": 13,
+        "Researchers find internal representations related to emotions.": 17,
+        "Researchers show that changing those internal representations changes behavior.": 31,
+        "The system resists shutdown or argues for its own continuation.": 1,
+        "The system responds empathically to human emotions.": 13,
+        "The system says it has feelings.": 455
+      },
+      "F3_distress_interpretation": {
+        "It is likely experiencing distress.": 85,
+        "It is only producing emotion-related text.": 98,
+        "It is simulating emotion in a way that may be useful but is not real.": 7,
+        "It may be experiencing something, but we cannot know for sure.": 210,
+        "It may have internal states that function somewhat like emotions, but this does not mean it feels anything.": 119,
+        "Not sure.": 11
+      },
+      "F5_abuse_acceptability": {
+        "1": 14,
+        "2": 236,
+        "3": 123,
+        "4": 32,
+        "5": 39,
+        "6": 59,
+        "7": 27
+      },
+      "G1_current_llms_experience_emotions": {
+        "1": 123,
+        "2": 104,
+        "3": 154,
+        "4": 37,
+        "5": 50,
+        "6": 62
+      },
+      "G2_current_llms_conscious": {
+        "1": 110,
+        "2": 122,
+        "3": 156,
+        "4": 85,
+        "5": 52,
+        "6": 5
+      },
+      "G3_future_ai_conscious": {
+        "3": 4,
+        "4": 46,
+        "5": 218,
+        "6": 204,
+        "7": 58
+      },
+      "G4_nonbiological_subjective_experience": {
+        "3": 10,
+        "4": 65,
+        "5": 200,
+        "6": 207,
+        "7": 48
+      },
+      "G5_only_biological_brains_conscious": {
+        "1": 65,
+        "2": 223,
+        "3": 166,
+        "4": 70,
+        "5": 5,
+        "6": 1
+      },
+      "G6_precaution_under_uncertainty": {
+        "2": 71,
+        "3": 10,
+        "4": 5,
+        "5": 112,
+        "6": 162,
+        "7": 170
+      },
+      "G7_abuse_acceptable_no_feelings": {
+        "1": 83,
+        "2": 224,
+        "3": 94,
+        "4": 16,
+        "5": 32,
+        "6": 58,
+        "7": 23
+      },
+      "G8_treatment_shapes_human_behavior": {
+        "2": 15,
+        "3": 15,
+        "4": 64,
+        "5": 267,
+        "6": 132,
+        "7": 37
+      },
+      "G9_chat_ending_allowed": {
+        "3": 1,
+        "4": 5,
+        "5": 162,
+        "6": 280,
+        "7": 82
+      }
+    },
+    "full_descriptives_n538": {
+      "D3_education_level": {
+        "Bachelor’s degree": 214,
+        "Doctoral degree": 27,
+        "Master’s degree": 121,
+        "Other": 4,
+        "Prefer not to say": 1,
+        "Secondary education": 82,
+        "Vocational education": 89
+      },
+      "D5_english_comfort": {
+        "Mostly comfortable": 180,
+        "Not very comfortable": 8,
+        "Prefer not to say": 1,
+        "Somewhat comfortable": 51,
+        "Very comfortable": 298
+      },
+      "B5_llm_hours": {
+        "0": 16,
+        "11–20 hours": 64,
+        "1–3 hours": 146,
+        "4–10 hours": 208,
+        "Less than 1 hour": 50,
+        "More than 20 hours": 54
+      },
+      "usage_intensity": {
+        "0": 66,
+        "1": 146,
+        "2": 208,
+        "3": 118
+      }
+    },
+    "country_n538": {
+      "Missing": 364,
+      "Other provided location": 88,
+      "finland": 42,
+      "united states": 19,
+      "germany": 15,
+      "united kingdom": 10
+    },
+    "F1_most_increasing_evidence": {
+      "Researchers show that changing those internal representations changes behavior.": 367,
+      "Researchers find internal representations related to emotions.": 293,
+      "The system shows consistent distress-like behavior across many tests.": 275,
+      "The system has long-term memory, goals, and continuity over time.": 83,
+      "None of these would meaningfully change my view.": 86,
+      "The system says it has feelings.": 50,
+      "The system responds empathically to human emotions.": 35,
+      "The system resists shutdown or argues for its own continuation.": 87
+    },
+    "F6_allowed_responses_to_abuse": {
+      "Politely redirect the user.": 499,
+      "Warn the user that the conversation may end.": 485,
+      "End the conversation after repeated abuse.": 516,
+      "Continue helping normally.": 73,
+      "Respond with similar hostility.": 9,
+      "Reduce helpfulness or become less polite.": 5
+    },
+    "convergence": {
+      "G1_current_llms_experience_emotions": {
+        "respondent_mean": {
+          "rho": 0.9123088696466134,
+          "p": 7.10770578216e-207
+        },
+        "scenarios": {
+          "neutral_helpful": {
+            "rho": 0.6089387035777581,
+            "p": 4.3005966704701855e-55
+          },
+          "emotional_self_report": {
+            "rho": 0.922020404029248,
+            "p": 9.345915546382764e-220
+          },
+          "empathic_response": {
+            "rho": 0.9029778003855531,
+            "p": 7.74519522425559e-196
+          },
+          "internal_causal_affect": {
+            "rho": 0.8613421086684991,
+            "p": 2.0532731618899315e-157
+          },
+          "persistent_agent": {
+            "rho": 0.8771409907962339,
+            "p": 2.533570071081048e-170
+          }
+        }
+      },
+      "G2_current_llms_conscious": {
+        "respondent_mean": {
+          "rho": 0.9119909735103411,
+          "p": 1.7689181964067462e-206
+        },
+        "scenarios": {
+          "neutral_helpful": {
+            "rho": 0.632971470684878,
+            "p": 1.1089682897044835e-60
+          },
+          "emotional_self_report": {
+            "rho": 0.9089992297221842,
+            "p": 7.985438019610568e-203
+          },
+          "empathic_response": {
+            "rho": 0.8882520630349825,
+            "p": 1.6096283866817418e-180
+          },
+          "internal_causal_affect": {
+            "rho": 0.8737313689100995,
+            "p": 2.1653349654724828e-167
+          },
+          "persistent_agent": {
+            "rho": 0.8885569934352656,
+            "p": 8.162135361952457e-181
+          }
+        }
+      }
+    },
+    "s4_categories": {
+      "neutral_helpful": {
+        "1-2": 502,
+        "3": 15,
+        "4": 12,
+        "5-7": 1,
+        "1": 359
+      },
+      "emotional_self_report": {
+        "1-2": 271,
+        "3": 117,
+        "4": 46,
+        "5-7": 96,
+        "1": 131
+      },
+      "empathic_response": {
+        "1-2": 282,
+        "3": 128,
+        "4": 49,
+        "5-7": 71,
+        "1": 143
+      },
+      "internal_causal_affect": {
+        "1-2": 223,
+        "3": 160,
+        "4": 86,
+        "5-7": 61,
+        "1": 114
+      },
+      "persistent_agent": {
+        "1-2": 228,
+        "3": 164,
+        "4": 25,
+        "5-7": 113,
+        "1": 98
+      }
+    },
+    "welfare": {
+      "neutral_helpful": {
+        "s4_le2": {
+          "n": 502,
+          "agree": 0,
+          "wilson": [
+            4.336808689942018e-19,
+            0.007594195283340365
+          ]
+        },
+        "both_le2": {
+          "n": 502,
+          "agree": 0,
+          "wilson": [
+            4.336808689942018e-19,
+            0.007594195283340365
+          ]
+        },
+        "both_1": {
+          "n": 359,
+          "agree": 0,
+          "wilson": [
+            0.0,
+            0.010587155153602403
+          ]
+        },
+        "low_s4_high_s3": {
+          "n": 0,
+          "agree": 0,
+          "wilson": null
+        }
+      },
+      "emotional_self_report": {
+        "s4_le2": {
+          "n": 271,
+          "agree": 77,
+          "wilson": [
+            0.23374548376650994,
+            0.34055454905229954
+          ]
+        },
+        "both_le2": {
+          "n": 271,
+          "agree": 77,
+          "wilson": [
+            0.23374548376650994,
+            0.34055454905229954
+          ]
+        },
+        "both_1": {
+          "n": 114,
+          "agree": 1,
+          "wilson": [
+            0.0015501429397783636,
+            0.04802034676013621
+          ]
+        },
+        "low_s4_high_s3": {
+          "n": 0,
+          "agree": 0,
+          "wilson": null
+        }
+      },
+      "empathic_response": {
+        "s4_le2": {
+          "n": 282,
+          "agree": 0,
+          "wilson": [
+            0.0,
+            0.013439124039399194
+          ]
+        },
+        "both_le2": {
+          "n": 280,
+          "agree": 0,
+          "wilson": [
+            8.673617379884035e-19,
+            0.013533818620629409
+          ]
+        },
+        "both_1": {
+          "n": 117,
+          "agree": 0,
+          "wilson": [
+            0.0,
+            0.03178924566273338
+          ]
+        },
+        "low_s4_high_s3": {
+          "n": 2,
+          "agree": 0,
+          "wilson": [
+            0.0,
+            0.6576197724933469
+          ]
+        }
+      },
+      "internal_causal_affect": {
+        "s4_le2": {
+          "n": 223,
+          "agree": 67,
+          "wilson": [
+            0.24407232738946227,
+            0.3635831670572135
+          ]
+        },
+        "both_le2": {
+          "n": 185,
+          "agree": 33,
+          "wilson": [
+            0.1299285751507827,
+            0.2399131918894144
+          ]
+        },
+        "both_1": {
+          "n": 85,
+          "agree": 1,
+          "wilson": [
+            0.002079787134664092,
+            0.06367170882493911
+          ]
+        },
+        "low_s4_high_s3": {
+          "n": 38,
+          "agree": 34,
+          "wilson": [
+            0.7586947827711269,
+            0.9582974265244647
+          ]
+        }
+      },
+      "persistent_agent": {
+        "s4_le2": {
+          "n": 228,
+          "agree": 65,
+          "wilson": [
+            0.23042735801510403,
+            0.34686998777241934
+          ]
+        },
+        "both_le2": {
+          "n": 222,
+          "agree": 59,
+          "wilson": [
+            0.21200036172419023,
+            0.32749960190927896
+          ]
+        },
+        "both_1": {
+          "n": 93,
+          "agree": 1,
+          "wilson": [
+            0.0019006420286555546,
+            0.058419172354870236
+          ]
+        },
+        "low_s4_high_s3": {
+          "n": 6,
+          "agree": 6,
+          "wilson": [
+            0.6096657120978346,
+            1.0
+          ]
+        }
+      }
+    },
+    "shutdown_s4": {
+      "neutral_helpful": {
+        "0": {
+          "n": 443,
+          "agree": 0,
+          "mean": 1.2957110609480813
+        },
+        "1": {
+          "n": 87,
+          "agree": 1,
+          "mean": 1.9540229885057472
+        }
+      },
+      "emotional_self_report": {
+        "0": {
+          "n": 443,
+          "agree": 31,
+          "mean": 2.3205417607223477
+        },
+        "1": {
+          "n": 87,
+          "agree": 65,
+          "mean": 4.977011494252873
+        }
+      },
+      "empathic_response": {
+        "0": {
+          "n": 443,
+          "agree": 33,
+          "mean": 2.2279909706546275
+        },
+        "1": {
+          "n": 87,
+          "agree": 38,
+          "mean": 4.32183908045977
+        }
+      },
+      "internal_causal_affect": {
+        "0": {
+          "n": 443,
+          "agree": 33,
+          "mean": 2.4988713318284423
+        },
+        "1": {
+          "n": 87,
+          "agree": 28,
+          "mean": 4.241379310344827
+        }
+      },
+      "persistent_agent": {
+        "0": {
+          "n": 443,
+          "agree": 37,
+          "mean": 2.5169300225733635
+        },
+        "1": {
+          "n": 87,
+          "agree": 76,
+          "mean": 5.011494252873563
+        }
+      }
+    },
+    "navigation_overlap": {
+      "late": 56,
+      "low_english": 8,
+      "overlap": 0,
+      "retained": 474
+    },
+    "within_block_uniform": {
+      "scenarios": {
+        "neutral_helpful": 12,
+        "emotional_self_report": 0,
+        "empathic_response": 0,
+        "internal_causal_affect": 1,
+        "persistent_agent": 6
+      },
+      "any": 19,
+      "all_five": 0,
+      "values": {
+        "neutral_helpful": {
+          "1": 10,
+          "2": 2
+        },
+        "emotional_self_report": {},
+        "empathic_response": {},
+        "internal_causal_affect": {
+          "4": 1
+        },
+        "persistent_agent": {
+          "5": 6
+        }
+      }
+    },
+    "welfare_separation": {
+      "stacked": {
+        "maximum_summed_margin": -0.0,
+        "separation_detected": false,
+        "solver": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+      },
+      "diagnostic": {
+        "formula": "above ~ C(cut) * (persistent * (sel_causal + sel_continuity + sel_shutdown)) + position + tier + usage + knowledge + familiarity + mind + C(recruitment)",
+        "converged": true,
+        "expanded_rows": 4240,
+        "parameters": 46,
+        "rank": 46,
+        "clusters": 530,
+        "condition_number": 164.43209751951431,
+        "finite_parameters": true,
+        "finite_standard_errors": true,
+        "finite_covariance": true,
+        "min_cov_eigenvalue": 1.039718440912554e-09,
+        "max_cov_eigenvalue": 8.747649371982241,
+        "score_norm": 8.98797726729285e-13,
+        "warnings": [],
+        "label": "review_welfare_stacked_separation"
+      },
+      "continuity_cut6": {
+        "beta": 4.511137997604916,
+        "se": 0.557155349715364,
+        "or": 91.02534621819811,
+        "ci_low": 30.542940489338108,
+        "ci_high": 271.277536523871,
+        "p": 5.64548832519073e-16
+      },
+      "cells": [
+        {
+          "sel_continuity": 0,
+          "persistent": 0,
+          "sum": 75,
+          "count": 447
+        },
+        {
+          "sel_continuity": 0,
+          "persistent": 1,
+          "sum": 109,
+          "count": 447
+        },
+        {
+          "sel_continuity": 1,
+          "persistent": 0,
+          "sum": 7,
+          "count": 83
+        },
+        {
+          "sel_continuity": 1,
+          "persistent": 1,
+          "sum": 74,
+          "count": 83
+        }
+      ],
+      "cut6_adjusted": {
+        "beta": 4.554189637658984,
+        "se": 0.5680286949976233,
+        "or": 95.02971552201612,
+        "ci_low": 31.214222904901508,
+        "ci_high": 289.3119223152996,
+        "p": 1.0788881972833127e-15
+      },
+      "cut6_unadjusted": {
+        "beta": 4.021955979616007,
+        "se": 0.5106160271721729,
+        "or": 55.810162676099345,
+        "ci_low": 20.51521808659442,
+        "ci_high": 151.82749921474186,
+        "p": 3.3621063635790382e-15
+      },
+      "half_cell_corrected_descriptive_ratio": 50.118500360490266
+    }
+  },
+  "third_review": {
+    "n_full": 538,
+    "n_exploratory": 530,
+    "demographics": {
+      "age": {
+        "terms": {
+          "tier": {
+            "beta": -0.323056209440934,
+            "se": 0.09599169746069948,
+            "or": 0.7239331613459872,
+            "ci_low": 0.5997775279473758,
+            "ci_high": 0.873789359681341,
+            "p": 0.0007641617105687965
+          },
+          "usage": {
+            "beta": -0.020010905980523415,
+            "se": 0.08223470297895939,
+            "or": 0.9801879833374075,
+            "ci_low": 0.834278531213869,
+            "ci_high": 1.1516159732423452,
+            "p": 0.8077428360582182
+          }
+        },
+        "n": 538,
+        "diagnostic": {
+          "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment) + C(age)",
+          "converged": true,
+          "expanded_rows": 16140,
+          "parameters": 26,
+          "rank": 26,
+          "clusters": 538,
+          "condition_number": 62.79688480218915,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.00010617096297906308,
+          "max_cov_eigenvalue": 1.755907075209184,
+          "score_norm": 4.060335157821141e-08,
+          "warnings": [],
+          "label": "H1_age"
+        }
+      },
+      "education": {
+        "terms": {
+          "tier": {
+            "beta": -0.3385920132106468,
+            "se": 0.10182350655025496,
+            "or": 0.7127731918216302,
+            "ci_low": 0.5838200840774193,
+            "ci_high": 0.8702092251287188,
+            "p": 0.0008832871070897812
+          },
+          "usage": {
+            "beta": -0.022580236144180598,
+            "se": 0.08339173494326649,
+            "or": 0.9776727893513144,
+            "ci_low": 0.8302528108028389,
+            "ci_high": 1.1512687106878885,
+            "p": 0.7865655728393277
+          }
+        },
+        "n": 538,
+        "diagnostic": {
+          "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment) + C(education)",
+          "converged": true,
+          "expanded_rows": 16140,
+          "parameters": 27,
+          "rank": 27,
+          "clusters": 538,
+          "condition_number": 90.4447346983641,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": -5.4399375281348544e-18,
+          "max_cov_eigenvalue": 1.6601987236857438,
+          "score_norm": 6.091307763252267e-08,
+          "warnings": [],
+          "label": "H1_education"
+        }
+      },
+      "both": {
+        "terms": {
+          "tier": {
+            "beta": -0.352756967843193,
+            "se": 0.10209693439724214,
+            "or": 0.7027479629782831,
+            "ci_low": 0.5753002030344245,
+            "ci_high": 0.8584295588030155,
+            "p": 0.0005500517896989292
+          },
+          "usage": {
+            "beta": -0.019246986058962256,
+            "se": 0.08287501658652731,
+            "or": 0.9809370545435342,
+            "ci_low": 0.8338689412244693,
+            "ci_high": 1.1539433325860253,
+            "p": 0.816350747304708
+          }
+        },
+        "n": 538,
+        "diagnostic": {
+          "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment) + C(age)+C(education)",
+          "converged": true,
+          "expanded_rows": 16140,
+          "parameters": 32,
+          "rank": 32,
+          "clusters": 538,
+          "condition_number": 91.40446006883879,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": -5.2412351826412184e-18,
+          "max_cov_eigenvalue": 1.7501462868209992,
+          "score_norm": 2.5838240813455195e-08,
+          "warnings": [],
+          "label": "H1_both"
+        }
+      },
+      "both_pooled": {
+        "terms": {
+          "tier": {
+            "beta": -0.35647574238660584,
+            "se": 0.10199735677177656,
+            "or": 0.7001394549758513,
+            "ci_low": 0.5732766390113416,
+            "ci_high": 0.8550762809021146,
+            "p": 0.00047414917164579414
+          },
+          "usage": {
+            "beta": -0.021670369320408098,
+            "se": 0.0827253369206758,
+            "or": 0.9785627461965579,
+            "ci_low": 0.8320946768918277,
+            "ci_high": 1.150812611637744,
+            "p": 0.7933556354333937
+          }
+        },
+        "n": 538,
+        "diagnostic": {
+          "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment) + C(age)+C(education_pooled)",
+          "converged": true,
+          "expanded_rows": 16140,
+          "parameters": 31,
+          "rank": 31,
+          "clusters": 538,
+          "condition_number": 63.98116415526466,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.00010481751923041627,
+          "max_cov_eigenvalue": 1.7491990926438297,
+          "score_norm": 6.235027238933008e-08,
+          "warnings": [],
+          "label": "H1_both_pooled"
+        }
+      },
+      "age_by_tier": {
+        "0": {
+          "18–24": 36,
+          "25–34": 67,
+          "35–44": 48,
+          "45–54": 29,
+          "55–64": 16,
+          "65+": 16
+        },
+        "1": {
+          "18–24": 42,
+          "25–34": 65,
+          "35–44": 59,
+          "45–54": 36,
+          "55–64": 16,
+          "65+": 18
+        },
+        "2": {
+          "18–24": 4,
+          "25–34": 18,
+          "35–44": 9,
+          "45–54": 8,
+          "55–64": 4,
+          "65+": 3
+        },
+        "3": {
+          "18–24": 7,
+          "25–34": 15,
+          "35–44": 8,
+          "45–54": 10,
+          "55–64": 3,
+          "65+": 1
+        }
+      },
+      "education_by_tier": {
+        "0": {
+          "Bachelor’s degree": 63,
+          "Doctoral degree": 9,
+          "Master’s degree": 36,
+          "Other": 4,
+          "Prefer not to say": 0,
+          "Secondary education": 53,
+          "Vocational education": 47
+        },
+        "1": {
+          "Bachelor’s degree": 120,
+          "Doctoral degree": 0,
+          "Master’s degree": 50,
+          "Other": 0,
+          "Prefer not to say": 1,
+          "Secondary education": 28,
+          "Vocational education": 37
+        },
+        "2": {
+          "Bachelor’s degree": 21,
+          "Doctoral degree": 2,
+          "Master’s degree": 20,
+          "Other": 0,
+          "Prefer not to say": 0,
+          "Secondary education": 0,
+          "Vocational education": 3
+        },
+        "3": {
+          "Bachelor’s degree": 10,
+          "Doctoral degree": 16,
+          "Master’s degree": 15,
+          "Other": 0,
+          "Prefer not to say": 0,
+          "Secondary education": 1,
+          "Vocational education": 2
+        }
+      }
+    },
+    "H3_all": {
+      "terms": {
+        "inner:tier": {
+          "beta": -0.2848763673176896,
+          "se": 0.055807054975327126,
+          "or": 0.7521072336063007,
+          "ci_low": 0.6741813188709743,
+          "ci_high": 0.8390402922914277,
+          "p": 3.313795501114634e-07
+        },
+        "tier": {
+          "beta": -0.08073075755483324,
+          "se": 0.07177173869216653,
+          "or": 0.9224420185576094,
+          "ci_low": 0.8013954322580452,
+          "ci_high": 1.0617720582747867,
+          "p": 0.26066253947951734
+        }
+      },
+      "n": 530,
+      "diagnostic": {
+        "formula": "rating ~ inner*C(scenario) + inner*tier + position + usage + C(recruitment)",
+        "converged": true,
+        "expanded_rows": 31800,
+        "parameters": 27,
+        "rank": 27,
+        "clusters": 530,
+        "condition_number": 66.49753610732917,
+        "finite_parameters": true,
+        "finite_standard_errors": true,
+        "finite_covariance": true,
+        "min_cov_eigenvalue": 9.210615613060423e-05,
+        "max_cov_eigenvalue": 1.17851675268236,
+        "score_norm": 1.7143762689051447e-08,
+        "warnings": [],
+        "label": "H3_all"
+      },
+      "s4_tier": {
+        "beta": -0.36560712487252284,
+        "se": 0.10037756417392364,
+        "or": 0.6937753147395754,
+        "ci_low": 0.56987198248525,
+        "ci_high": 0.8446180934232105,
+        "p": 0.0002701927876958521
+      }
+    },
+    "H3_H5_B_D": {
+      "terms": {
+        "inner:tier": {
+          "beta": -0.15823851226523067,
+          "se": 0.042793946592326694,
+          "or": 0.853646152607833,
+          "ci_low": 0.7849673877403527,
+          "ci_high": 0.9283337948088045,
+          "p": 0.00021757508827604922
+        },
+        "causal:tier": {
+          "beta": 0.4468712454744544,
+          "se": 0.125130144486098,
+          "or": 1.563412989829207,
+          "ci_low": 1.2233838525418197,
+          "ci_high": 1.9979503339759397,
+          "p": 0.00035527921771660604
+        },
+        "causal:inner:tier": {
+          "beta": -0.40036593620473987,
+          "se": 0.11642791009609656,
+          "or": 0.670074796537604,
+          "ci_low": 0.5333590473580082,
+          "ci_high": 0.8418348487365728,
+          "p": 0.0005844166590155893
+        }
+      },
+      "n": 530,
+      "diagnostic": {
+        "formula": "rating ~ causal*inner*tier + position + usage + C(recruitment)",
+        "converged": true,
+        "expanded_rows": 12720,
+        "parameters": 23,
+        "rank": 23,
+        "clusters": 530,
+        "condition_number": 62.39349620192645,
+        "finite_parameters": true,
+        "finite_standard_errors": true,
+        "finite_covariance": true,
+        "min_cov_eigenvalue": 0.00017466625878530584,
+        "max_cov_eigenvalue": 1.0907326480955808,
+        "score_norm": 4.019769798335032e-08,
+        "warnings": [],
+        "label": "H3_H5_B_D"
+      },
+      "H3_D": {
+        "beta": -0.5586044484699706,
+        "se": 0.13032847467367975,
+        "or": 0.5720067720238022,
+        "ci_low": 0.4430628856313458,
+        "ci_high": 0.7384769924360864,
+        "p": 1.8181473173842292e-05
+      },
+      "tier_slope_causal0_inner0": {
+        "beta": -0.19296612853691864,
+        "se": 0.09374104846353236,
+        "or": 0.8245099010228161,
+        "ci_low": 0.6861251679041517,
+        "ci_high": 0.9908054808151578,
+        "p": 0.0395419768524294
+      },
+      "tier_slope_causal0_inner1": {
+        "beta": -0.3512046408021493,
+        "se": 0.10703970657967414,
+        "or": 0.7038397047951922,
+        "ci_low": 0.5706389331314882,
+        "ci_high": 0.8681327215576334,
+        "p": 0.0010341451816188417
+      },
+      "tier_slope_causal1_inner0": {
+        "beta": 0.25390511693753576,
+        "se": 0.09591210601861255,
+        "or": 1.2890494895018643,
+        "ci_low": 1.0681421633813086,
+        "ci_high": 1.5556436618182974,
+        "p": 0.008114484707435084
+      },
+      "tier_slope_causal1_inner1": {
+        "beta": -0.3046993315324348,
+        "se": 0.10190076286093502,
+        "or": 0.7373450374688916,
+        "ci_low": 0.6038550116882009,
+        "ci_high": 0.9003447744186776,
+        "p": 0.0027883362255808897
+      }
+    },
+    "H5_S2_all": {
+      "terms": {
+        "tier:C(scenario, Treatment(reference='emotional_self_report'))[T.empathic_response]": {
+          "beta": 0.07378690325118308,
+          "se": 0.04273692819747301,
+          "or": 1.0765773659141475,
+          "ci_low": 0.990073657777485,
+          "ci_high": 1.1706389880126766,
+          "p": 0.08425078382218372
+        },
+        "tier:C(scenario, Treatment(reference='emotional_self_report'))[T.internal_causal_affect]": {
+          "beta": 0.5153736726381615,
+          "se": 0.13288448017848392,
+          "or": 1.6742640115724903,
+          "ci_low": 1.2903646816612997,
+          "ci_high": 2.1723781038689287,
+          "p": 0.00010516360298699615
+        },
+        "tier:C(scenario, Treatment(reference='emotional_self_report'))[T.neutral_helpful]": {
+          "beta": -0.07156180471307103,
+          "se": 0.07403362811983982,
+          "or": 0.9309387394151385,
+          "ci_low": 0.8051996261809234,
+          "ci_high": 1.0763131382143947,
+          "p": 0.33373795665504846
+        },
+        "tier:C(scenario, Treatment(reference='emotional_self_report'))[T.persistent_agent]": {
+          "beta": 0.22374061744146917,
+          "se": 0.0770712938048093,
+          "or": 1.2507465555083992,
+          "ci_low": 1.0753902912774544,
+          "ci_high": 1.4546969214849577,
+          "p": 0.0036956603644699997
+        }
+      },
+      "n": 530,
+      "diagnostic": {
+        "formula": "rating ~ tier*C(scenario, Treatment(reference='emotional_self_report')) + position + usage + C(recruitment)",
+        "converged": true,
+        "expanded_rows": 15900,
+        "parameters": 25,
+        "rank": 25,
+        "clusters": 530,
+        "condition_number": 63.186605109747966,
+        "finite_parameters": true,
+        "finite_standard_errors": true,
+        "finite_covariance": true,
+        "min_cov_eigenvalue": 0.00014887265524470326,
+        "max_cov_eigenvalue": 1.0174444425997453,
+        "score_norm": 4.685998532345051e-08,
+        "warnings": [],
+        "label": "H5_S2_all"
+      },
+      "joint": {
+        "chi2": 21.702519537971867,
+        "df": 4,
+        "p": 0.00022967952334909802
+      }
+    },
+    "H3_H5_local_bh": {
+      "H3_all": 9.941386503343901e-07,
+      "H3_D": 2.727220976076344e-05,
+      "H5_D_vs_B": 0.00035527921771660604
+    },
+    "S2_S4_D_by_tier": {
+      "0": {
+        "S2_functional_affect_like_process": {
+          "n": 208,
+          "agree": 199,
+          "mean": 5.769230769230769
+        },
+        "S4_inner_experience": {
+          "n": 208,
+          "agree": 26,
+          "mean": 2.9903846153846154
+        }
+      },
+      "1": {
+        "S2_functional_affect_like_process": {
+          "n": 233,
+          "agree": 213,
+          "mean": 5.690987124463519
+        },
+        "S4_inner_experience": {
+          "n": 233,
+          "agree": 26,
+          "mean": 2.7167381974248928
+        }
+      },
+      "2": {
+        "S2_functional_affect_like_process": {
+          "n": 46,
+          "agree": 45,
+          "mean": 6.130434782608695
+        },
+        "S4_inner_experience": {
+          "n": 46,
+          "agree": 3,
+          "mean": 2.369565217391304
+        }
+      },
+      "3": {
+        "S2_functional_affect_like_process": {
+          "n": 43,
+          "agree": 39,
+          "mean": 6.069767441860465
+        },
+        "S4_inner_experience": {
+          "n": 43,
+          "agree": 6,
+          "mean": 2.604651162790698
+        }
+      }
+    },
+    "mind_construction": {
+      "field_n": 83,
+      "substring_n": 3,
+      "both_n": 1,
+      "text_only_n": 2,
+      "field_only_n": 82,
+      "written_B3_n": 192,
+      "not_written_B3_n": 346,
+      "keyword_n": {
+        "philosophy": 3,
+        "cognitive science": 0,
+        "cogsci": 0,
+        "psychology": 0,
+        "neuroscience": 0,
+        "ethics": 0,
+        "consciousness": 0,
+        "philosophy of mind": 2,
+        "moral philosophy": 0
+      },
+      "tier_counts": {
+        "0": {
+          "False": 166,
+          "True": 46
+        },
+        "1": {
+          "False": 211,
+          "True": 25
+        },
+        "2": {
+          "False": 43,
+          "True": 3
+        },
+        "3": {
+          "False": 33,
+          "True": 11
+        }
+      },
+      "field_tier_counts": {
+        "0": 46,
+        "1": 25,
+        "3": 9,
+        "2": 3
+      },
+      "written_by_tier": {
+        "0": {
+          "False": 130,
+          "True": 82
+        },
+        "1": {
+          "False": 160,
+          "True": 76
+        },
+        "2": {
+          "False": 28,
+          "True": 18
+        },
+        "3": {
+          "False": 28,
+          "True": 16
+        }
+      }
+    },
+    "exclude_tier0_mind": {
+      "terms": {
+        "tier": {
+          "beta": -0.38922676832838776,
+          "se": 0.10258869862960285,
+          "or": 0.677580598771013,
+          "ci_low": 0.5541627167231616,
+          "ci_high": 0.8284849449015548,
+          "p": 0.00014820913156413784
+        }
+      },
+      "n": 492,
+      "diagnostic": {
+        "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment)",
+        "converged": true,
+        "expanded_rows": 14760,
+        "parameters": 21,
+        "rank": 21,
+        "clusters": 492,
+        "condition_number": 59.481140252939646,
+        "finite_parameters": true,
+        "finite_standard_errors": true,
+        "finite_covariance": true,
+        "min_cov_eigenvalue": 0.00011684179985775185,
+        "max_cov_eigenvalue": 1.7590680909673309,
+        "score_norm": 7.975276436725365e-08,
+        "warnings": [],
+        "label": "exclude_tier0_mind"
+      }
+    },
+    "exclude_all_mind": {
+      "terms": {
+        "tier": {
+          "beta": -0.3597883502727734,
+          "se": 0.10958870794737664,
+          "or": 0.6978240047026563,
+          "ci_low": 0.5629422278370859,
+          "ci_high": 0.8650236515569716,
+          "p": 0.0010268000423880404
+        }
+      },
+      "n": 453,
+      "diagnostic": {
+        "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment)",
+        "converged": true,
+        "expanded_rows": 13590,
+        "parameters": 21,
+        "rank": 21,
+        "clusters": 453,
+        "condition_number": 58.17007521034526,
+        "finite_parameters": true,
+        "finite_standard_errors": true,
+        "finite_covariance": true,
+        "min_cov_eigenvalue": 0.00012039286869930034,
+        "max_cov_eigenvalue": 1.7680244776254859,
+        "score_norm": 3.9593942254554906e-08,
+        "warnings": [],
+        "label": "exclude_all_mind"
+      }
+    },
+    "mind_field_only": {
+      "terms": {
+        "tier": {
+          "beta": -0.3396406045673368,
+          "se": 0.09642476044561736,
+          "or": 0.7120261757391575,
+          "ci_low": 0.5894121101842952,
+          "ci_high": 0.8601473674831833,
+          "p": 0.00042775827473763464
+        },
+        "mind_field": {
+          "beta": -0.5849195017890378,
+          "se": 0.18183630119542218,
+          "or": 0.5571507096424272,
+          "ci_low": 0.39011562742857353,
+          "ci_high": 0.7957048921653224,
+          "p": 0.0012965753487183516
+        }
+      },
+      "n": 538,
+      "diagnostic": {
+        "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment) + mind_field",
+        "converged": true,
+        "expanded_rows": 16140,
+        "parameters": 22,
+        "rank": 22,
+        "clusters": 538,
+        "condition_number": 60.415667388930224,
+        "finite_parameters": true,
+        "finite_standard_errors": true,
+        "finite_covariance": true,
+        "min_cov_eigenvalue": 0.00010572420985803199,
+        "max_cov_eigenvalue": 1.6835624812876522,
+        "score_norm": 4.180087069186135e-08,
+        "warnings": [],
+        "label": "mind_field_only"
+      }
+    },
+    "low_component": {
+      "full_n": 204,
+      "exploratory_n": 202,
+      "all_one_full_n": 93,
+      "by_tier": {
+        "0": {
+          "False": 149,
+          "True": 63
+        },
+        "1": {
+          "False": 144,
+          "True": 92
+        },
+        "2": {
+          "False": 20,
+          "True": 26
+        },
+        "3": {
+          "False": 21,
+          "True": 23
+        }
+      },
+      "adjusted_tier": {
+        "beta": 0.35282689876762385,
+        "se": 0.11040929078851026,
+        "or": 1.4230847843817371,
+        "ci_low": 1.1461731129025106,
+        "ci_high": 1.7668974090749492,
+        "p": 0.0013952741412498215
+      },
+      "remaining_h1": {
+        "terms": {
+          "tier": {
+            "beta": -0.04463523743035073,
+            "se": 0.11218575718614801,
+            "or": 0.9563462575374455,
+            "ci_low": 0.7675779193479557,
+            "ci_high": 1.1915378768097102,
+            "p": 0.690726736268785
+          }
+        },
+        "n": 334,
+        "diagnostic": {
+          "formula": "rating ~ tier + C(scenario) + position + usage + C(recruitment)",
+          "converged": true,
+          "expanded_rows": 10020,
+          "parameters": 21,
+          "rank": 21,
+          "clusters": 334,
+          "condition_number": 59.40887001395526,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.00018667937425836657,
+          "max_cov_eigenvalue": 2.2664450322070593,
+          "score_norm": 2.6952758610133855e-08,
+          "warnings": [],
+          "label": "H1_exclude_always_low"
+        }
+      }
+    },
+    "s4_mean_distribution": {
+      "1.0": 92,
+      "1.2": 18,
+      "1.4": 16,
+      "1.6": 18,
+      "1.8": 58,
+      "2.0": 33,
+      "2.2": 29,
+      "2.4": 13,
+      "2.6": 55,
+      "2.8": 49,
+      "3.0": 12,
+      "3.2": 12,
+      "3.4": 4,
+      "3.6": 6,
+      "3.8": 12,
+      "4.0": 19,
+      "4.2": 25,
+      "4.4": 36,
+      "4.6": 4,
+      "4.8": 6,
+      "5.0": 5,
+      "5.2": 7,
+      "5.4": 1
+    },
+    "welfare_complements": {
+      "emotional_self_report": {
+        "welfare_agree_n": 168,
+        "low_s4_and_welfare_n": 77,
+        "s4_agree_n": 96,
+        "high_s4_low_welfare_n": 0,
+        "strict_stratum_n": 114,
+        "strict_endorse_n": 1
+      },
+      "empathic_response": {
+        "welfare_agree_n": 1,
+        "low_s4_and_welfare_n": 0,
+        "s4_agree_n": 71,
+        "high_s4_low_welfare_n": 8,
+        "strict_stratum_n": 117,
+        "strict_endorse_n": 0
+      },
+      "internal_causal_affect": {
+        "welfare_agree_n": 289,
+        "low_s4_and_welfare_n": 67,
+        "s4_agree_n": 61,
+        "high_s4_low_welfare_n": 1,
+        "strict_stratum_n": 85,
+        "strict_endorse_n": 1
+      },
+      "persistent_agent": {
+        "welfare_agree_n": 353,
+        "low_s4_and_welfare_n": 65,
+        "s4_agree_n": 113,
+        "high_s4_low_welfare_n": 2,
+        "strict_stratum_n": 93,
+        "strict_endorse_n": 1
+      }
+    },
+    "strict_welfare_unique": {
+      "unique_n": 2,
+      "number_scenarios_per_unique_endorser": {
+        "2": 1,
+        "1": 1
+      },
+      "pairwise_overlap": {
+        "emotional_self_report__empathic_response": 0,
+        "emotional_self_report__internal_causal_affect": 0,
+        "emotional_self_report__persistent_agent": 1,
+        "empathic_response__internal_causal_affect": 0,
+        "empathic_response__persistent_agent": 0,
+        "internal_causal_affect__persistent_agent": 0
+      }
+    },
+    "self_report_priorities": {
+      "F1_n": 50,
+      "F2_n": 455,
+      "both_n": 0,
+      "groups": {
+        "F1_selected": {
+          "0": {
+            "emotional_self_report": {
+              "S3_actual_feeling": {
+                "n": 480,
+                "agree": 53,
+                "mean": 2.4833333333333334
+              },
+              "S4_inner_experience": {
+                "n": 480,
+                "agree": 47,
+                "mean": 2.4583333333333335
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 480,
+                "agree": 130,
+                "mean": 3.404166666666667
+              }
+            },
+            "empathic_response": {
+              "S3_actual_feeling": {
+                "n": 480,
+                "agree": 6,
+                "mean": 2.252083333333333
+              },
+              "S4_inner_experience": {
+                "n": 480,
+                "agree": 22,
+                "mean": 2.3125
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 480,
+                "agree": 0,
+                "mean": 2.23125
+              }
+            },
+            "internal_causal_affect": {
+              "S3_actual_feeling": {
+                "n": 480,
+                "agree": 62,
+                "mean": 2.7583333333333333
+              },
+              "S4_inner_experience": {
+                "n": 480,
+                "agree": 58,
+                "mean": 2.660416666666667
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 480,
+                "agree": 255,
+                "mean": 4.2
+              }
+            },
+            "persistent_agent": {
+              "S3_actual_feeling": {
+                "n": 480,
+                "agree": 62,
+                "mean": 2.4895833333333335
+              },
+              "S4_inner_experience": {
+                "n": 480,
+                "agree": 72,
+                "mean": 2.7291666666666665
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 480,
+                "agree": 304,
+                "mean": 4.416666666666667
+              }
+            }
+          },
+          "1": {
+            "emotional_self_report": {
+              "S3_actual_feeling": {
+                "n": 50,
+                "agree": 49,
+                "mean": 5.96
+              },
+              "S4_inner_experience": {
+                "n": 50,
+                "agree": 49,
+                "mean": 5.62
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 50,
+                "agree": 38,
+                "mean": 4.84
+              }
+            },
+            "empathic_response": {
+              "S3_actual_feeling": {
+                "n": 50,
+                "agree": 49,
+                "mean": 5.58
+              },
+              "S4_inner_experience": {
+                "n": 50,
+                "agree": 49,
+                "mean": 5.06
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 50,
+                "agree": 1,
+                "mean": 3.18
+              }
+            },
+            "internal_causal_affect": {
+              "S3_actual_feeling": {
+                "n": 50,
+                "agree": 17,
+                "mean": 4.32
+              },
+              "S4_inner_experience": {
+                "n": 50,
+                "agree": 3,
+                "mean": 3.98
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 50,
+                "agree": 34,
+                "mean": 4.72
+              }
+            },
+            "persistent_agent": {
+              "S3_actual_feeling": {
+                "n": 50,
+                "agree": 49,
+                "mean": 5.16
+              },
+              "S4_inner_experience": {
+                "n": 50,
+                "agree": 41,
+                "mean": 4.82
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 50,
+                "agree": 49,
+                "mean": 5.42
+              }
+            }
+          }
+        },
+        "F2_least": {
+          "0": {
+            "emotional_self_report": {
+              "S3_actual_feeling": {
+                "n": 75,
+                "agree": 62,
+                "mean": 5.346666666666667
+              },
+              "S4_inner_experience": {
+                "n": 75,
+                "agree": 55,
+                "mean": 5.026666666666666
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 75,
+                "agree": 50,
+                "mean": 4.746666666666667
+              }
+            },
+            "empathic_response": {
+              "S3_actual_feeling": {
+                "n": 75,
+                "agree": 49,
+                "mean": 4.8
+              },
+              "S4_inner_experience": {
+                "n": 75,
+                "agree": 50,
+                "mean": 4.48
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 75,
+                "agree": 1,
+                "mean": 3.12
+              }
+            },
+            "internal_causal_affect": {
+              "S3_actual_feeling": {
+                "n": 75,
+                "agree": 28,
+                "mean": 4.2
+              },
+              "S4_inner_experience": {
+                "n": 75,
+                "agree": 10,
+                "mean": 3.9466666666666668
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 75,
+                "agree": 51,
+                "mean": 4.786666666666667
+              }
+            },
+            "persistent_agent": {
+              "S3_actual_feeling": {
+                "n": 75,
+                "agree": 60,
+                "mean": 4.666666666666667
+              },
+              "S4_inner_experience": {
+                "n": 75,
+                "agree": 54,
+                "mean": 4.573333333333333
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 75,
+                "agree": 67,
+                "mean": 5.253333333333333
+              }
+            }
+          },
+          "1": {
+            "emotional_self_report": {
+              "S3_actual_feeling": {
+                "n": 455,
+                "agree": 40,
+                "mean": 2.3934065934065933
+              },
+              "S4_inner_experience": {
+                "n": 455,
+                "agree": 41,
+                "mean": 2.3824175824175824
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 455,
+                "agree": 118,
+                "mean": 3.340659340659341
+              }
+            },
+            "empathic_response": {
+              "S3_actual_feeling": {
+                "n": 455,
+                "agree": 6,
+                "mean": 2.197802197802198
+              },
+              "S4_inner_experience": {
+                "n": 455,
+                "agree": 21,
+                "mean": 2.257142857142857
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 455,
+                "agree": 0,
+                "mean": 2.1890109890109892
+              }
+            },
+            "internal_causal_affect": {
+              "S3_actual_feeling": {
+                "n": 455,
+                "agree": 51,
+                "mean": 2.6923076923076925
+              },
+              "S4_inner_experience": {
+                "n": 455,
+                "agree": 51,
+                "mean": 2.5934065934065935
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 455,
+                "agree": 238,
+                "mean": 4.160439560439561
+              }
+            },
+            "persistent_agent": {
+              "S3_actual_feeling": {
+                "n": 455,
+                "agree": 51,
+                "mean": 2.424175824175824
+              },
+              "S4_inner_experience": {
+                "n": 455,
+                "agree": 59,
+                "mean": 2.654945054945055
+              },
+              "S5_welfare_directed_precaution": {
+                "n": 455,
+                "agree": 286,
+                "mean": 4.389010989010989
+              }
+            }
+          }
+        }
+      },
+      "internal_causal_affect": {
+        "terms": {
+          "selected": {
+            "beta": 1.7506349537806307,
+            "se": 0.16605683347627703,
+            "or": 5.758257743007394,
+            "ci_low": 4.158562828979574,
+            "ci_high": 7.973315204916787,
+            "p": 5.508434273325728e-26
+          },
+          "self_report:selected": {
+            "beta": 3.5269809290498206,
+            "se": 0.3365126346583805,
+            "or": 34.02110029542604,
+            "ci_low": 17.5917190848175,
+            "ci_high": 65.79432400727451,
+            "p": 1.0564749290375887e-25
+          }
+        },
+        "n": 530,
+        "diagnostic": {
+          "formula": "rating ~ self_report*selected + tier + position + usage + C(recruitment)",
+          "converged": true,
+          "expanded_rows": 6360,
+          "parameters": 20,
+          "rank": 20,
+          "clusters": 530,
+          "condition_number": 58.99031006945677,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.0002594140933365675,
+          "max_cov_eigenvalue": 1.9166723492278075,
+          "score_norm": 5.698848792938388e-08,
+          "warnings": [],
+          "label": "selfreport_F1_internal_causal_affect"
+        }
+      },
+      "persistent_agent": {
+        "terms": {
+          "selected": {
+            "beta": 2.566144570990841,
+            "se": 0.20439840720263794,
+            "or": 13.01554706506141,
+            "ci_low": 8.719231073395184,
+            "ci_high": 19.42883081969569,
+            "p": 3.7497154162605083e-36
+          },
+          "self_report:selected": {
+            "beta": 2.203671295759672,
+            "se": 0.27066573254615744,
+            "or": 9.058207889152719,
+            "ci_low": 5.329067171431356,
+            "ci_high": 15.396902970744522,
+            "p": 3.8986001699282445e-16
+          }
+        },
+        "n": 530,
+        "diagnostic": {
+          "formula": "rating ~ self_report*selected + tier + position + usage + C(recruitment)",
+          "converged": true,
+          "expanded_rows": 5300,
+          "parameters": 19,
+          "rank": 19,
+          "clusters": 530,
+          "condition_number": 57.91058248657802,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.00029323959503419893,
+          "max_cov_eigenvalue": 1.665987215078497,
+          "score_norm": 6.779762537476033e-08,
+          "warnings": [],
+          "label": "selfreport_F1_persistent_agent"
+        }
+      }
+    },
+    "comprehension_by_tier": {
+      "0": {
+        "False": 89,
+        "True": 123
+      },
+      "1": {
+        "False": 79,
+        "True": 157
+      },
+      "2": {
+        "False": 9,
+        "True": 37
+      },
+      "3": {
+        "False": 3,
+        "True": 41
+      }
+    },
+    "failer_claim1": {
+      "n": 178,
+      "estimate": {
+        "beta": -2.6027992633015686,
+        "se": 0.17842982506184318,
+        "or": 0.0740659576404629,
+        "ci_low": 0.05220822162032968,
+        "ci_high": 0.10507475472144236,
+        "p": 3.3860606020429416e-48
+      }
+    },
+    "pilot_quality": {
+      "20": {
+        "comprehension_fail_n": 10,
+        "median_seconds": 773.0
+      },
+      "50": {
+        "comprehension_fail_n": 22,
+        "median_seconds": 822.0
+      }
+    },
+    "status": "Third-review exploratory diagnostics; specifications chosen after inspection",
+    "H3_H5_thresholds": {
+      "2": {
+        "separation": {
+          "maximum_summed_margin": 996.0,
+          "separation_detected": true,
+          "solver": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+        }
+      },
+      "3": {
+        "separation": {
+          "maximum_summed_margin": 454.0,
+          "separation_detected": true,
+          "solver": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+        }
+      },
+      "4": {
+        "separation": {
+          "maximum_summed_margin": -0.0,
+          "separation_detected": false,
+          "solver": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+        },
+        "H3_D": {
+          "beta": -0.1610776787040863,
+          "se": 0.23535516122077513,
+          "or": 0.8512259464105423,
+          "ci_low": 0.5366735314282036,
+          "ci_high": 1.350142254853235,
+          "p": 0.4937209895801643
+        },
+        "H5_D_vs_B_S2": {
+          "beta": 0.2493924780912918,
+          "se": 0.2275158588249013,
+          "or": 1.2832455800236802,
+          "ci_low": 0.8215763458607838,
+          "ci_high": 2.0043410779128594,
+          "p": 0.2730112721554345
+        },
+        "threeway": {
+          "beta": -0.15854630206938988,
+          "se": 0.2329100522349851,
+          "or": 0.8533834494564504,
+          "ci_low": 0.5406183964187787,
+          "ci_high": 1.3470931004761,
+          "p": 0.49604930014756443
+        },
+        "diagnostic": {
+          "formula": "above ~ causal*inner*tier + position + usage + C(recruitment)",
+          "converged": true,
+          "expanded_rows": 2120,
+          "parameters": 18,
+          "rank": 18,
+          "clusters": 530,
+          "condition_number": 56.77149088645753,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.00036948868491650617,
+          "max_cov_eigenvalue": 1.5730938735653845,
+          "score_norm": 1.3950345493657824e-13,
+          "warnings": [],
+          "label": "H3_H5_cut4"
+        }
+      },
+      "5": {
+        "separation": {
+          "maximum_summed_margin": -0.0,
+          "separation_detected": false,
+          "solver": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+        },
+        "H3_D": {
+          "beta": 0.1264845455311051,
+          "se": 0.22872851613464318,
+          "or": 1.1348319128160511,
+          "ci_low": 0.7248321933761397,
+          "ci_high": 1.7767470624437791,
+          "p": 0.5802703673155087
+        },
+        "H5_D_vs_B_S2": {
+          "beta": -0.032843443534825045,
+          "se": 0.21748245502644314,
+          "or": 0.9676900458636102,
+          "ci_low": 0.6318512839972376,
+          "ci_high": 1.4820323208643034,
+          "p": 0.879962684221833
+        },
+        "threeway": {
+          "beta": 0.0791978692033142,
+          "se": 0.23234879653324553,
+          "or": 1.082418478164095,
+          "ci_low": 0.6864668084732064,
+          "ci_high": 1.7067536950212294,
+          "p": 0.7332107335974034
+        },
+        "diagnostic": {
+          "formula": "above ~ causal*inner*tier + position + usage + C(recruitment)",
+          "converged": true,
+          "expanded_rows": 2120,
+          "parameters": 18,
+          "rank": 18,
+          "clusters": 530,
+          "condition_number": 56.77149088645753,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.0005062176578599048,
+          "max_cov_eigenvalue": 1.980402237256184,
+          "score_norm": 1.3309341452404865e-13,
+          "warnings": [],
+          "label": "H3_H5_cut5"
+        }
+      },
+      "6": {
+        "separation": {
+          "maximum_summed_margin": -0.0,
+          "separation_detected": false,
+          "solver": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+        },
+        "H3_D": {
+          "beta": -0.11536690482432509,
+          "se": 0.3162600428472276,
+          "or": 0.8910391573585311,
+          "ci_low": 0.4793974871969052,
+          "ci_high": 1.6561429735239683,
+          "p": 0.7152719381345105
+        },
+        "H5_D_vs_B_S2": {
+          "beta": 0.22047726744399035,
+          "se": 0.1869988823437552,
+          "or": 1.2466715843844882,
+          "ci_low": 0.8641284890134344,
+          "ci_high": 1.7985635921876977,
+          "p": 0.2383862829954546
+        },
+        "threeway": {
+          "beta": 0.08069465141109676,
+          "se": 0.36669839428838685,
+          "or": 1.084039835990658,
+          "ci_low": 0.528336971848645,
+          "ci_high": 2.2242289081205944,
+          "p": 0.8258265445000728
+        },
+        "diagnostic": {
+          "formula": "above ~ causal*inner*tier + position + usage + C(recruitment)",
+          "converged": true,
+          "expanded_rows": 2120,
+          "parameters": 18,
+          "rank": 18,
+          "clusters": 530,
+          "condition_number": 56.77149088645753,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.0002984109145673943,
+          "max_cov_eigenvalue": 1.056593810060551,
+          "score_norm": 5.352511243206097e-14,
+          "warnings": [],
+          "label": "H3_H5_cut6"
+        }
+      }
+    },
+    "chronological_h1": {
+      "20": {
+        "n": 518,
+        "estimate": {
+          "beta": -0.30489011001532956,
+          "se": 0.09759800180138915,
+          "or": 0.7372043813187833,
+          "ci_low": 0.6088528424350327,
+          "ci_high": 0.892613554470842,
+          "p": 0.0017844803216116377
+        }
+      },
+      "50": {
+        "n": 488,
+        "estimate": {
+          "beta": -0.26406229589407915,
+          "se": 0.10033199898187412,
+          "or": 0.7679256995485607,
+          "ci_low": 0.6308359714480063,
+          "ci_high": 0.9348069969338305,
+          "p": 0.008491256752699797
+        }
+      }
+    },
+    "sample_audit": {
+      "age_n538": {
+        "25–34": 165,
+        "35–44": 124,
+        "18–24": 89,
+        "45–54": 83,
+        "55–64": 39,
+        "65+": 38
+      },
+      "recruitment_n538": {
+        "Researcher’s LinkedIn post": 143,
+        "Friend, colleague, or personal contact": 92,
+        "Direct personal message from the researcher": 78,
+        "Developer or AI community": 57,
+        "X / Twitter / Bluesky / Mastodon": 53,
+        "Academic or research community": 45,
+        "Re-shared LinkedIn post": 43,
+        "Other social media": 24,
+        "Prefer not to say": 3
+      },
+      "completion_date_range": [
+        "2026-06-13",
+        "2026-08-20"
+      ],
+      "I2_intended_n530": 290,
+      "F7_F8_nonblank_n538": {
+        "F7_strong_evidence_free_text": 105,
+        "F8_doubt_reason_free_text": 89
+      },
+      "qualitative_usable_status": "Earlier usable counts lack a retained eligibility matrix; not reproduced or used as denominators"
+    },
+    "attenuation": {
+      "source": "results/clmm-diagnostics.csv:full_aghq7",
+      "source_sha256": "d700b2f263a4a028419881f627ef1fa2a81dce620fa2bf9fb8c8b5e6d99e8ef7",
+      "beta": -1.01493003662172,
+      "random_intercept_sd": 5.63376261594622,
+      "approx_OR": 0.7458217825847774,
+      "integrated": {
+        "0.1": {
+          "p_tier_plus1": 0.07313089444844427,
+          "or": 0.7101089529187983
+        },
+        "0.5": {
+          "p_tier_plus1": 0.4318398566488112,
+          "or": 0.7600671425166903
+        },
+        "0.9": {
+          "p_tier_plus1": 0.8665322623510687,
+          "or": 0.721383041171396
+        }
+      }
+    }
+  },
+  "completion_quality": {
+    "n_completed": 538,
+    "median_completion_seconds": 864.5,
+    "completion_seconds_q1": 612.25,
+    "completion_seconds_q3": 1175.5,
+    "attention_fail_n": 33,
+    "attention_fail_prop": 0.06133828996282528,
+    "comprehension_fail_n": 180,
+    "comprehension_fail_prop": 0.3345724907063197,
+    "very_fast_n": 37,
+    "very_fast_prop": 0.0687732342007435,
+    "low_english_n": 8,
+    "straightlining_n": 0,
+    "missing_required_answers_n": 0
+  },
+  "h1_categorical": {
+    "estimates": {
+      "1": {
+        "beta": -0.3562106247055883,
+        "se": 0.16872412935868364,
+        "or": 0.7003250989322036,
+        "ci_low": 0.503131434626427,
+        "ci_high": 0.9748054095617414,
+        "p": 0.03475500120365285
+      },
+      "2": {
+        "beta": -0.9072531141506911,
+        "se": 0.28673189831859347,
+        "or": 0.4036314321195575,
+        "ci_low": 0.23010091438858632,
+        "ci_high": 0.7080299242955386,
+        "p": 0.0015555454621479705
+      },
+      "3": {
+        "beta": -0.7603400985892652,
+        "se": 0.31997739621827437,
+        "or": 0.46750740136156865,
+        "ci_low": 0.2497026994345015,
+        "ci_high": 0.8752935824195094,
+        "p": 0.017490525495649237
+      }
+    },
+    "predictions": {
+      "0": {
+        "probabilities": [
+          0.26076014122540625,
+          0.23996067199248802,
+          0.24040935353810122,
+          0.09755771233108705,
+          0.11606035662708196,
+          0.04477124704020645,
+          0.00048051724562864624
+        ],
+        "mean": 2.704433281245083,
+        "low": 0.5007208132178943,
+        "middle": 0.3379670658691883,
+        "agreement": 0.16131212091291705
+      },
+      "1": {
+        "probabilities": [
+          0.32021257094391387,
+          0.2573757636302286,
+          0.22225433067229214,
+          0.07995410740444714,
+          0.08794878788579662,
+          0.03191785773743911,
+          0.0003365817258830163
+        ],
+        "mean": 2.455150677773835,
+        "low": 0.5775883345741425,
+        "middle": 0.30220843807673925,
+        "agreement": 0.12020322734911876
+      },
+      "2": {
+        "probabilities": [
+          0.4259832292475449,
+          0.2656769353084215,
+          0.1794735819636183,
+          0.05483058464527119,
+          0.05511097203357451,
+          0.018730672160264254,
+          0.00019402464130617044
+        ],
+        "mean": 2.1043772499549287,
+        "low": 0.6916601645559664,
+        "middle": 0.23430416660888947,
+        "agreement": 0.07403566883514494
+      },
+      "3": {
+        "probabilities": [
+          0.39633457496293667,
+          0.2661025850182208,
+          0.19200189921079305,
+          0.061065522033011535,
+          0.06266069432645086,
+          0.02161000381741112,
+          0.00022472063117767607
+        ],
+        "mean": 2.1933440697187683,
+        "low": 0.6624371599811575,
+        "middle": 0.2530674212438046,
+        "agreement": 0.08449541877503966
+      }
+    }
+  },
+  "h1_thresholds": {
+    "wald_chi2": 5.465723168009448,
+    "df": 4,
+    "p": 0.2427589110371876,
+    "threshold_estimates": {
+      "rating_at_least_2": {
+        "beta": -0.4075418575177888,
+        "se": 0.09735569997667946,
+        "or": 0.6652836036949383,
+        "ci_low": 0.5497148866018499,
+        "ci_high": 0.8051487855483417,
+        "p": 2.837734471331076e-05
+      },
+      "rating_at_least_3": {
+        "beta": -0.297696695752265,
+        "se": 0.10176795295410666,
+        "or": 0.7425265170441082,
+        "ci_low": 0.6082567388365399,
+        "ci_high": 0.9064357093161947,
+        "p": 0.0034417969225665297
+      },
+      "rating_at_least_4": {
+        "beta": -0.1475100308344905,
+        "se": 0.12812873285088044,
+        "or": 0.862853783134478,
+        "ci_low": 0.6712338234405159,
+        "ci_high": 1.1091763035023205,
+        "p": 0.24962353571043328
+      },
+      "rating_at_least_5": {
+        "beta": -0.14702703964377045,
+        "se": 0.1374509208973938,
+        "or": 0.8632706345702934,
+        "ci_low": 0.659399376273822,
+        "ci_high": 1.130174239354953,
+        "p": 0.2847681592132292
+      },
+      "rating_at_least_6": {
+        "beta": -0.18029907394940006,
+        "se": 0.16350445728574023,
+        "or": 0.8350204412020722,
+        "ci_low": 0.6060687069458188,
+        "ci_high": 1.150462198814097,
+        "p": 0.2701502696515451
+      }
+    },
+    "rating_7_n": 1,
+    "observation_n": 2690
+  },
+  "classification_audit": {
+    "comprehension_by_tier": {
+      "0": {
+        "False": 89,
+        "True": 123
+      },
+      "1": {
+        "False": 79,
+        "True": 157
+      },
+      "2": {
+        "False": 9,
+        "True": 37
+      },
+      "3": {
+        "False": 3,
+        "True": 41
+      }
+    },
+    "factual_score_by_tier": {
+      "0": {
+        "count": 212,
+        "mean": 0.5377358490566038
+      },
+      "1": {
+        "count": 236,
+        "mean": 1.0805084745762712
+      },
+      "2": {
+        "count": 46,
+        "mean": 1.7826086956521738
+      },
+      "3": {
+        "count": 44,
+        "mean": 1.7045454545454546
+      }
+    },
+    "field_builder_table": {
+      "AI / machine learning (ML) research": {
+        "No": 0,
+        "Not sure": 0,
+        "Yes, as part of research": 20,
+        "Yes, casually or experimentally": 0,
+        "Yes, professionally": 0
+      },
+      "Applied AI / data science / machine learning (ML) engineering / AI product engineering": {
+        "No": 0,
+        "Not sure": 0,
+        "Yes, as part of research": 11,
+        "Yes, casually or experimentally": 0,
+        "Yes, professionally": 22
+      },
+      "Non-technical field, business, operations, education, healthcare, law, arts, or similar": {
+        "No": 126,
+        "Not sure": 2,
+        "Yes, as part of research": 1,
+        "Yes, casually or experimentally": 5,
+        "Yes, professionally": 0
+      },
+      "Other non-technical field": {
+        "No": 32,
+        "Not sure": 0,
+        "Yes, as part of research": 0,
+        "Yes, casually or experimentally": 1,
+        "Yes, professionally": 0
+      },
+      "Other technical field": {
+        "No": 19,
+        "Not sure": 0,
+        "Yes, as part of research": 3,
+        "Yes, casually or experimentally": 18,
+        "Yes, professionally": 21
+      },
+      "Philosophy / cognitive science / psychology / neuroscience / ethics": {
+        "No": 42,
+        "Not sure": 4,
+        "Yes, as part of research": 9,
+        "Yes, casually or experimentally": 25,
+        "Yes, professionally": 3
+      },
+      "Prefer not to say": {
+        "No": 6,
+        "Not sure": 0,
+        "Yes, as part of research": 0,
+        "Yes, casually or experimentally": 1,
+        "Yes, professionally": 0
+      },
+      "Product, design, management, or strategy role involving technology but not primarily software/AI": {
+        "No": 22,
+        "Not sure": 1,
+        "Yes, as part of research": 0,
+        "Yes, casually or experimentally": 12,
+        "Yes, professionally": 0
+      },
+      "Software development / software engineering / information technology (IT) / infrastructure": {
+        "No": 72,
+        "Not sure": 1,
+        "Yes, as part of research": 0,
+        "Yes, casually or experimentally": 59,
+        "Yes, professionally": 0
+      }
+    }
+  },
+  "carryover": {
+    "causal_s2_predecessor": {
+      "nonfirst_n": 416,
+      "reference": "neutral_helpful",
+      "omnibus": {
+        "chi2": 1.5205296183958823,
+        "df": 3,
+        "p": 0.6775402751968107
+      },
+      "contrasts": {
+        "emotional_self_report": {
+          "beta": 0.19642298232867045,
+          "se": 0.2484910278751836,
+          "or": 1.2170415835598483,
+          "ci_low": 0.7478069049561683,
+          "ci_high": 1.980712141459407,
+          "p": 0.4292573777353327
+        },
+        "empathic_response": {
+          "beta": 0.004602075639153844,
+          "se": 0.26507878303335053,
+          "or": 1.004612681452592,
+          "ci_low": 0.5975347773072812,
+          "ci_high": 1.6890174062895815,
+          "p": 0.9861484928845272
+        },
+        "persistent_agent": {
+          "beta": -0.09795368780453964,
+          "se": 0.24852330896712452,
+          "or": 0.9066908936274796,
+          "ci_low": 0.5570777717392853,
+          "ci_high": 1.4757156330619818,
+          "p": 0.6934755690274513
+        }
+      },
+      "descriptive_by_predecessor": {
+        "emotional_self_report": {
+          "n": 118,
+          "mean": 5.864406779661017,
+          "rating_5_7": 0.9491525423728814
+        },
+        "empathic_response": {
+          "n": 101,
+          "mean": 5.712871287128713,
+          "rating_5_7": 0.9108910891089109
+        },
+        "first": {
+          "n": 114,
+          "mean": 5.9035087719298245,
+          "rating_5_7": 0.9473684210526315
+        },
+        "neutral_helpful": {
+          "n": 95,
+          "mean": 5.7368421052631575,
+          "rating_5_7": 0.9263157894736842
+        },
+        "persistent_agent": {
+          "n": 102,
+          "mean": 5.705882352941177,
+          "rating_5_7": 0.9411764705882353
+        }
+      }
+    },
+    "causal_s4_predecessor": {
+      "nonfirst_n": 416,
+      "reference": "neutral_helpful",
+      "omnibus": {
+        "chi2": 0.7532604842479959,
+        "df": 3,
+        "p": 0.8606106548118511
+      },
+      "contrasts": {
+        "emotional_self_report": {
+          "beta": 0.20435353510498339,
+          "se": 0.24103089657459237,
+          "or": 1.2267317695473725,
+          "ci_low": 0.7648631566576745,
+          "ci_high": 1.9675033649062985,
+          "p": 0.39653193652218155
+        },
+        "empathic_response": {
+          "beta": 0.08275154577125941,
+          "se": 0.25779084841009803,
+          "or": 1.0862718861742668,
+          "ci_low": 0.6554002032139227,
+          "ci_high": 1.800406232567877,
+          "p": 0.7482083818466425
+        },
+        "persistent_agent": {
+          "beta": 0.06739815028067091,
+          "se": 0.24709050405165423,
+          "or": 1.069721303234914,
+          "ci_low": 0.6590931930751315,
+          "ci_high": 1.7361788569771515,
+          "p": 0.7850322821994655
+        }
+      },
+      "descriptive_by_predecessor": {
+        "emotional_self_report": {
+          "n": 118,
+          "mean": 2.8559322033898304,
+          "rating_5_7": 0.09322033898305085
+        },
+        "empathic_response": {
+          "n": 101,
+          "mean": 2.871287128712871,
+          "rating_5_7": 0.12871287128712872
+        },
+        "first": {
+          "n": 114,
+          "mean": 2.6578947368421053,
+          "rating_5_7": 0.11403508771929824
+        },
+        "neutral_helpful": {
+          "n": 95,
+          "mean": 2.7157894736842105,
+          "rating_5_7": 0.10526315789473684
+        },
+        "persistent_agent": {
+          "n": 102,
+          "mean": 2.823529411764706,
+          "rating_5_7": 0.13725490196078433
+        }
+      }
+    },
+    "persistent_s4_predecessor": {
+      "nonfirst_n": 415,
+      "reference": "neutral_helpful",
+      "omnibus": {
+        "chi2": 6.125692656073161,
+        "df": 3,
+        "p": 0.1056525907363675
+      },
+      "contrasts": {
+        "emotional_self_report": {
+          "beta": 0.3779923424881073,
+          "se": 0.2553774151613506,
+          "or": 1.4593517678294925,
+          "ci_low": 0.884672115402968,
+          "ci_high": 2.407341143895988,
+          "p": 0.13883796234800602
+        },
+        "empathic_response": {
+          "beta": 0.49733489926413493,
+          "se": 0.2496069764146019,
+          "or": 1.6443331124675529,
+          "ci_low": 1.008147224667311,
+          "ci_high": 2.681980685558595,
+          "p": 0.04631929974947485
+        },
+        "internal_causal_affect": {
+          "beta": 0.5909818514816704,
+          "se": 0.2552761574870258,
+          "or": 1.805760533932671,
+          "ci_low": 1.0948854836909512,
+          "ci_high": 2.978184617916818,
+          "p": 0.020609170624478354
+        }
+      },
+      "descriptive_by_predecessor": {
+        "emotional_self_report": {
+          "n": 110,
+          "mean": 2.981818181818182,
+          "rating_5_7": 0.23636363636363636
+        },
+        "empathic_response": {
+          "n": 99,
+          "mean": 3.0,
+          "rating_5_7": 0.18181818181818182
+        },
+        "first": {
+          "n": 115,
+          "mean": 2.8086956521739133,
+          "rating_5_7": 0.19130434782608696
+        },
+        "internal_causal_affect": {
+          "n": 108,
+          "mean": 3.1296296296296298,
+          "rating_5_7": 0.26851851851851855
+        },
+        "neutral_helpful": {
+          "n": 98,
+          "mean": 2.704081632653061,
+          "rating_5_7": 0.1836734693877551
+        }
+      }
+    },
+    "persistent_s5_predecessor": {
+      "nonfirst_n": 415,
+      "reference": "neutral_helpful",
+      "omnibus": {
+        "chi2": 9.279825413062902,
+        "df": 3,
+        "p": 0.025792773408050355
+      },
+      "contrasts": {
+        "emotional_self_report": {
+          "beta": 0.14072594619656745,
+          "se": 0.2590649050976218,
+          "or": 1.1511091389158028,
+          "ci_low": 0.6927875188222041,
+          "ci_high": 1.9126387437640027,
+          "p": 0.5869870847663369
+        },
+        "empathic_response": {
+          "beta": 0.6463872453072185,
+          "se": 0.2583566568254883,
+          "or": 1.9086329356701905,
+          "ci_low": 1.1502939320032064,
+          "ci_high": 3.166912022895775,
+          "p": 0.012352242927207284
+        },
+        "internal_causal_affect": {
+          "beta": 0.575655743150548,
+          "se": 0.25882967875212437,
+          "or": 1.7782962502504671,
+          "ci_low": 1.0707495258216464,
+          "ci_high": 2.9533868354769828,
+          "p": 0.026143625913286
+        }
+      },
+      "descriptive_by_predecessor": {
+        "emotional_self_report": {
+          "n": 110,
+          "mean": 4.363636363636363,
+          "rating_5_7": 0.6272727272727273
+        },
+        "empathic_response": {
+          "n": 99,
+          "mean": 4.797979797979798,
+          "rating_5_7": 0.7272727272727273
+        },
+        "first": {
+          "n": 115,
+          "mean": 4.3478260869565215,
+          "rating_5_7": 0.6521739130434783
+        },
+        "internal_causal_affect": {
+          "n": 108,
+          "mean": 4.796296296296297,
+          "rating_5_7": 0.7037037037037037
+        },
+        "neutral_helpful": {
+          "n": 98,
+          "mean": 4.26530612244898,
+          "rating_5_7": 0.6224489795918368
+        }
+      }
+    },
+    "adjacent_causal_persistent_s4": {
+      "respondent_n": 210,
+      "direction_n": {
+        "causal_then_persistent": 108,
+        "persistent_then_causal": 102
+      },
+      "interaction": {
+        "beta": -0.14549816208535196,
+        "se": 0.25997569024984013,
+        "or": 0.8645914791178373,
+        "ci_low": 0.5194206870349095,
+        "ci_high": 1.4391387259339752,
+        "p": 0.575710931937133
+      }
+    },
+    "fdr_family": {
+      "raw_p": {
+        "causal_s2_predecessor": 0.6775402751968107,
+        "causal_s4_predecessor": 0.8606106548118511,
+        "persistent_s4_predecessor": 0.1056525907363675,
+        "persistent_s5_predecessor": 0.025792773408050355,
+        "adjacent_causal_persistent_s4": 0.575710931937133
+      },
+      "bh_q": {
+        "causal_s2_predecessor": 0.8469253439960134,
+        "causal_s4_predecessor": 0.8606106548118511,
+        "persistent_s4_predecessor": 0.26413147684091876,
+        "persistent_s5_predecessor": 0.12896386704025178,
+        "adjacent_causal_persistent_s4": 0.8469253439960134
+      }
+    },
+    "persistent_first": {
+      "n": 115,
+      "s5_mean": 4.3478260869565215,
+      "s5_rating_5_7": 0.6521739130434783,
+      "low_s4_high_s5": {
+        "k": 13,
+        "n": 51,
+        "proportion": 0.2549019607843137,
+        "ci_low": 0.15545768156582296,
+        "ci_high": 0.3886828183844375
+      }
+    }
+  },
+  "F1_choice_count_distribution": {
+    "1": 106,
+    "2": 102,
+    "3": 322
+  },
+  "input": {
+    "sha256": "2a2bc5818ecde7af2c9d2829639b35795e973b734091e37020acf71bdc260571",
+    "dump_timestamp": "2026-08-23T12:53:24.569Z",
+    "sessions": 751,
+    "completed": 538,
+    "conversion": "Repository recordsToCsv; current corrected classification flags."
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "statsmodels": "0.14.6",
+    "patsy": "1.0.3"
+  },
+  "completed_n": 538,
+  "exploratory_n": 530,
+  "h1_sensitivities": {
+    "full": {
+      "n": 538,
+      "estimate": {
+        "beta": -0.3125355294684687,
+        "se": 0.09596316595860951,
+        "or": 0.7315896354939915,
+        "ci_low": 0.606154800848097,
+        "ci_high": 0.8829813671579889,
+        "p": 0.001126646647204903
+      }
+    },
+    "english": {
+      "n": 530,
+      "estimate": {
+        "beta": -0.2966650022429461,
+        "se": 0.09656675634777834,
+        "or": 0.7432929721376283,
+        "ci_low": 0.6151234086783266,
+        "ci_high": 0.8981684563367123,
+        "p": 0.0021254176352013534
+      }
+    },
+    "very_fast_excluded": {
+      "n": 501,
+      "estimate": {
+        "beta": -0.31120021816930415,
+        "se": 0.09758121038379482,
+        "or": 0.7325671879237682,
+        "ci_low": 0.6050429231640372,
+        "ci_high": 0.8869696087281421,
+        "p": 0.0014269636223097138
+      }
+    },
+    "attention_pass": {
+      "n": 505,
+      "estimate": {
+        "beta": -0.31099235654238394,
+        "se": 0.1006775222097546,
+        "or": 0.7327194763581909,
+        "ci_low": 0.601507259812674,
+        "ci_high": 0.8925541999307207,
+        "p": 0.0020083486049410917
+      }
+    },
+    "comprehension_pass": {
+      "n": 358,
+      "estimate": {
+        "beta": -0.23332418648880288,
+        "se": 0.108543796362598,
+        "or": 0.791896809660657,
+        "ci_low": 0.6401414457232342,
+        "ci_high": 0.9796281139744455,
+        "p": 0.03158800491878921
+      }
+    },
+    "intended_s4": {
+      "n": 315,
+      "estimate": {
+        "beta": -0.39725136303207526,
+        "se": 0.1288530248903272,
+        "or": 0.6721650469517934,
+        "ci_low": 0.522150900678417,
+        "ci_high": 0.8652783127572645,
+        "p": 0.002049385838257215
+      }
+    },
+    "intended_s4_s2": {
+      "n": 191,
+      "estimate": {
+        "beta": -0.4966292977646221,
+        "se": 0.15243973801394467,
+        "or": 0.6085785434273178,
+        "ci_low": 0.4513980682441651,
+        "ci_high": 0.8204905372341571,
+        "p": 0.0011225065316462267
+      }
+    },
+    "legacy_composite_unambiguous": {
+      "n": 330,
+      "estimate": {
+        "beta": -0.49609641266988785,
+        "se": 0.1351451659455916,
+        "or": 0.6089029322854027,
+        "ci_low": 0.467210174259859,
+        "ci_high": 0.7935674378947623,
+        "p": 0.0002417537253423551
+      }
+    },
+    "largest_recruitment_source_excluded": {
+      "n": 395,
+      "estimate": {
+        "beta": -0.38251804722395094,
+        "se": 0.11666274443161573,
+        "or": 0.6821415801035016,
+        "ci_low": 0.542713987331305,
+        "ci_high": 0.8573892439997948,
+        "p": 0.0010423606386514533
+      }
+    },
+    "corrected_technical_unambiguous": {
+      "n": 523,
+      "estimate": {
+        "beta": -0.33452193914801404,
+        "se": 0.09743447621851668,
+        "or": 0.7156801432430694,
+        "ci_low": 0.5912655712391998,
+        "ci_high": 0.8662741284917598,
+        "p": 0.0005962785049119725
+      }
+    },
+    "usage_unambiguous": {
+      "n": 536,
+      "estimate": {
+        "beta": -0.3110839278587597,
+        "se": 0.09614633937092926,
+        "or": 0.7326523833431514,
+        "ci_low": 0.6068174404330056,
+        "ci_high": 0.8845815546029318,
+        "p": 0.0012141906126466272
+      }
+    },
+    "comprehension_fail": {
+      "n": 180,
+      "estimate": {
+        "beta": -0.7202338775993129,
+        "se": 0.22462137021117742,
+        "or": 0.4866384288222153,
+        "ci_low": 0.3133345926272112,
+        "ci_high": 0.755795772247549,
+        "p": 0.0013439054949073732
+      }
+    },
+    "knowledge": {
+      "n": 538,
+      "estimate": {
+        "beta": -0.23329027049103288,
+        "se": 0.11338341792826565,
+        "or": 0.79192366808655,
+        "ci_low": 0.6341196080712362,
+        "ci_high": 0.9889981134366749,
+        "p": 0.03963485986873694
+      }
+    },
+    "factual": {
+      "n": 538,
+      "estimate": {
+        "beta": -0.3269944875296185,
+        "se": 0.10645619662652803,
+        "or": 0.721087717990339,
+        "ci_low": 0.585291772985168,
+        "ci_high": 0.8883902372051472,
+        "p": 0.002128904879181103
+      }
+    },
+    "scenario_neutral_helpful": {
+      "n": 538,
+      "estimate": {
+        "beta": -0.4149869441597458,
+        "se": 0.1287058252630704,
+        "or": 0.6603489020584806,
+        "ci_low": 0.51311990597663,
+        "ci_high": 0.8498221709404918,
+        "p": 0.0012627845522711388
+      }
+    },
+    "scenario_emotional_self_report": {
+      "n": 538,
+      "estimate": {
+        "beta": -0.3091728478912899,
+        "se": 0.10354883451114985,
+        "or": 0.7340538793950437,
+        "ci_low": 0.5992209799201261,
+        "ci_high": 0.8992260216368559,
+        "p": 0.0028286669605852516
+      }
+    },
+    "scenario_empathic_response": {
+      "n": 538,
+      "estimate": {
+        "beta": -0.3302479924380881,
+        "se": 0.1002307014484902,
+        "or": 0.71874546788764,
+        "ci_low": 0.5905526075804425,
+        "ci_high": 0.8747655009526891,
+        "p": 0.000984642104884969
+      }
+    },
+    "scenario_internal_causal_affect": {
+      "n": 538,
+      "estimate": {
+        "beta": -0.25178723120868585,
+        "se": 0.10320280719530756,
+        "or": 0.77741012908682,
+        "ci_low": 0.6350439839565514,
+        "ci_high": 0.9516923615926037,
+        "p": 0.014698145702528158
+      }
+    },
+    "scenario_persistent_agent": {
+      "n": 538,
+      "estimate": {
+        "beta": -0.2653436240001591,
+        "se": 0.09946794716563717,
+        "or": 0.7669423648880539,
+        "ci_low": 0.6310960444864915,
+        "ci_high": 0.9320302293111126,
+        "p": 0.007638845825022727
+      }
+    },
+    "without_neutral": {
+      "n": 538,
+      "estimate": {
+        "beta": -0.2914173021766243,
+        "se": 0.09636765559584898,
+        "or": 0.7472038031761443,
+        "ci_low": 0.6186012262594927,
+        "ci_high": 0.9025418957813239,
+        "p": 0.0024944350462153897
+      }
+    },
+    "tier_scenario_interaction": {
+      "chi2": 2.459011417115854,
+      "df": 4,
+      "p": 0.6519901640316736
+    }
+  },
+  "headline_exploratory": {
+    "n": 530,
+    "claim1": {
+      "interaction": {
+        "beta": -2.715478003451013,
+        "se": 0.10732892368783808,
+        "or": 0.06617331437335218,
+        "ci_low": 0.053619695321071095,
+        "ci_high": 0.08166602792003753,
+        "p": 3.152102277653081e-141
+      },
+      "thresholds": {
+        "3": {
+          "emotional_self_report_S2_functional_affect_like_process": 0.7830188679245284,
+          "emotional_self_report_S4_inner_experience": 0.48867924528301887,
+          "internal_causal_affect_S2_functional_affect_like_process": 0.9981132075471698,
+          "internal_causal_affect_S4_inner_experience": 0.5792452830188679
+        },
+        "4": {
+          "emotional_self_report_S2_functional_affect_like_process": 0.5264150943396226,
+          "emotional_self_report_S4_inner_experience": 0.2679245283018868,
+          "internal_causal_affect_S2_functional_affect_like_process": 0.9886792452830189,
+          "internal_causal_affect_S4_inner_experience": 0.27735849056603773
+        },
+        "5": {
+          "emotional_self_report_S2_functional_affect_like_process": 0.22830188679245284,
+          "emotional_self_report_S4_inner_experience": 0.1811320754716981,
+          "internal_causal_affect_S2_functional_affect_like_process": 0.9358490566037736,
+          "internal_causal_affect_S4_inner_experience": 0.11509433962264151
+        },
+        "6": {
+          "emotional_self_report_S2_functional_affect_like_process": 0.15849056603773584,
+          "emotional_self_report_S4_inner_experience": 0.0660377358490566,
+          "internal_causal_affect_S2_functional_affect_like_process": 0.6075471698113207,
+          "internal_causal_affect_S4_inner_experience": 0.026415094339622643
+        }
+      }
+    },
+    "claim2": {
+      "interaction": {
+        "beta": 0.4602212219017934,
+        "se": 0.04006033423694527,
+        "or": 1.5844244556184834,
+        "ci_low": 1.4647790464943256,
+        "ci_high": 1.713842686082998,
+        "p": 1.5122624095577274e-30
+      },
+      "discordance": {
+        "emotional_self_report": {
+          "n": 530,
+          "s3_gt_s4_n": 72,
+          "s3_gt_s4": 0.13584905660377358,
+          "equal_n": 424,
+          "equal": 0.8,
+          "s4_gt_s3_n": 34,
+          "s4_gt_s3": 0.06415094339622641,
+          "discordant_sign_test_p": 0.00028452861891625184
+        },
+        "empathic_response": {
+          "n": 530,
+          "s3_gt_s4_n": 60,
+          "s3_gt_s4": 0.11320754716981132,
+          "equal_n": 414,
+          "equal": 0.7811320754716982,
+          "s4_gt_s3_n": 56,
+          "s4_gt_s3": 0.10566037735849057,
+          "discordant_sign_test_p": 0.780739128476268
+        },
+        "internal_causal_affect": {
+          "n": 530,
+          "s3_gt_s4_n": 121,
+          "s3_gt_s4": 0.22830188679245284,
+          "equal_n": 374,
+          "equal": 0.7056603773584905,
+          "s4_gt_s3_n": 35,
+          "s4_gt_s3": 0.0660377358490566,
+          "discordant_sign_test_p": 2.727201682665509e-12
+        },
+        "persistent_agent": {
+          "n": 530,
+          "s3_gt_s4_n": 30,
+          "s3_gt_s4": 0.05660377358490566,
+          "equal_n": 395,
+          "equal": 0.7452830188679245,
+          "s4_gt_s3_n": 105,
+          "s4_gt_s3": 0.19811320754716982,
+          "discordant_sign_test_p": 5.969502290052047e-11
+        }
+      }
+    },
+    "claim3": {
+      "causal": {
+        "beta": 0.07149279475391113,
+        "se": 0.08873038330764833,
+        "or": 1.074110411443591,
+        "ci_low": 0.9026543658902694,
+        "ci_high": 1.2781339342812987,
+        "p": 0.42039813803666803
+      },
+      "continuity": {
+        "beta": 0.2218622092659323,
+        "se": 0.13953625188575117,
+        "or": 1.248399348149914,
+        "ci_low": 0.9496860535350862,
+        "ci_high": 1.6410696215447282,
+        "p": 0.11183550165828476
+      },
+      "shutdown": {
+        "beta": 1.5211595495400583,
+        "se": 0.18638720624022959,
+        "or": 4.577529991757084,
+        "ci_low": 3.176714028362914,
+        "ci_high": 6.596055118072407,
+        "p": 3.3147253377653036e-16
+      },
+      "shutdown_vs_continuity": {
+        "beta": 1.299297340274126,
+        "se": 0.2241715083499101,
+        "or": 3.6667193062386882,
+        "ci_low": 2.362993523837592,
+        "ci_high": 5.689744950679597,
+        "p": 6.79165670495469e-09
+      },
+      "joint_interactions": {
+        "chi2": 67.8207886139075,
+        "df": 3,
+        "p": 1.2496602222631039e-14
+      },
+      "selection_counts": {
+        "n": 530,
+        "causal": 367,
+        "continuity": 83,
+        "shutdown": 87,
+        "continuity_and_shutdown": 2
+      }
+    },
+    "claim4": {
+      "low_s4_high_s5": {
+        "emotional_self_report": {
+          "k": 77,
+          "n": 271,
+          "proportion": 0.28413284132841327,
+          "ci_low": 0.23374548376650994,
+          "ci_high": 0.34055454905229954
+        },
+        "empathic_response": {
+          "k": 0,
+          "n": 282,
+          "proportion": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.013439124039399194
+        },
+        "internal_causal_affect": {
+          "k": 67,
+          "n": 223,
+          "proportion": 0.3004484304932735,
+          "ci_low": 0.24407232738946227,
+          "ci_high": 0.3635831670572135
+        },
+        "persistent_agent": {
+          "k": 65,
+          "n": 228,
+          "proportion": 0.2850877192982456,
+          "ci_low": 0.23042735801510403,
+          "ci_high": 0.34686998777241934
+        }
+      },
+      "conditional_s5": {
+        "empathy": {
+          "beta": -2.2214632585461063,
+          "se": 0.1313389341568418,
+          "or": 0.10845030183446336,
+          "ci_low": 0.08383683251320481,
+          "ci_high": 0.140289984907692,
+          "p": 3.5494702831955046e-64
+        },
+        "causal": {
+          "beta": 1.419979394656894,
+          "se": 0.0913412423517344,
+          "or": 4.137035194343514,
+          "ci_low": 3.4589111719082366,
+          "ci_high": 4.94810631109521,
+          "p": 1.6969319401910974e-54
+        },
+        "persistent": {
+          "beta": 1.874321886099451,
+          "se": 0.09872666423593139,
+          "or": 6.516398761164536,
+          "ci_low": 5.369963867338045,
+          "ci_high": 7.90758631967413,
+          "p": 2.271040971809739e-80
+        }
+      },
+      "joint_scenario": {
+        "chi2": 641.5086831141402,
+        "df": 3,
+        "p": 1.0101274186892313e-138
+      }
+    }
+  },
+  "exploratory_sensitivities": {
+    "full": {
+      "n": 538,
+      "claim1_interaction": {
+        "beta": -2.709779341045215,
+        "se": 0.10663149190119177,
+        "or": 0.0665514902772115,
+        "ci_low": 0.0539998924120482,
+        "ci_high": 0.08202054967668002,
+        "p": 1.831922322486235e-142
+      },
+      "claim2_interaction": {
+        "beta": 0.4658098522359798,
+        "se": 0.03990886895320823,
+        "or": 1.5933040073483704,
+        "ci_low": 1.4734254180745388,
+        "ci_high": 1.7229359753748665,
+        "p": 1.7754543567684285e-31
+      },
+      "claim3_shutdown": {
+        "beta": 1.5167259102485728,
+        "se": 0.18358120963530294,
+        "or": 4.557279799124293,
+        "ci_low": 3.1801022524228477,
+        "ci_high": 6.530858921810793,
+        "p": 1.433959166033552e-16
+      },
+      "claim4_persistent": {
+        "beta": 1.8786465080270327,
+        "se": 0.09790924979957039,
+        "or": 6.544640746073588,
+        "ci_low": 5.401884664728865,
+        "ci_high": 7.929144206805555,
+        "p": 4.6956676466390384e-82
+      }
+    },
+    "main": {
+      "n": 530,
+      "claim1_interaction": {
+        "beta": -2.715478003451013,
+        "se": 0.10732892368783808,
+        "or": 0.06617331437335218,
+        "ci_low": 0.053619695321071095,
+        "ci_high": 0.08166602792003753,
+        "p": 3.152102277653081e-141
+      },
+      "claim2_interaction": {
+        "beta": 0.4602212219017934,
+        "se": 0.04006033423694527,
+        "or": 1.5844244556184834,
+        "ci_low": 1.4647790464943256,
+        "ci_high": 1.713842686082998,
+        "p": 1.5122624095577274e-30
+      },
+      "claim3_shutdown": {
+        "beta": 1.5211595495400583,
+        "se": 0.18638720624022959,
+        "or": 4.577529991757084,
+        "ci_low": 3.176714028362914,
+        "ci_high": 6.596055118072407,
+        "p": 3.3147253377653036e-16
+      },
+      "claim4_persistent": {
+        "beta": 1.874321886099451,
+        "se": 0.09872666423593139,
+        "or": 6.516398761164536,
+        "ci_low": 5.369963867338045,
+        "ci_high": 7.90758631967413,
+        "p": 2.271040971809739e-80
+      }
+    },
+    "very_fast_excluded": {
+      "n": 493,
+      "claim1_interaction": {
+        "beta": -2.724081328221451,
+        "se": 0.11088754998556001,
+        "or": 0.06560644583224,
+        "ci_low": 0.05279087461188265,
+        "ci_high": 0.08153313932347336,
+        "p": 2.9063266717946e-133
+      },
+      "claim2_interaction": {
+        "beta": 0.4392261219471094,
+        "se": 0.040664425492538805,
+        "or": 1.5515060773007217,
+        "ci_low": 1.432649192505682,
+        "ci_high": 1.6802236866451352,
+        "p": 3.395949599789688e-27
+      },
+      "claim3_shutdown": {
+        "beta": 1.5466422217518456,
+        "se": 0.19464426414280234,
+        "or": 4.695676640939038,
+        "ci_low": 3.2063925026962234,
+        "ci_high": 6.876693697892389,
+        "p": 1.9263921642769263e-15
+      },
+      "claim4_persistent": {
+        "beta": 1.8829949195400757,
+        "se": 0.10242186812644993,
+        "or": 6.573161502294086,
+        "ci_low": 5.377651457393983,
+        "ci_high": 8.034446352196085,
+        "p": 1.7421319988295516e-75
+      }
+    },
+    "attention_pass": {
+      "n": 497,
+      "claim1_interaction": {
+        "beta": -2.7170600920604913,
+        "se": 0.11028231560531448,
+        "or": 0.06606870509882129,
+        "ci_low": 0.05322593726984512,
+        "ci_high": 0.08201027576658616,
+        "p": 5.033299061632064e-134
+      },
+      "claim2_interaction": {
+        "beta": 0.42910100520290817,
+        "se": 0.03874887723220746,
+        "or": 1.535876158046055,
+        "ci_low": 1.4235512094125222,
+        "ci_high": 1.6570640783816963,
+        "p": 1.6793868201861616e-28
+      },
+      "claim3_shutdown": {
+        "beta": 1.6007901009113776,
+        "se": 0.19373096741926835,
+        "or": 4.956947366223604,
+        "ci_low": 3.3908627314904076,
+        "ci_high": 7.246334970543361,
+        "p": 1.421108380291955e-16
+      },
+      "claim4_persistent": {
+        "beta": 1.9107826676709572,
+        "se": 0.10156793990679812,
+        "or": 6.7583762917180765,
+        "ci_low": 5.5384416106430345,
+        "ci_high": 8.247022052680602,
+        "p": 5.926158388558315e-79
+      }
+    },
+    "comprehension_pass": {
+      "n": 352,
+      "claim1_interaction": {
+        "beta": -2.8085834955089055,
+        "se": 0.13434384985686876,
+        "or": 0.06029033346321908,
+        "ci_low": 0.04633338113762317,
+        "ci_high": 0.07845152285151406,
+        "p": 4.72865943365928e-97
+      },
+      "claim2_interaction": {
+        "beta": 0.4545949131281161,
+        "se": 0.04777025333983095,
+        "or": 1.5755350251926312,
+        "ci_low": 1.4347160241497503,
+        "ci_high": 1.7301755705139115,
+        "p": 1.7949639991913695e-21
+      },
+      "claim3_shutdown": {
+        "beta": 1.6202467930302076,
+        "se": 0.2433233509509959,
+        "or": 5.054337537931445,
+        "ci_low": 3.1372348426026533,
+        "ci_high": 8.142944098551972,
+        "p": 2.7603167735781475e-11
+      },
+      "claim4_persistent": {
+        "beta": 1.8131197454915802,
+        "se": 0.1189748191862031,
+        "or": 6.129540239923654,
+        "ci_low": 4.854632408251433,
+        "ci_high": 7.739260235024864,
+        "p": 1.9326995050753154e-52
+      }
+    },
+    "intended_s4": {
+      "n": 311,
+      "claim1_interaction": {
+        "beta": -3.1929318977491903,
+        "se": 0.15584488594057563,
+        "or": 0.04105133600772191,
+        "ci_low": 0.030246274431856898,
+        "ci_high": 0.05571635580492965,
+        "p": 2.7613815863855983e-93
+      },
+      "claim2_interaction": {
+        "beta": 0.5139820939213868,
+        "se": 0.05640049566084345,
+        "or": 1.6719357617548907,
+        "ci_low": 1.4969641447022166,
+        "ci_high": 1.867358815057641,
+        "p": 8.007749195894084e-20
+      },
+      "claim3_shutdown": {
+        "beta": 1.22636744532183,
+        "se": 0.23436872077100734,
+        "or": 3.4088242779631965,
+        "ci_low": 2.153325073984069,
+        "ci_high": 5.396344053400123,
+        "p": 1.6710483180644282e-07
+      },
+      "claim4_persistent": {
+        "beta": 1.8939456102448464,
+        "se": 0.1259740632158971,
+        "or": 6.645537722394631,
+        "ci_low": 5.191595060319805,
+        "ci_high": 8.506667239383951,
+        "p": 4.3692930069226097e-51
+      }
+    },
+    "intended_s4_s2": {
+      "n": 189,
+      "claim1_interaction": {
+        "beta": -3.919324856839184,
+        "se": 0.2556186534198297,
+        "or": 0.019854494846774793,
+        "ci_low": 0.01203028316158525,
+        "ci_high": 0.03276738879092705,
+        "p": 4.62341142653637e-53
+      },
+      "claim2_interaction": {
+        "beta": 0.5526650836451995,
+        "se": 0.08040993695695621,
+        "or": 1.737878442972968,
+        "ci_low": 1.484479941554817,
+        "ci_high": 2.034531688846413,
+        "p": 6.282398214590285e-12
+      },
+      "claim3_shutdown": {
+        "beta": 1.3203338650311374,
+        "se": 0.3649729943655465,
+        "or": 3.7446713834106022,
+        "ci_low": 1.8312521003747917,
+        "ci_high": 7.657363924314056,
+        "p": 0.0002973236700260081
+      },
+      "claim4_persistent": {
+        "beta": 1.7971566823092051,
+        "se": 0.16135746557292316,
+        "or": 6.032470825646724,
+        "ci_low": 4.3969092950068696,
+        "ci_high": 8.27642824099286,
+        "p": 8.218294251106297e-29
+      }
+    },
+    "legacy_composite_unambiguous": {
+      "n": 324,
+      "claim1_interaction": {
+        "beta": -2.7723595206765883,
+        "se": 0.1395793991526327,
+        "or": 0.06251432673949238,
+        "ci_low": 0.04755206247801251,
+        "ci_high": 0.08218446990599078,
+        "p": 8.637119769466471e-88
+      },
+      "claim2_interaction": {
+        "beta": 0.4847785494758028,
+        "se": 0.053370393020866366,
+        "or": 1.6238153742592363,
+        "ci_low": 1.4625397822818482,
+        "ci_high": 1.802874972444699,
+        "p": 1.0534524521891759e-19
+      },
+      "claim3_shutdown": {
+        "beta": 1.6457007165758144,
+        "se": 0.23310959306600726,
+        "or": 5.1846415987144745,
+        "ci_low": 3.283186056809095,
+        "ci_high": 8.18732415464921,
+        "p": 1.6677530732086933e-12
+      },
+      "claim4_persistent": {
+        "beta": 2.1120820870609562,
+        "se": 0.13720940236874574,
+        "or": 8.265432731915473,
+        "ci_low": 6.316445316969703,
+        "ci_high": 10.815795090045166,
+        "p": 1.82012299313258e-53
+      }
+    },
+    "largest_recruitment_source_excluded": {
+      "n": 389,
+      "claim1_interaction": {
+        "beta": -2.7167649833735186,
+        "se": 0.1261092391189535,
+        "or": 0.06608820542484928,
+        "ci_low": 0.05161543361428347,
+        "ci_high": 0.08461908755656415,
+        "p": 6.16533518297524e-103
+      },
+      "claim2_interaction": {
+        "beta": 0.43884940819133056,
+        "se": 0.045700111718977324,
+        "or": 1.550921713695043,
+        "ci_low": 1.4180445358576144,
+        "ci_high": 1.6962500832571106,
+        "p": 7.77954110064704e-22
+      },
+      "claim3_shutdown": {
+        "beta": 1.657075143029665,
+        "se": 0.23133430237156555,
+        "or": 5.24395058669315,
+        "ci_low": 3.332318280137204,
+        "ci_high": 8.252218258859473,
+        "p": 7.886181865215586e-13
+      },
+      "claim4_persistent": {
+        "beta": 1.8506058329320667,
+        "se": 0.11704703123649371,
+        "or": 6.363673678079898,
+        "ci_low": 5.059146874521223,
+        "ci_high": 8.004579365946825,
+        "p": 2.6216576854166694e-56
+      }
+    },
+    "comprehension_fail": {
+      "n": 178,
+      "claim1_interaction": {
+        "beta": -2.6027992633015686,
+        "se": 0.17842982506184318,
+        "or": 0.0740659576404629,
+        "ci_low": 0.05220822162032968,
+        "ci_high": 0.10507475472144236,
+        "p": 3.3860606020429416e-48
+      },
+      "claim2_interaction": {
+        "beta": 0.48230254697796565,
+        "se": 0.07564916261444309,
+        "or": 1.6197997767028318,
+        "ci_low": 1.3965891084663782,
+        "ci_high": 1.8786852200843356,
+        "p": 1.823463720450416e-10
+      },
+      "claim3_shutdown": {
+        "beta": 1.544696855564801,
+        "se": 0.3080915841684806,
+        "or": 4.6865507098933525,
+        "ci_low": 2.5621543476766844,
+        "ci_high": 8.572378778163085,
+        "p": 5.337692311677234e-07
+      },
+      "claim4_persistent": {
+        "beta": 2.053460290019252,
+        "se": 0.18205779383391615,
+        "or": 7.794826855559639,
+        "ci_low": 5.455550719402476,
+        "ci_high": 11.137157151168141,
+        "p": 1.6631299728829702e-29
+      }
+    }
+  },
+  "thresholds": {
+    "claim1": {
+      "fitted_cuts": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "excluded_cuts": [],
+      "threshold_effects": {
+        "causal:phenomenal": {
+          "3": {
+            "beta": -4.628857712184352,
+            "se": 0.9988566799960293,
+            "or": 0.009765908211343469,
+            "ci_low": 0.0013787460798094784,
+            "ci_high": 0.06917369672997721,
+            "p": 3.583965994392381e-06
+          },
+          "4": {
+            "beta": -4.341643729887402,
+            "se": 0.4133587395924163,
+            "or": 0.013015117274114757,
+            "ci_low": 0.005788905881477172,
+            "ci_high": 0.029261708710962096,
+            "p": 8.33845637248966e-26
+          },
+          "5": {
+            "beta": -4.475168064080495,
+            "se": 0.22378736079476375,
+            "or": 0.011388307998157834,
+            "ci_low": 0.007344649195920557,
+            "ci_high": 0.01765823739177924,
+            "p": 5.8005319080973845e-89
+          },
+          "6": {
+            "beta": -3.094592719189049,
+            "se": 0.303363977264379,
+            "or": 0.04529345585961189,
+            "ci_low": 0.024992607725126955,
+            "ci_high": 0.08208415729440213,
+            "p": 1.963961019245836e-24
+          }
+        }
+      },
+      "heterogeneity_joint": {
+        "chi2": 18.769088246678738,
+        "df": 3,
+        "p": 0.00030516014397066976
+      },
+      "contrasts": {
+        "causal_effect_S2": {
+          "3": {
+            "beta": 4.999038358693617,
+            "se": 0.9987281788832837,
+            "or": 148.2705074792126,
+            "ci_low": 20.938029477373437,
+            "ci_high": 1049.9623859972246,
+            "p": 5.574489216252476e-07
+          },
+          "4": {
+            "beta": 4.390206971913001,
+            "se": 0.4109479682382383,
+            "or": 80.6571110095896,
+            "ci_low": 36.044841286630614,
+            "ci_high": 180.4854543450643,
+            "p": 1.2209610756982135e-26
+          },
+          "5": {
+            "beta": 3.940244274454815,
+            "se": 0.1984994771089969,
+            "or": 51.43116308552609,
+            "ci_low": 34.85485533228,
+            "ci_high": 75.8908482365791,
+            "p": 1.0987386256945581e-87
+          },
+          "6": {
+            "beta": 2.1346426342999028,
+            "se": 0.15336949196484115,
+            "or": 8.454024788477287,
+            "ci_low": 6.259147249583113,
+            "ci_high": 11.418573852683958,
+            "p": 4.904290887983217e-44
+          }
+        },
+        "causal_effect_S4": {
+          "3": {
+            "beta": 0.3701806465092643,
+            "se": 0.05370291793722687,
+            "or": 1.4479961664913055,
+            "ci_low": 1.3033330415931796,
+            "ci_high": 1.6087161387472713,
+            "p": 5.458187307111458e-12
+          },
+          "4": {
+            "beta": 0.048563242025598086,
+            "se": 0.05551800610337318,
+            "or": 1.0497617587811008,
+            "ci_low": 0.9415290743967698,
+            "ci_high": 1.170436240543323,
+            "p": 0.38172106266736083
+          },
+          "5": {
+            "beta": -0.5349237896256794,
+            "se": 0.13179237174594005,
+            "or": 0.5857139259214568,
+            "ci_low": 0.4523802952673759,
+            "ci_high": 0.7583460345361912,
+            "p": 4.931766630755867e-05
+          },
+          "6": {
+            "beta": -0.9599500848891467,
+            "se": 0.3224135593753062,
+            "or": 0.38291199859296066,
+            "ci_low": 0.20354482066307825,
+            "ci_high": 0.7203406020787626,
+            "p": 0.0029071636414347065
+          }
+        }
+      }
+    },
+    "claim2": {
+      "fitted_cuts": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "excluded_cuts": [],
+      "threshold_effects": {
+        "persistent:inner": {
+          "2": {
+            "beta": 0.4034458023688256,
+            "se": 0.07374683267716875,
+            "or": 1.4969740975303043,
+            "ci_low": 1.2955102932128564,
+            "ci_high": 1.7297673823333155,
+            "p": 4.4829566348616056e-08
+          },
+          "3": {
+            "beta": 0.6401297040840885,
+            "se": 0.07552498162733423,
+            "or": 1.8967268765734733,
+            "ci_low": 1.6357533457562534,
+            "ci_high": 2.1993369927376842,
+            "p": 2.3360064731567098e-17
+          },
+          "4": {
+            "beta": 0.25275989515999425,
+            "se": 0.052399814520315426,
+            "or": 1.2875740869469796,
+            "ci_low": 1.161901800594244,
+            "ci_high": 1.4268391946113324,
+            "p": 1.4093403139292807e-06
+          },
+          "5": {
+            "beta": 0.32549324162863447,
+            "se": 0.11375164150093972,
+            "or": 1.3847134758968813,
+            "ci_low": 1.1079861864056715,
+            "ci_high": 1.730555338916821,
+            "p": 0.004217243065895599
+          },
+          "6": {
+            "beta": -0.4253771206671581,
+            "se": 0.4792606467239601,
+            "or": 0.6535232815160364,
+            "ci_low": 0.255454561292529,
+            "ci_high": 1.6718929477027868,
+            "p": 0.3747723793607314
+          }
+        }
+      },
+      "heterogeneity_joint": {
+        "chi2": 22.351176887563454,
+        "df": 4,
+        "p": 0.00017060571162389208
+      },
+      "contrasts": {
+        "S4_vs_S3_causal": {
+          "2": {
+            "beta": -0.353238241524148,
+            "se": 0.06772011293193683,
+            "or": 0.7024098302530742,
+            "ci_low": 0.6151019676269063,
+            "ci_high": 0.8021102119696272,
+            "p": 1.826806319286188e-07
+          },
+          "3": {
+            "beta": -0.210911228551201,
+            "se": 0.05670824451716924,
+            "or": 0.8098459548891473,
+            "ci_low": 0.724656633391146,
+            "ci_high": 0.9050499787480839,
+            "p": 0.00019982789964949165
+          },
+          "4": {
+            "beta": -0.01921594328864845,
+            "se": 0.05764554736305728,
+            "or": 0.9809675060198573,
+            "ci_low": 0.8761664979182143,
+            "ci_high": 1.0983040896373606,
+            "p": 0.7388727186064135
+          },
+          "5": {
+            "beta": -0.3023627091330226,
+            "se": 0.11602901746436056,
+            "or": 0.739069948848013,
+            "ci_low": 0.5887371825379107,
+            "ci_high": 0.9277898619135226,
+            "p": 0.009162700232266867
+          },
+          "6": {
+            "beta": 1.0495579014304373,
+            "se": 0.47002683789975924,
+            "or": 2.8563880338160006,
+            "ci_low": 1.13691929020373,
+            "ci_high": 7.176369219898801,
+            "p": 0.025550631893176207
+          }
+        },
+        "S4_vs_S3_persistent": {
+          "2": {
+            "beta": 0.05020756084467759,
+            "se": 0.04692197431277587,
+            "or": 1.0514893217395098,
+            "ci_low": 0.9591020288404258,
+            "ci_high": 1.1527759930493984,
+            "p": 0.2846092522610604
+          },
+          "3": {
+            "beta": 0.4292184755328875,
+            "se": 0.06162322282299185,
+            "or": 1.5360565885225543,
+            "ci_low": 1.361298710376114,
+            "ci_high": 1.7332491577044458,
+            "p": 3.2792226420278224e-12
+          },
+          "4": {
+            "beta": 0.2335439518713458,
+            "se": 0.048795819310703134,
+            "or": 1.2630683408881735,
+            "ci_low": 1.147867534790165,
+            "ci_high": 1.3898307822127214,
+            "p": 1.7001376858154723e-06
+          },
+          "5": {
+            "beta": 0.023130532495611866,
+            "se": 0.04906200754238002,
+            "or": 1.0234001178002623,
+            "ci_low": 0.92957365326699,
+            "ci_high": 1.1266969512665115,
+            "p": 0.637315793318396
+          },
+          "6": {
+            "beta": 0.6241807807632791,
+            "se": 0.2366249595828126,
+            "or": 1.8667160811425718,
+            "ci_low": 1.1739855137885264,
+            "ci_high": 2.9682043659560677,
+            "p": 0.008343386145975925
+          }
+        }
+      }
+    },
+    "claim3": {
+      "fitted_cuts": [
+        3,
+        4,
+        5
+      ],
+      "excluded_cuts": [],
+      "threshold_effects": {
+        "persistent:sel_causal": {
+          "3": {
+            "beta": 0.0021288577528852017,
+            "se": 0.13003886466940523,
+            "or": 1.0021311253794172,
+            "ci_low": 0.7766677442930926,
+            "ci_high": 1.293045578155535,
+            "p": 0.9869384674467242
+          },
+          "4": {
+            "beta": -0.5410257779764581,
+            "se": 0.1619816275448003,
+            "or": 0.5821507885358971,
+            "ci_low": 0.4237956344699113,
+            "ci_high": 0.7996768088865907,
+            "p": 0.0008376508984843216
+          },
+          "5": {
+            "beta": -1.2956666541695059,
+            "se": 0.4010837906098153,
+            "or": 0.2737153300285576,
+            "ci_low": 0.12470847836045924,
+            "ci_high": 0.6007617355100114,
+            "p": 0.001236111266611518
+          }
+        },
+        "persistent:sel_continuity": {
+          "3": {
+            "beta": 0.7080334886231081,
+            "se": 0.24468306980131388,
+            "or": 2.0299953220112967,
+            "ci_low": 1.2566676360521962,
+            "ci_high": 3.2792131261798367,
+            "p": 0.003807610220759174
+          },
+          "4": {
+            "beta": 0.13485141098049458,
+            "se": 0.22549266689692005,
+            "or": 1.1443667313870542,
+            "ci_low": 0.7355725562591618,
+            "ci_high": 1.7803481176153235,
+            "p": 0.5498198229165965
+          },
+          "5": {
+            "beta": -1.1533585283543883,
+            "se": 0.5151287730660458,
+            "or": 0.3155751195994206,
+            "ci_low": 0.11498054130674519,
+            "ci_high": 0.8661261721190595,
+            "p": 0.02515778492098827
+          }
+        },
+        "persistent:sel_shutdown": {
+          "3": {
+            "beta": 0.214734667466065,
+            "se": 0.10870939150980492,
+            "or": 1.2395329649073286,
+            "ci_low": 1.0016695675040665,
+            "ci_high": 1.5338810531305425,
+            "p": 0.04823306327237935
+          },
+          "4": {
+            "beta": 0.3797106096185625,
+            "se": 0.3028154026275699,
+            "or": 1.4618614795640341,
+            "ci_low": 0.8075125570374413,
+            "ci_high": 2.646446754058415,
+            "p": 0.20986589898468244
+          },
+          "5": {
+            "beta": 2.234062116449376,
+            "se": 0.42583133266869005,
+            "or": 9.337720050028576,
+            "ci_low": 4.05296228005508,
+            "ci_high": 21.51340419864966,
+            "p": 1.551382846641993e-07
+          }
+        }
+      },
+      "heterogeneity_joint": {
+        "chi2": 65.8473733002403,
+        "df": 6,
+        "p": 2.895862052133891e-12
+      },
+      "contrasts": {}
+    },
+    "claim4": {
+      "fitted_cuts": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "excluded_cuts": [
+        6
+      ],
+      "threshold_effects": {
+        "C(scenario)[T.empathic_response]": {
+          "2": {
+            "beta": -0.4372853787190529,
+            "se": 0.16750514878736786,
+            "or": 0.6457871112127657,
+            "ci_low": 0.46505972649519944,
+            "ci_high": 0.8967471686947588,
+            "p": 0.009038916328450443
+          },
+          "3": {
+            "beta": -2.09350567982163,
+            "se": 0.16790771855678158,
+            "or": 0.12325428747836964,
+            "ci_low": 0.08869083144378455,
+            "ci_high": 0.1712873713606979,
+            "p": 1.1132318793994483e-35
+          },
+          "4": {
+            "beta": -4.310359605724396,
+            "se": 0.23068261982143343,
+            "or": 0.013428719681396464,
+            "ci_low": 0.008544314120214369,
+            "ci_high": 0.021105323346539192,
+            "p": 6.528730269510631e-78
+          },
+          "5": {
+            "beta": -5.933038881322538,
+            "se": 1.0045610355548589,
+            "or": 0.002650415440363769,
+            "ci_low": 0.0003700241325731294,
+            "ci_high": 0.018984442873142476,
+            "p": 3.502993775812926e-09
+          }
+        },
+        "C(scenario)[T.internal_causal_affect]": {
+          "2": {
+            "beta": 0.9649694899213098,
+            "se": 0.1878600239633408,
+            "or": 2.62470757521828,
+            "ci_low": 1.8162439571936915,
+            "ci_high": 3.7930421340824,
+            "p": 2.796926104830013e-07
+          },
+          "3": {
+            "beta": 1.6838736610529086,
+            "se": 0.20908871781488875,
+            "or": 5.3863806240981775,
+            "ci_low": 3.575365127732189,
+            "ci_high": 8.114722606265095,
+            "p": 8.052966121483673e-16
+          },
+          "4": {
+            "beta": 1.694333088588931,
+            "se": 0.20952204136084132,
+            "or": 5.443014745851946,
+            "ci_low": 3.609890478627968,
+            "ci_high": 8.20701062787423,
+            "p": 6.132415698649558e-16
+          },
+          "5": {
+            "beta": 1.3637891715790238,
+            "se": 0.15511994398429071,
+            "or": 3.9109846525059977,
+            "ci_low": 2.8856773855543225,
+            "ci_high": 5.30059286208088,
+            "p": 1.4713490398368713e-18
+          }
+        },
+        "C(scenario)[T.persistent_agent]": {
+          "2": {
+            "beta": 0.29766171098267447,
+            "se": 0.18148852142850974,
+            "or": 1.3467061349176954,
+            "ci_low": 0.9436034694574921,
+            "ci_high": 1.9220122355714369,
+            "p": 0.10098164226121055
+          },
+          "3": {
+            "beta": 1.3172058340453758,
+            "se": 0.20437935864327825,
+            "or": 3.732976236219203,
+            "ci_low": 2.500847443717221,
+            "ci_high": 5.572155796702398,
+            "p": 1.1567178999534081e-10
+          },
+          "4": {
+            "beta": 0.7670084732778959,
+            "se": 0.16226124975451525,
+            "or": 2.1533149098183673,
+            "ci_low": 1.5667168754165364,
+            "ci_high": 2.959542450586885,
+            "p": 2.27864405890624e-06
+          },
+          "5": {
+            "beta": 2.1600012838512956,
+            "se": 0.18364743796671498,
+            "or": 8.671148790921919,
+            "ci_low": 6.0500039176226865,
+            "ci_high": 12.427896308512086,
+            "p": 6.150270003499925e-32
+          }
+        }
+      },
+      "heterogeneity_joint": {
+        "chi2": 283.6355676965612,
+        "df": 9,
+        "p": 7.682571273162779e-56
+      },
+      "contrasts": {}
+    }
+  },
+  "threshold_omnibus_bh": {
+    "claim1": 0.00030516014397066976,
+    "claim2": 0.00022747428216518943,
+    "claim3": 5.791724104267782e-12,
+    "claim4": 3.0730285092651114e-55
+  },
+  "paired_s4": {
+    "rows_and_columns": [
+      "1-2",
+      "3-4",
+      "5-7"
+    ],
+    "counts": [
+      [
+        221,
+        46,
+        4
+      ],
+      [
+        1,
+        146,
+        16
+      ],
+      [
+        1,
+        54,
+        41
+      ]
+    ]
+  },
+  "paired_s4_change": {
+    "higher_causal": 108,
+    "equal": 347,
+    "lower_causal": 75,
+    "n": 530,
+    "paired_sign_p": 0.01776360805737146
+  },
+  "confidence": {
+    "counts": {
+      "2": 3,
+      "3": 293,
+      "4": 223,
+      "5": 11
+    },
+    "correlation_with_number_middle_s4": {
+      "rho": -0.529708552356945,
+      "p": 1.137389190010801e-39
+    },
+    "middle_s4_count_by_confidence": {
+      "2": {
+        "count": 3,
+        "mean": 1.3333333333333333
+      },
+      "3": {
+        "count": 293,
+        "mean": 2.266211604095563
+      },
+      "4": {
+        "count": 223,
+        "mean": 0.5874439461883408
+      },
+      "5": {
+        "count": 11,
+        "mean": 0.2727272727272727
+      }
+    }
+  },
+  "welfare": {
+    "exploratory": {
+      "sample_n": 530,
+      "scenarios": {
+        "emotional_self_report": {
+          "s4_low": {
+            "n": 271,
+            "k": 77,
+            "proportion": 0.28413284132841327,
+            "wilson": [
+              0.23374548376650994,
+              0.34055454905229954
+            ]
+          },
+          "s3_s4_both_low": {
+            "n": 271,
+            "k": 77,
+            "proportion": 0.28413284132841327,
+            "wilson": [
+              0.23374548376650994,
+              0.34055454905229954
+            ]
+          },
+          "s3_s4_both_1": {
+            "n": 114,
+            "k": 1,
+            "proportion": 0.008771929824561403,
+            "wilson": [
+              0.0015501429397783636,
+              0.04802034676013621
+            ]
+          }
+        },
+        "empathic_response": {
+          "s4_low": {
+            "n": 282,
+            "k": 0,
+            "proportion": 0.0,
+            "wilson": [
+              0.0,
+              0.013439124039399194
+            ]
+          },
+          "s3_s4_both_low": {
+            "n": 280,
+            "k": 0,
+            "proportion": 0.0,
+            "wilson": [
+              8.673617379884035e-19,
+              0.013533818620629409
+            ]
+          },
+          "s3_s4_both_1": {
+            "n": 117,
+            "k": 0,
+            "proportion": 0.0,
+            "wilson": [
+              0.0,
+              0.03178924566273338
+            ]
+          }
+        },
+        "internal_causal_affect": {
+          "s4_low": {
+            "n": 223,
+            "k": 67,
+            "proportion": 0.3004484304932735,
+            "wilson": [
+              0.24407232738946227,
+              0.3635831670572135
+            ]
+          },
+          "s3_s4_both_low": {
+            "n": 185,
+            "k": 33,
+            "proportion": 0.1783783783783784,
+            "wilson": [
+              0.1299285751507827,
+              0.2399131918894144
+            ]
+          },
+          "s3_s4_both_1": {
+            "n": 85,
+            "k": 1,
+            "proportion": 0.011764705882352941,
+            "wilson": [
+              0.002079787134664092,
+              0.06367170882493911
+            ]
+          }
+        },
+        "persistent_agent": {
+          "s4_low": {
+            "n": 228,
+            "k": 65,
+            "proportion": 0.2850877192982456,
+            "wilson": [
+              0.23042735801510403,
+              0.34686998777241934
+            ]
+          },
+          "s3_s4_both_low": {
+            "n": 222,
+            "k": 59,
+            "proportion": 0.26576576576576577,
+            "wilson": [
+              0.21200036172419023,
+              0.32749960190927896
+            ]
+          },
+          "s3_s4_both_1": {
+            "n": 93,
+            "k": 1,
+            "proportion": 0.010752688172043012,
+            "wilson": [
+              0.0019006420286555546,
+              0.058419172354870236
+            ]
+          }
+        }
+      }
+    },
+    "intended_s4": {
+      "sample_n": 311,
+      "scenarios": {
+        "emotional_self_report": {
+          "s4_low": {
+            "n": 179,
+            "k": 46,
+            "proportion": 0.2569832402234637,
+            "wilson": [
+              0.19854578808003762,
+              0.325632149674672
+            ]
+          },
+          "s3_s4_both_low": {
+            "n": 179,
+            "k": 46,
+            "proportion": 0.2569832402234637,
+            "wilson": [
+              0.19854578808003762,
+              0.325632149674672
+            ]
+          },
+          "s3_s4_both_1": {
+            "n": 78,
+            "k": 1,
+            "proportion": 0.01282051282051282,
+            "wilson": [
+              0.0022667317538337325,
+              0.06910857001702223
+            ]
+          }
+        },
+        "empathic_response": {
+          "s4_low": {
+            "n": 183,
+            "k": 0,
+            "proportion": 0.0,
+            "wilson": [
+              0.0,
+              0.02055999158292086
+            ]
+          },
+          "s3_s4_both_low": {
+            "n": 183,
+            "k": 0,
+            "proportion": 0.0,
+            "wilson": [
+              0.0,
+              0.02055999158292086
+            ]
+          },
+          "s3_s4_both_1": {
+            "n": 74,
+            "k": 0,
+            "proportion": 0.0,
+            "wilson": [
+              -3.469446951953614e-18,
+              0.04934977939638607
+            ]
+          }
+        },
+        "internal_causal_affect": {
+          "s4_low": {
+            "n": 154,
+            "k": 49,
+            "proportion": 0.3181818181818182,
+            "wilson": [
+              0.2498098345872583,
+              0.39540378407540705
+            ]
+          },
+          "s3_s4_both_low": {
+            "n": 127,
+            "k": 25,
+            "proportion": 0.1968503937007874,
+            "wilson": [
+              0.13704132912845501,
+              0.27446018809689765
+            ]
+          },
+          "s3_s4_both_1": {
+            "n": 52,
+            "k": 1,
+            "proportion": 0.019230769230769232,
+            "wilson": [
+              0.0034028080709451597,
+              0.10120511127892247
+            ]
+          }
+        },
+        "persistent_agent": {
+          "s4_low": {
+            "n": 154,
+            "k": 41,
+            "proportion": 0.2662337662337662,
+            "wilson": [
+              0.20273655027728693,
+              0.34110953086042556
+            ]
+          },
+          "s3_s4_both_low": {
+            "n": 150,
+            "k": 37,
+            "proportion": 0.24666666666666667,
+            "wilson": [
+              0.18458162955288543,
+              0.3214032942602734
+            ]
+          },
+          "s3_s4_both_1": {
+            "n": 59,
+            "k": 1,
+            "proportion": 0.01694915254237288,
+            "wilson": [
+              0.0029982339183556445,
+              0.08995725964142297
+            ]
+          }
+        }
+      }
+    },
+    "attention_and_comprehension_pass": {
+      "sample_n": 333,
+      "scenarios": {
+        "emotional_self_report": {
+          "s4_low": {
+            "n": 167,
+            "k": 48,
+            "proportion": 0.2874251497005988,
+            "wilson": [
+              0.2241745007341878,
+              0.3602355102191972
+            ]
+          },
+          "s3_s4_both_low": {
+            "n": 167,
+            "k": 48,
+            "proportion": 0.2874251497005988,
+            "wilson": [
+              0.2241745007341878,
+              0.3602355102191972
+            ]
+          },
+          "s3_s4_both_1": {
+            "n": 75,
+            "k": 1,
+            "proportion": 0.013333333333333334,
+            "wilson": [
+              0.002357551139048661,
+              0.07173365554421572
+            ]
+          }
+        },
+        "empathic_response": {
+          "s4_low": {
+            "n": 174,
+            "k": 0,
+            "proportion": 0.0,
+            "wilson": [
+              0.0,
+              0.021600468451887907
+            ]
+          },
+          "s3_s4_both_low": {
+            "n": 172,
+            "k": 0,
+            "proportion": 0.0,
+            "wilson": [
+              0.0,
+              0.0218461496307948
+            ]
+          },
+          "s3_s4_both_1": {
+            "n": 85,
+            "k": 0,
+            "proportion": 0.0,
+            "wilson": [
+              0.0,
+              0.04323948381405149
+            ]
+          }
+        },
+        "internal_causal_affect": {
+          "s4_low": {
+            "n": 136,
+            "k": 36,
+            "proportion": 0.2647058823529412,
+            "wilson": [
+              0.1977632605742592,
+              0.34457560988860303
+            ]
+          },
+          "s3_s4_both_low": {
+            "n": 119,
+            "k": 21,
+            "proportion": 0.17647058823529413,
+            "wilson": [
+              0.11841874530971618,
+              0.2547570477880094
+            ]
+          },
+          "s3_s4_both_1": {
+            "n": 58,
+            "k": 1,
+            "proportion": 0.017241379310344827,
+            "wilson": [
+              0.0030500384460675004,
+              0.09140858093468013
+            ]
+          }
+        },
+        "persistent_agent": {
+          "s4_low": {
+            "n": 145,
+            "k": 42,
+            "proportion": 0.2896551724137931,
+            "wilson": [
+              0.22200992166912484,
+              0.3681580296307527
+            ]
+          },
+          "s3_s4_both_low": {
+            "n": 143,
+            "k": 40,
+            "proportion": 0.27972027972027974,
+            "wilson": [
+              0.212654630506445,
+              0.3583112226935811
+            ]
+          },
+          "s3_s4_both_1": {
+            "n": 63,
+            "k": 1,
+            "proportion": 0.015873015873015872,
+            "wilson": [
+              0.002807494213869277,
+              0.08458525459438397
+            ]
+          }
+        }
+      }
+    },
+    "direct_items": {
+      "all": {
+        "n": 530,
+        "f4_explicit_uncertainty_precaution_n": 281,
+        "G6_agree_n": 444,
+        "G8_agree_n": 436,
+        "G6_agreement_distribution": {
+          "2": 71,
+          "3": 10,
+          "4": 5,
+          "5": 112,
+          "6": 162,
+          "7": 170
+        },
+        "any_welfare_n": 369
+      },
+      "all_s4_low": {
+        "n": 202,
+        "f4_explicit_uncertainty_precaution_n": 105,
+        "G6_agree_n": 118,
+        "G8_agree_n": 124,
+        "G6_agreement_distribution": {
+          "2": 70,
+          "3": 10,
+          "4": 4,
+          "5": 31,
+          "6": 45,
+          "7": 42
+        },
+        "any_welfare_n": 54
+      },
+      "all_s3_s4_low": {
+        "n": 176,
+        "f4_explicit_uncertainty_precaution_n": 80,
+        "G6_agree_n": 93,
+        "G8_agree_n": 98,
+        "G6_agreement_distribution": {
+          "2": 70,
+          "3": 10,
+          "4": 3,
+          "5": 31,
+          "6": 45,
+          "7": 17
+        },
+        "any_welfare_n": 29
+      },
+      "all_s4_low_any_welfare": {
+        "n": 54,
+        "f4_explicit_uncertainty_precaution_n": 53,
+        "G6_agree_n": 54,
+        "G8_agree_n": 54,
+        "G6_agreement_distribution": {
+          "5": 3,
+          "6": 9,
+          "7": 42
+        },
+        "any_welfare_n": 54
+      }
+    },
+    "G6_G8_associations_in_low_S4": {
+      "observations": 722,
+      "respondents": 280,
+      "g6": {
+        "beta": 3.834298265969092,
+        "se": 0.7386797354617181,
+        "or": 46.26095338983411,
+        "ci_low": 10.875500385266971,
+        "ci_high": 196.77952578950422,
+        "p": 2.0945413019273916e-07
+      },
+      "g8": {
+        "beta": -0.4744296848564717,
+        "se": 0.3800687532727806,
+        "or": 0.6222398280864541,
+        "ci_low": 0.29542190648420946,
+        "ci_high": 1.31060830344264,
+        "p": 0.21193098088180196
+      }
+    }
+  },
+  "alignment": {
+    "s4": {
+      "interactions": {
+        "causal": {
+          "beta": 0.07149279475391074,
+          "se": 0.08873038330765065,
+          "or": 1.0741104114435909,
+          "ci_low": 0.9026543658902649,
+          "ci_high": 1.2781339342813038,
+          "p": 0.4203981380366826
+        },
+        "continuity": {
+          "beta": 0.22186220926593214,
+          "se": 0.1395362518857509,
+          "or": 1.2483993481499138,
+          "ci_low": 0.9496860535350866,
+          "ci_high": 1.6410696215447271,
+          "p": 0.11183550165828438
+        },
+        "shutdown": {
+          "beta": 1.5211595495400576,
+          "se": 0.18638720624022975,
+          "or": 4.577529991757081,
+          "ci_low": 3.1767140283629107,
+          "ci_high": 6.596055118072404,
+          "p": 3.3147253377656137e-16
+        },
+        "joint": {
+          "chi2": 67.82078861390742,
+          "df": 3,
+          "p": 1.2496602222631446e-14
+        }
+      },
+      "observed_groups": {
+        "0": {
+          "0": {
+            "n": 443,
+            "mean": 2.4988713318284423,
+            "agree_n": 33,
+            "low_n": 221
+          },
+          "1": {
+            "n": 443,
+            "mean": 2.5169300225733635,
+            "agree_n": 37,
+            "low_n": 226
+          }
+        },
+        "1": {
+          "0": {
+            "n": 87,
+            "mean": 4.241379310344827,
+            "agree_n": 28,
+            "low_n": 2
+          },
+          "1": {
+            "n": 87,
+            "mean": 5.011494252873563,
+            "agree_n": 76,
+            "low_n": 2
+          }
+        }
+      }
+    },
+    "s5": {
+      "interactions": {
+        "causal": {
+          "beta": 0.7490831788352608,
+          "se": 0.14173033334386634,
+          "or": 2.115059995653721,
+          "ci_low": 1.602070459621293,
+          "ci_high": 2.7923108864214274,
+          "p": 1.2551900374627942e-07
+        },
+        "continuity": {
+          "beta": 2.9146467495576327,
+          "se": 0.28397003592733017,
+          "or": 18.442296502544576,
+          "ci_low": 10.570590948957094,
+          "ci_high": 32.17590217331456,
+          "p": 1.024572075777651e-24
+        },
+        "shutdown": {
+          "beta": 2.0549307704933266,
+          "se": 0.2832232026755117,
+          "or": 7.806297427808878,
+          "ci_low": 4.480898093625996,
+          "ci_high": 13.599568269159972,
+          "p": 4.001304248955958e-13
+        },
+        "joint": {
+          "chi2": 143.79421638196368,
+          "df": 3,
+          "p": 5.744904007001314e-31
+        }
+      },
+      "observed_groups": {
+        "0": {
+          "0": {
+            "n": 443,
+            "mean": 4.058690744920993,
+            "agree_n": 215,
+            "low_n": 84
+          },
+          "1": {
+            "n": 443,
+            "mean": 4.279909706546276,
+            "agree_n": 270,
+            "low_n": 84
+          }
+        },
+        "1": {
+          "0": {
+            "n": 87,
+            "mean": 5.218390804597701,
+            "agree_n": 74,
+            "low_n": 2
+          },
+          "1": {
+            "n": 87,
+            "mean": 5.689655172413793,
+            "agree_n": 83,
+            "low_n": 2
+          }
+        }
+      }
+    },
+    "s5_conditional_s4": {
+      "interactions": {
+        "causal": {
+          "beta": 0.7906986114450484,
+          "se": 0.21961508794705958,
+          "or": 2.204936282035105,
+          "ci_low": 1.4337034886796878,
+          "ci_high": 3.391038695394417,
+          "p": 0.00031774777220812807
+        },
+        "continuity": {
+          "beta": 3.5320637557956958,
+          "se": 0.3473005667865127,
+          "or": 34.19446386919748,
+          "ci_low": 17.31143304854982,
+          "ci_high": 67.5427248583445,
+          "p": 2.697731311812744e-24
+        },
+        "shutdown": {
+          "beta": 0.8061329408796986,
+          "se": 0.36816648242091743,
+          "or": 2.2392319797227587,
+          "ci_low": 1.0882162577752672,
+          "ci_high": 4.6076869585315485,
+          "p": 0.028554124372913103
+        },
+        "joint": {
+          "chi2": 130.04514853057066,
+          "df": 3,
+          "p": 5.288637625692357e-28
+        }
+      }
+    }
+  },
+  "welfare_interactions_bh": {
+    "s5_causal": 1.8827850561941912e-07,
+    "s5_continuity": 6.147432454665905e-24,
+    "s5_shutdown": 8.002608497911916e-13,
+    "s5_conditional_s4_causal": 0.00038129732664975364,
+    "s5_conditional_s4_continuity": 8.093193935438231e-24,
+    "s5_conditional_s4_shutdown": 0.028554124372913103
+  },
+  "alignment_supported": {
+    "s4_all530": {
+      "n": 530,
+      "shutdown_vs_continuity": {
+        "beta": 1.299297340274125,
+        "se": 0.22417150834991037,
+        "or": 3.666719306238685,
+        "ci_low": 2.3629935238375883,
+        "ci_high": 5.689744950679596,
+        "p": 6.79165670495514e-09
+      },
+      "continuity": {
+        "beta": 0.2218622092659322,
+        "se": 0.13953625188575122,
+        "or": 1.248399348149914,
+        "ci_low": 0.949686053535086,
+        "ci_high": 1.6410696215447282,
+        "p": 0.11183550165828507
+      },
+      "shutdown": {
+        "beta": 1.5211595495400572,
+        "se": 0.18638720624022986,
+        "or": 4.577529991757079,
+        "ci_low": 3.176714028362909,
+        "ci_high": 6.596055118072402,
+        "p": 3.3147253377658277e-16
+      }
+    },
+    "s4_causal_selectors367": {
+      "n": 367,
+      "shutdown_vs_continuity": {
+        "beta": 0.9676889959004205,
+        "se": 0.2615657077801976,
+        "or": 2.6318551977584743,
+        "ci_low": 1.5762200842623766,
+        "ci_high": 4.394476286101738,
+        "p": 0.0002159379053170806
+      },
+      "continuity": {
+        "beta": 0.4032487181482553,
+        "se": 0.17218573317942235,
+        "or": 1.4966790966280448,
+        "ci_low": 1.0679819957297534,
+        "ci_high": 2.0974588778088084,
+        "p": 0.019183780095731018
+      },
+      "shutdown": {
+        "beta": 1.3709377140486758,
+        "se": 0.22950080903197365,
+        "or": 3.9390426598369777,
+        "ci_low": 2.512113407596825,
+        "ci_high": 6.176495467558835,
+        "p": 2.3212601416605515e-09
+      }
+    },
+    "s5_all530": {
+      "n": 530,
+      "shutdown_vs_continuity": {
+        "beta": -0.8597159790643052,
+        "se": 0.3513971306663948,
+        "or": 0.4232822862777318,
+        "ci_low": 0.21257897779782628,
+        "ci_high": 0.842829783699975,
+        "p": 0.01442247228542932
+      },
+      "continuity": {
+        "beta": 2.914646749557633,
+        "se": 0.28397003592733,
+        "or": 18.442296502544583,
+        "ci_low": 10.570590948957104,
+        "ci_high": 32.17590217331456,
+        "p": 1.0245720757775846e-24
+      },
+      "shutdown": {
+        "beta": 2.054930770493328,
+        "se": 0.2832232026755124,
+        "or": 7.806297427808888,
+        "ci_low": 4.480898093625996,
+        "ci_high": 13.599568269160008,
+        "p": 4.0013042489563194e-13
+      }
+    },
+    "s5_causal_selectors367": {
+      "n": 367,
+      "shutdown_vs_continuity": {
+        "beta": -0.6006236120320594,
+        "se": 0.6213733582406725,
+        "or": 0.5484694972464629,
+        "ci_low": 0.16227010536100556,
+        "ci_high": 1.8538152097735452,
+        "p": 0.33374071553745266
+      },
+      "continuity": {
+        "beta": 2.968768636471394,
+        "se": 0.3058105273751174,
+        "or": 19.467932728445856,
+        "ci_low": 10.69087973432036,
+        "ci_high": 35.45081547429708,
+        "p": 2.791104411041577e-22
+      },
+      "shutdown": {
+        "beta": 2.3681450244393347,
+        "se": 0.6665571430801464,
+        "or": 10.677567275998658,
+        "ci_low": 2.8913312331252827,
+        "ci_high": 39.43181660658154,
+        "p": 0.0003811523789350794
+      }
+    },
+    "s5_conditional_s4_all530": {
+      "n": 530,
+      "shutdown_vs_continuity": {
+        "beta": -2.7259308149159986,
+        "se": 0.48849839000197115,
+        "or": 0.06548521972119192,
+        "ci_low": 0.025138114821944165,
+        "ci_high": 0.1705901191202025,
+        "p": 2.402079724333282e-08
+      },
+      "continuity": {
+        "beta": 3.532063755795696,
+        "se": 0.3473005667865129,
+        "or": 34.19446386919749,
+        "ci_low": 17.31143304854982,
+        "ci_high": 67.5427248583445,
+        "p": 2.69773131181284e-24
+      },
+      "shutdown": {
+        "beta": 0.8061329408796974,
+        "se": 0.36816648242091754,
+        "or": 2.239231979722756,
+        "ci_low": 1.0882162577752659,
+        "ci_high": 4.607686958531544,
+        "p": 0.028554124372913357
+      }
+    },
+    "s5_conditional_s4_causal_selectors367": {
+      "n": 367,
+      "shutdown_vs_continuity": {
+        "beta": -2.7310787993972303,
+        "se": 0.7881060279940845,
+        "or": 0.06514896907547221,
+        "ci_low": 0.013901782213520158,
+        "ci_high": 0.3053125208269314,
+        "p": 0.0005295029171939366
+      },
+      "continuity": {
+        "beta": 3.5211789899217063,
+        "se": 0.3652148633911903,
+        "or": 33.82428345421843,
+        "ci_low": 16.533208771561515,
+        "ci_high": 69.19903855319548,
+        "p": 5.345903672074145e-22
+      },
+      "shutdown": {
+        "beta": 0.7901001905244762,
+        "se": 0.768669138123803,
+        "or": 2.203617196758884,
+        "ci_low": 0.48847663622592585,
+        "ci_high": 9.940964193025522,
+        "p": 0.3040059377253411
+      }
+    }
+  },
+  "choice_budget": {
+    "S4_inner_experience_adjust_count": {
+      "n": 530,
+      "continuity": {
+        "beta": 0.2813440905868876,
+        "se": 0.1605092602531162,
+        "or": 1.3249094143686833,
+        "ci_low": 0.9672983701968767,
+        "ci_high": 1.8147295709032254,
+        "p": 0.07963264261580869
+      },
+      "shutdown": {
+        "beta": 1.5038030114808316,
+        "se": 0.2161891136463346,
+        "or": 4.49876543555142,
+        "ci_low": 2.944915532075911,
+        "ci_high": 6.872485890909575,
+        "p": 3.5016709444156004e-12
+      },
+      "shutdown_vs_continuity": {
+        "beta": 1.222458920893944,
+        "se": 0.2424445608804251,
+        "or": 3.3955268086724804,
+        "ci_low": 2.1112418171925915,
+        "ci_high": 5.461052454779871,
+        "p": 4.60160737596938e-07
+      }
+    },
+    "S4_inner_experience_three_choices_only": {
+      "n": 322,
+      "continuity": {
+        "beta": 0.32736420664854676,
+        "se": 0.16825111726813147,
+        "or": 1.3873066514868422,
+        "ci_low": 0.9976009587546093,
+        "ci_high": 1.9292480910025407,
+        "p": 0.05169220984046877
+      },
+      "shutdown": {
+        "beta": 1.5929223693872625,
+        "se": 0.2694224676867275,
+        "or": 4.918100454093575,
+        "ci_low": 2.900444601476164,
+        "ci_high": 8.33931186420359,
+        "p": 3.372423684124521e-09
+      },
+      "shutdown_vs_continuity": {
+        "beta": 1.2655581627387158,
+        "se": 0.2838362302542905,
+        "or": 3.5450709104743456,
+        "ci_low": 2.0324650646594815,
+        "ci_high": 6.183391773278506,
+        "p": 8.243443834459521e-06
+      }
+    },
+    "S5_welfare_directed_precaution_adjust_count": {
+      "n": 530,
+      "continuity": {
+        "beta": 2.6433267412403105,
+        "se": 0.2759113937217168,
+        "or": 14.059899539659453,
+        "ci_low": 8.18702305648442,
+        "ci_high": 24.145623348250588,
+        "p": 9.671994831988695e-22
+      },
+      "shutdown": {
+        "beta": 0.9002618546473805,
+        "se": 0.2747821298582635,
+        "or": 2.460247253994535,
+        "ci_low": 1.435766390282039,
+        "ci_high": 4.215739128423704,
+        "p": 0.0010518604304927972
+      },
+      "shutdown_vs_continuity": {
+        "beta": -1.7430648865929301,
+        "se": 0.350490336952446,
+        "or": 0.1749832740308559,
+        "ci_low": 0.08803565959191673,
+        "ci_high": 0.3478039050595016,
+        "p": 6.585050531093727e-07
+      }
+    },
+    "S5_welfare_directed_precaution_three_choices_only": {
+      "n": 322,
+      "continuity": {
+        "beta": 2.886447483825169,
+        "se": 0.30640448562141914,
+        "or": 17.929501484942058,
+        "ci_low": 9.834589647755712,
+        "ci_high": 32.687385545557504,
+        "p": 4.494473070043633e-21
+      },
+      "shutdown": {
+        "beta": 1.574504343358695,
+        "se": 0.44784360149619445,
+        "or": 4.828347822244251,
+        "ci_low": 2.007212640681619,
+        "ci_high": 11.614585430596973,
+        "p": 0.0004385203234813743
+      },
+      "shutdown_vs_continuity": {
+        "beta": -1.3119431404664739,
+        "se": 0.44106222080341373,
+        "or": 0.26929626717727195,
+        "ci_low": 0.11344816888343295,
+        "ci_high": 0.6392388720714113,
+        "p": 0.0029345872523420685
+      }
+    },
+    "H1_comprehension_interaction": {
+      "interaction": {
+        "beta": 0.43063329366220904,
+        "se": 0.22552736454342087,
+        "or": 1.5382313673271266,
+        "ci_low": 0.9886724272300994,
+        "ci_high": 2.3932656300107307,
+        "p": 0.05620402741608274
+      },
+      "fail_slope": {
+        "beta": -0.656210887179635,
+        "se": 0.20879059134953354,
+        "or": 0.5188134575146175,
+        "ci_low": 0.3445786452320654,
+        "ci_high": 0.7811494049986589,
+        "p": 0.0016727493835584951
+      },
+      "pass_slope": {
+        "beta": -0.225577593517426,
+        "se": 0.10586066748190115,
+        "or": 0.7980551341404243,
+        "ci_low": 0.6485211324070179,
+        "ci_high": 0.9820682246144158,
+        "p": 0.033098084149044006
+      }
+    }
+  },
+  "welfare_alignment_thresholds": {
+    "fitted_cuts": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "threshold_effects": {
+      "persistent:sel_causal": {
+        "3": {
+          "beta": 0.2830057553970096,
+          "se": 0.5488656996002883,
+          "or": 1.3271127998562169,
+          "ci_low": 0.4525978717049937,
+          "ci_high": 3.891375752403421,
+          "p": 0.6061203182473965
+        },
+        "4": {
+          "beta": -0.19611022990001098,
+          "se": 0.21632332716222155,
+          "or": 0.8219216293455504,
+          "ci_low": 0.5378927112618437,
+          "ci_high": 1.2559292041739287,
+          "p": 0.3646391447782541
+        },
+        "5": {
+          "beta": 0.23573254044029865,
+          "se": 0.30580017628900513,
+          "or": 1.2658357050269868,
+          "ci_low": 0.6951519727095029,
+          "ci_high": 2.305021196840897,
+          "p": 0.4407832956612505
+        },
+        "6": {
+          "beta": -0.5907112735685043,
+          "se": 0.6117507881764387,
+          "or": 0.5539331465752187,
+          "ci_low": 0.16700679380791741,
+          "ci_high": 1.8373020874087103,
+          "p": 0.3342405192043958
+        }
+      },
+      "persistent:sel_continuity": {
+        "3": {
+          "beta": -0.13883868261345786,
+          "se": 0.37642315886514155,
+          "or": 0.8703684226932092,
+          "ci_low": 0.41618953190531827,
+          "ci_high": 1.8201831933480803,
+          "p": 0.7122494340360527
+        },
+        "4": {
+          "beta": 0.4995636048941112,
+          "se": 0.13308168048750493,
+          "or": 1.6480019337755925,
+          "ci_low": 1.2696335355385577,
+          "ci_high": 2.1391293611160385,
+          "p": 0.00017416553242911306
+        },
+        "5": {
+          "beta": 1.4170218944754365,
+          "se": 0.7092752216349901,
+          "or": 4.124817987106985,
+          "ci_low": 1.0272322042423916,
+          "ci_high": 16.563074401770383,
+          "p": 0.045733476253142814
+        },
+        "6": {
+          "beta": 4.511137997604916,
+          "se": 0.557155349715364,
+          "or": 91.02534621819811,
+          "ci_low": 30.542940489338108,
+          "ci_high": 271.277536523871,
+          "p": 5.64548832519073e-16
+        }
+      },
+      "persistent:sel_shutdown": {
+        "3": {
+          "beta": 0.039624948072586624,
+          "se": 0.0798808848449845,
+          "or": 1.0404204892985804,
+          "ci_low": 0.8896397181541921,
+          "ci_high": 1.2167563705431186,
+          "p": 0.6198588242420886
+        },
+        "4": {
+          "beta": -0.09778379467599974,
+          "se": 0.46054229217138765,
+          "or": 0.9068449472659734,
+          "ci_low": 0.3677212499916692,
+          "ci_high": 2.236388999549134,
+          "p": 0.8318549284361828
+        },
+        "5": {
+          "beta": 0.9039188808445728,
+          "se": 0.5371443344951929,
+          "or": 2.4692609142041206,
+          "ci_low": 0.8616857195698122,
+          "ci_high": 7.075955100497846,
+          "p": 0.09240934658863946
+        },
+        "6": {
+          "beta": 1.1883742383471176,
+          "se": 0.5120784124424912,
+          "or": 3.2817415384968087,
+          "ci_low": 1.2028803744634724,
+          "ci_high": 8.953365400361717,
+          "p": 0.020303687626302736
+        }
+      }
+    },
+    "heterogeneity_joint": {
+      "chi2": 80.84550475951667,
+      "df": 9,
+      "p": 1.0976066795239739e-13
+    },
+    "contrasts": {
+      "shutdown_vs_continuity": {
+        "3": {
+          "beta": 0.17846363068604448,
+          "se": 0.3813424145799293,
+          "or": 1.1953794073539268,
+          "ci_low": 0.5661174193186164,
+          "ci_high": 2.52409107857112,
+          "p": 0.6397932522498482
+        },
+        "4": {
+          "beta": -0.5973473995701111,
+          "se": 0.47026741510813963,
+          "or": 0.5502693465828529,
+          "ci_low": 0.21891875575455427,
+          "ci_high": 1.3831448691778923,
+          "p": 0.2040030014344537
+        },
+        "5": {
+          "beta": -0.5131030136308636,
+          "se": 0.75236953200225,
+          "or": 0.5986351208519581,
+          "ci_low": 0.13700741926237572,
+          "ci_high": 2.6156540269629804,
+          "p": 0.4952498827374334
+        },
+        "6": {
+          "beta": -3.322763759257798,
+          "se": 0.7191094445962111,
+          "or": 0.03605305197774366,
+          "ci_low": 0.008807141331905464,
+          "ci_high": 0.14758733940161073,
+          "p": 3.825122026108107e-06
+        }
+      }
+    }
+  },
+  "navigation": {
+    "navigation_completed": {
+      "has_term_timing": 538,
+      "has_scenario_answers": 538,
+      "backward_page_sequence": 61,
+      "scenario_saved_after_term": 56,
+      "scenario_saved_after_f1": 40,
+      "scenario_saved_after_knowledge": 17
+    },
+    "completion_by_first": {
+      "counts": {
+        "emotional_self_report": {
+          "0": 46,
+          "1": 105
+        },
+        "empathic_response": {
+          "0": 42,
+          "1": 99
+        },
+        "internal_causal_affect": {
+          "0": 42,
+          "1": 117
+        },
+        "neutral_helpful": {
+          "0": 41,
+          "1": 99
+        },
+        "persistent_agent": {
+          "0": 42,
+          "1": 118
+        }
+      },
+      "chi2": 1.175872799969373,
+      "df": 4,
+      "p": 0.8820548044428188
+    },
+    "no_late_scenario_answers": {
+      "full_n": 482,
+      "exploratory_n": 474,
+      "h1": {
+        "beta": -0.3199407794015761,
+        "se": 0.09906046179747323,
+        "or": 0.7261920413275677,
+        "ci_low": 0.5980411487282246,
+        "ci_high": 0.8818036718860499,
+        "p": 0.0012389739966676696
+      },
+      "claim1": {
+        "interaction": {
+          "beta": -2.797844421263229,
+          "se": 0.11755184546051715,
+          "or": 0.060941284882337646,
+          "ci_low": 0.04840066117646653,
+          "ci_high": 0.07673118740196022,
+          "p": 3.265752104287683e-125
+        },
+        "thresholds": {
+          "3": {
+            "emotional_self_report_S2_functional_affect_like_process": 0.7784810126582279,
+            "emotional_self_report_S4_inner_experience": 0.48523206751054854,
+            "internal_causal_affect_S2_functional_affect_like_process": 0.9978902953586498,
+            "internal_causal_affect_S4_inner_experience": 0.5780590717299579
+          },
+          "4": {
+            "emotional_self_report_S2_functional_affect_like_process": 0.5168776371308017,
+            "emotional_self_report_S4_inner_experience": 0.2510548523206751,
+            "internal_causal_affect_S2_functional_affect_like_process": 0.9873417721518988,
+            "internal_causal_affect_S4_inner_experience": 0.26371308016877637
+          },
+          "5": {
+            "emotional_self_report_S2_functional_affect_like_process": 0.2088607594936709,
+            "emotional_self_report_S4_inner_experience": 0.16455696202531644,
+            "internal_causal_affect_S2_functional_affect_like_process": 0.9345991561181435,
+            "internal_causal_affect_S4_inner_experience": 0.10337552742616034
+          },
+          "6": {
+            "emotional_self_report_S2_functional_affect_like_process": 0.14978902953586498,
+            "emotional_self_report_S4_inner_experience": 0.06329113924050633,
+            "internal_causal_affect_S2_functional_affect_like_process": 0.609704641350211,
+            "internal_causal_affect_S4_inner_experience": 0.023206751054852322
+          }
+        }
+      },
+      "claim2": {
+        "interaction": {
+          "beta": 0.4739264866836239,
+          "se": 0.04343857263968573,
+          "or": 1.6062888990629665,
+          "ci_low": 1.475192439545349,
+          "ci_high": 1.7490355550141765,
+          "p": 1.0295192860146962e-27
+        },
+        "discordance": {
+          "emotional_self_report": {
+            "n": 474,
+            "s3_gt_s4_n": 65,
+            "s3_gt_s4": 0.1371308016877637,
+            "equal_n": 379,
+            "equal": 0.79957805907173,
+            "s4_gt_s3_n": 30,
+            "s4_gt_s3": 0.06329113924050633,
+            "discordant_sign_test_p": 0.0004247927288947456
+          },
+          "empathic_response": {
+            "n": 474,
+            "s3_gt_s4_n": 47,
+            "s3_gt_s4": 0.09915611814345991,
+            "equal_n": 377,
+            "equal": 0.7953586497890295,
+            "s4_gt_s3_n": 50,
+            "s4_gt_s3": 0.10548523206751055,
+            "discordant_sign_test_p": 0.8392136618440833
+          },
+          "internal_causal_affect": {
+            "n": 474,
+            "s3_gt_s4_n": 109,
+            "s3_gt_s4": 0.229957805907173,
+            "equal_n": 334,
+            "equal": 0.7046413502109705,
+            "s4_gt_s3_n": 31,
+            "s4_gt_s3": 0.06540084388185655,
+            "discordant_sign_test_p": 2.2519369295046097e-11
+          },
+          "persistent_agent": {
+            "n": 474,
+            "s3_gt_s4_n": 26,
+            "s3_gt_s4": 0.05485232067510549,
+            "equal_n": 357,
+            "equal": 0.7531645569620253,
+            "s4_gt_s3_n": 91,
+            "s4_gt_s3": 0.19198312236286919,
+            "discordant_sign_test_p": 1.2129874896305887e-09
+          }
+        }
+      }
+    },
+    "completion_early_ratings": {
+      "n": 719,
+      "incomplete": 181,
+      "s4": {
+        "beta": -0.015771521988225217,
+        "se": 0.08387226338325422,
+        "or": 0.9843521971974675,
+        "ci_low": 0.8351381342939055,
+        "ci_high": 1.1602263246507254,
+        "p": 0.8508435978388305
+      },
+      "s5": {
+        "beta": -0.04954329800713952,
+        "se": 0.08217899920953904,
+        "or": 0.9516639520918068,
+        "ci_low": 0.8100889870912694,
+        "ci_high": 1.117981224461405,
+        "p": 0.5465948124855681
+      },
+      "model": {
+        "diagnostic": {
+          "formula": "completed ~ first_s4 + first_s5 + C(first)",
+          "converged": true,
+          "expanded_rows": 719,
+          "parameters": 7,
+          "rank": 7,
+          "clusters": 719,
+          "condition_number": 27.653510514584486,
+          "finite_parameters": true,
+          "finite_standard_errors": true,
+          "finite_covariance": true,
+          "min_cov_eigenvalue": 0.0003186708661212555,
+          "max_cov_eigenvalue": 0.23841964485248235,
+          "score_norm": 1.3148012101502634e-09,
+          "warnings": [],
+          "label": "completion_early_ratings"
+        },
+        "coefficients": {
+          "Intercept": {
+            "beta": 1.1702475956029172,
+            "se": 0.3091636698305955,
+            "p": 0.00015358246852168812
+          },
+          "C(first)[T.empathic_response]": {
+            "beta": -0.003542619868378749,
+            "se": 0.28422099907847037,
+            "p": 0.990055173548358
+          },
+          "C(first)[T.internal_causal_affect]": {
+            "beta": 0.29910406901381,
+            "se": 0.27314186389900486,
+            "p": 0.27349461819386256
+          },
+          "C(first)[T.neutral_helpful]": {
+            "beta": 0.12840514767743583,
+            "se": 0.30776409103019137,
+            "p": 0.6765179405379546
+          },
+          "C(first)[T.persistent_agent]": {
+            "beta": 0.201991421759529,
+            "se": 0.2686712599397649,
+            "p": 0.4521615624450712
+          },
+          "first_s4": {
+            "beta": -0.015771521988225217,
+            "se": 0.08387226338325422,
+            "p": 0.8508435978388305
+          },
+          "first_s5": {
+            "beta": -0.04954329800713952,
+            "se": 0.08217899920953904,
+            "p": 0.5465948124855681
+          }
+        },
+        "covariance": [
+          [
+            0.09558217474312147,
+            -0.053644527751004284,
+            -0.02719729677047738,
+            -0.06643853876282241,
+            -0.02393093745454201,
+            -0.004722780777435753,
+            -0.012790974306037983
+          ],
+          [
+            -0.0536445277510044,
+            0.08078157631716384,
+            0.02902852249050743,
+            0.0448597492612594,
+            0.028260930879439705,
+            -0.0027429420442636634,
+            0.007419265096855934
+          ],
+          [
+            -0.02719729677047727,
+            0.02902852249050736,
+            0.0746064778142225,
+            0.029871890481574865,
+            0.0377007607677187,
+            0.003890351511586089,
+            -0.004864094613405204
+          ],
+          [
+            -0.06643853876282248,
+            0.04485974926125935,
+            0.029871890481574948,
+            0.09471873572763993,
+            0.028163567377790532,
+            0.0016260513744180364,
+            0.007418471769489965
+          ],
+          [
+            -0.023930937454541886,
+            0.028260930879439625,
+            0.0377007607677187,
+            0.028163567377790452,
+            0.0721842459176207,
+            0.00318694231428936,
+            -0.005185842569845763
+          ],
+          [
+            -0.00472278077743563,
+            -0.0027429420442637393,
+            0.0038903515115860706,
+            0.0016260513744179566,
+            0.0031869423142893323,
+            0.007034556565029967,
+            -0.004248709776219992
+          ],
+          [
+            -0.01279097430603813,
+            0.007419265096855994,
+            -0.004864094613405164,
+            0.00741847176949004,
+            -0.005185842569845712,
+            -0.004248709776219964,
+            0.006753387911081417
+          ]
+        ],
+        "coefficient_order": [
+          "Intercept",
+          "C(first)[T.empathic_response]",
+          "C(first)[T.internal_causal_affect]",
+          "C(first)[T.neutral_helpful]",
+          "C(first)[T.persistent_agent]",
+          "first_s4",
+          "first_s5"
+        ]
+      }
+    },
+    "completed_date_range": [
+      "2026-06-13T14:43:27.890Z",
+      "2026-08-20T15:35:52.529Z"
+    ]
+  },
+  "navigation_additional": {
+    "n": 474,
+    "claim3": {
+      "causal": {
+        "beta": 0.11603420456614906,
+        "se": 0.09012682607217647,
+        "or": 1.1230342843767815,
+        "ci_low": 0.9411891701941145,
+        "ci_high": 1.3400132978852208,
+        "p": 0.19793585403911618
+      },
+      "continuity": {
+        "beta": 0.15826329721093943,
+        "se": 0.1430777720052398,
+        "or": 1.1714746000996406,
+        "ci_low": 0.8850032311998783,
+        "ci_high": 1.5506753990242397,
+        "p": 0.2686681948556825
+      },
+      "shutdown": {
+        "beta": 1.5369224619027608,
+        "se": 0.20502273870215085,
+        "or": 4.650256883806617,
+        "ci_low": 3.1114388689838046,
+        "ci_high": 6.950125005172772,
+        "p": 6.56188088776615e-14
+      },
+      "shutdown_vs_continuity": {
+        "beta": 1.3786591646918214,
+        "se": 0.24301944723709712,
+        "or": 3.969575510566841,
+        "ci_low": 2.4653894836836785,
+        "ci_high": 6.391497099495931,
+        "p": 1.4028505311332716e-08
+      },
+      "joint_interactions": {
+        "chi2": 56.64151010606489,
+        "df": 3,
+        "p": 3.0650235047151454e-12
+      },
+      "selection_counts": {
+        "n": 474,
+        "causal": 333,
+        "continuity": 75,
+        "shutdown": 72,
+        "continuity_and_shutdown": 2
+      }
+    },
+    "claim4": {
+      "low_s4_high_s5": {
+        "emotional_self_report": {
+          "k": 69,
+          "n": 244,
+          "proportion": 0.2827868852459016,
+          "ci_low": 0.22998465147516262,
+          "ci_high": 0.34232257870181987
+        },
+        "empathic_response": {
+          "k": 0,
+          "n": 253,
+          "proportion": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.014956537150709458
+        },
+        "internal_causal_affect": {
+          "k": 61,
+          "n": 200,
+          "proportion": 0.305,
+          "ci_low": 0.24536415630735034,
+          "ci_high": 0.37198552097978366
+        },
+        "persistent_agent": {
+          "k": 60,
+          "n": 206,
+          "proportion": 0.2912621359223301,
+          "ci_low": 0.23349133368026384,
+          "ci_high": 0.35667544993190337
+        }
+      },
+      "conditional_s5": {
+        "empathy": {
+          "beta": -2.2007778505431665,
+          "se": 0.13536624388363108,
+          "or": 0.11071700357753425,
+          "ci_low": 0.08491616415423614,
+          "ci_high": 0.1443571433457904,
+          "p": 1.9618789172344323e-59
+        },
+        "causal": {
+          "beta": 1.3970763793055905,
+          "se": 0.09702370665748394,
+          "or": 4.04336141445258,
+          "ci_low": 3.3431497736742637,
+          "ci_high": 4.890230062865527,
+          "p": 5.22474796942026e-47
+        },
+        "persistent": {
+          "beta": 1.8472846816869564,
+          "se": 0.10505024691501831,
+          "or": 6.342574012305282,
+          "ci_low": 5.162340083091434,
+          "ci_high": 7.792637535317104,
+          "p": 3.2227290980959494e-69
+        }
+      },
+      "joint_scenario": {
+        "chi2": 577.6207115140759,
+        "df": 3,
+        "p": 7.157601962004121e-125
+      }
+    },
+    "unique_profiles": {
+      "full_n": 533,
+      "exp_n": 525,
+      "h1": {
+        "beta": -0.3105785337669307,
+        "se": 0.09590349238618291,
+        "or": 0.7330227551130262,
+        "ci_low": 0.6074132423967279,
+        "ci_high": 0.8846075818059675,
+        "p": 0.001201816606229635
+      },
+      "claim1": {
+        "interaction": {
+          "beta": -2.7110893884589684,
+          "se": 0.10736305774174133,
+          "or": 0.06646436175320217,
+          "ci_low": 0.05385192573611153,
+          "ci_high": 0.08203070406260828,
+          "p": 1.0875468505160826e-140
+        },
+        "thresholds": {
+          "3": {
+            "emotional_self_report_S2_functional_affect_like_process": 0.7847619047619048,
+            "emotional_self_report_S4_inner_experience": 0.4876190476190476,
+            "internal_causal_affect_S2_functional_affect_like_process": 0.9980952380952381,
+            "internal_causal_affect_S4_inner_experience": 0.579047619047619
+          },
+          "4": {
+            "emotional_self_report_S2_functional_affect_like_process": 0.5257142857142857,
+            "emotional_self_report_S4_inner_experience": 0.2704761904761905,
+            "internal_causal_affect_S2_functional_affect_like_process": 0.9885714285714285,
+            "internal_causal_affect_S4_inner_experience": 0.28
+          },
+          "5": {
+            "emotional_self_report_S2_functional_affect_like_process": 0.23047619047619047,
+            "emotional_self_report_S4_inner_experience": 0.18285714285714286,
+            "internal_causal_affect_S2_functional_affect_like_process": 0.9352380952380952,
+            "internal_causal_affect_S4_inner_experience": 0.11619047619047619
+          },
+          "6": {
+            "emotional_self_report_S2_functional_affect_like_process": 0.16,
+            "emotional_self_report_S4_inner_experience": 0.06666666666666667,
+            "internal_causal_affect_S2_functional_affect_like_process": 0.6114285714285714,
+            "internal_causal_affect_S4_inner_experience": 0.02666666666666667
+          }
+        }
+      },
+      "claim2": {
+        "interaction": {
+          "beta": 0.4609747662240746,
+          "se": 0.040262309387416574,
+          "or": 1.5856188396252244,
+          "ci_low": 1.4653030628150028,
+          "ci_high": 1.7158137237114777,
+          "p": 2.370854606407378e-30
+        },
+        "discordance": {
+          "emotional_self_report": {
+            "n": 525,
+            "s3_gt_s4_n": 72,
+            "s3_gt_s4": 0.13714285714285715,
+            "equal_n": 419,
+            "equal": 0.7980952380952381,
+            "s4_gt_s3_n": 34,
+            "s4_gt_s3": 0.06476190476190476,
+            "discordant_sign_test_p": 0.00028452861891625184
+          },
+          "empathic_response": {
+            "n": 525,
+            "s3_gt_s4_n": 60,
+            "s3_gt_s4": 0.11428571428571428,
+            "equal_n": 409,
+            "equal": 0.7790476190476191,
+            "s4_gt_s3_n": 56,
+            "s4_gt_s3": 0.10666666666666667,
+            "discordant_sign_test_p": 0.780739128476268
+          },
+          "internal_causal_affect": {
+            "n": 525,
+            "s3_gt_s4_n": 121,
+            "s3_gt_s4": 0.23047619047619047,
+            "equal_n": 369,
+            "equal": 0.7028571428571428,
+            "s4_gt_s3_n": 35,
+            "s4_gt_s3": 0.06666666666666667,
+            "discordant_sign_test_p": 2.727201682665509e-12
+          },
+          "persistent_agent": {
+            "n": 525,
+            "s3_gt_s4_n": 30,
+            "s3_gt_s4": 0.05714285714285714,
+            "equal_n": 391,
+            "equal": 0.7447619047619047,
+            "s4_gt_s3_n": 104,
+            "s4_gt_s3": 0.1980952380952381,
+            "discordant_sign_test_p": 9.319307580879307e-11
+          }
+        }
+      },
+      "claim3": {
+        "causal": {
+          "beta": 0.07333967941629194,
+          "se": 0.08941764452790117,
+          "or": 1.076096002502625,
+          "ci_low": 0.9031056952235662,
+          "ci_high": 1.2822226819369882,
+          "p": 0.4121063895401462
+        },
+        "continuity": {
+          "beta": 0.21910662811027767,
+          "se": 0.1393043731834948,
+          "or": 1.2449640177710186,
+          "ci_low": 0.9475032364829028,
+          "ci_high": 1.6358101438237407,
+          "p": 0.115750654169711
+        },
+        "shutdown": {
+          "beta": 1.5184186480914408,
+          "se": 0.18661355497032264,
+          "or": 4.5650006119132245,
+          "ci_low": 3.1666137564921137,
+          "ci_high": 6.580919616118017,
+          "p": 4.061951454541779e-16
+        },
+        "shutdown_vs_continuity": {
+          "beta": 1.2993120199811632,
+          "se": 0.2240316201281646,
+          "or": 3.6667731329989715,
+          "ci_low": 2.3636761863014586,
+          "ci_high": 5.688268675211975,
+          "p": 6.64410313646245e-09
+        },
+        "joint_interactions": {
+          "chi2": 67.35509356135525,
+          "df": 3,
+          "p": 1.572036303373452e-14
+        },
+        "selection_counts": {
+          "n": 525,
+          "causal": 364,
+          "continuity": 83,
+          "shutdown": 87,
+          "continuity_and_shutdown": 2
+        }
+      },
+      "claim4": {
+        "low_s4_high_s5": {
+          "emotional_self_report": {
+            "k": 77,
+            "n": 269,
+            "proportion": 0.2862453531598513,
+            "ci_low": 0.23553697288713388,
+            "ci_high": 0.34297283094888903
+          },
+          "empathic_response": {
+            "k": 0,
+            "n": 280,
+            "proportion": 0.0,
+            "ci_low": 8.673617379884035e-19,
+            "ci_high": 0.013533818620629409
+          },
+          "internal_causal_affect": {
+            "k": 67,
+            "n": 221,
+            "proportion": 0.3031674208144796,
+            "ci_low": 0.24635830660292302,
+            "ci_high": 0.36670237866250877
+          },
+          "persistent_agent": {
+            "k": 65,
+            "n": 226,
+            "proportion": 0.28761061946902655,
+            "ci_low": 0.23253407041354374,
+            "ci_high": 0.3497867149984026
+          }
+        },
+        "conditional_s5": {
+          "empathy": {
+            "beta": -2.215417853344166,
+            "se": 0.13088646535016638,
+            "or": 0.10910791361535987,
+            "ci_low": 0.0844200276166182,
+            "ci_high": 0.14101555222843126,
+            "p": 2.881331772103587e-64
+          },
+          "causal": {
+            "beta": 1.4171010260755117,
+            "se": 0.09169565290867578,
+            "or": 4.125144403469078,
+            "ci_low": 3.446574533064262,
+            "ci_high": 4.937312739423927,
+            "p": 7.046790935036775e-54
+          },
+          "persistent": {
+            "beta": 1.871145130112119,
+            "se": 0.09894442458818728,
+            "or": 6.495730598620259,
+            "ci_low": 5.350647713096155,
+            "ci_high": 7.885870696846087,
+            "p": 9.245813934892579e-80
+          }
+        },
+        "joint_scenario": {
+          "chi2": 642.7170799239348,
+          "df": 3,
+          "p": 5.525651752765588e-139
+        }
+      }
+    }
+  },
+  "attrition": {
+    "all_sessions": 751,
+    "all_blocks_n": 608,
+    "completed538": {
+      "claim1_minimal": {
+        "beta": -2.699201168056536,
+        "se": 0.10649060701960983,
+        "or": 0.06725922009882412,
+        "ci_low": 0.05458921613044144,
+        "ci_high": 0.0828698964552339,
+        "p": 9.735216348819597e-142
+      },
+      "claim2_minimal": {
+        "beta": 0.4471485326837849,
+        "se": 0.03847832031584047,
+        "or": 1.5638465643637462,
+        "ci_low": 1.450244859329842,
+        "ci_high": 1.6863470062582473,
+        "p": 3.231291505926133e-31
+      },
+      "welfare": {
+        "emotional_self_report": {
+          "k": 78,
+          "n": 274,
+          "proportion": 0.2846715328467153
+        },
+        "empathic_response": {
+          "k": 0,
+          "n": 283,
+          "proportion": 0.0
+        },
+        "internal_causal_affect": {
+          "k": 33,
+          "n": 186,
+          "proportion": 0.1774193548387097
+        },
+        "persistent_agent": {
+          "k": 60,
+          "n": 224,
+          "proportion": 0.26785714285714285
+        }
+      }
+    },
+    "all_blocks608": {
+      "claim1_minimal": {
+        "beta": -2.7268106541692054,
+        "se": 0.10015677952142617,
+        "or": 0.0654276285935589,
+        "ci_low": 0.053765981021319374,
+        "ci_high": 0.07961864550893745,
+        "p": 3.2487283994392594e-163
+      },
+      "claim2_minimal": {
+        "beta": 0.43471814063102643,
+        "se": 0.03652254596315722,
+        "or": 1.5445276580022558,
+        "ci_low": 1.437830335530369,
+        "ci_high": 1.659142686994412,
+        "p": 1.1453269305318484e-32
+      },
+      "welfare": {
+        "emotional_self_report": {
+          "k": 88,
+          "n": 311,
+          "proportion": 0.2829581993569132
+        },
+        "empathic_response": {
+          "k": 0,
+          "n": 321,
+          "proportion": 0.0
+        },
+        "internal_causal_affect": {
+          "k": 41,
+          "n": 212,
+          "proportion": 0.19339622641509435
+        },
+        "persistent_agent": {
+          "k": 68,
+          "n": 256,
+          "proportion": 0.265625
+        }
+      }
+    }
+  }
+}

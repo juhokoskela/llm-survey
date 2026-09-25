@@ -1,0 +1,49 @@
+# Literature Verification Freeze
+## AI System Scenario Study
+**Verification date:** 2026-08-31  
+**Purpose:** Verify the 15 cornerstone sources from the external literature review before drafting.
+
+This memo records bibliographic verification and the narrow claims safe to rely on. It is not a replacement for reading every paper in full during final citation polishing.
+
+| # | Source | Verified status | Stable identifier / source | Safe use in paper |
+|---|---|---|---|---|
+| 1 | Pauketat, Shank, Manoli, & Anthis (2026), *Mental Models of Autonomy and Sentience Shape Reactions to AI* | **Verified, peer-reviewed CHI 2026** | DOI: https://doi.org/10.1145/3772318.3790351 | Sentience and autonomy were experimentally separated; sentience produced larger changes in mind perception/moral consideration, autonomy relatively more threat. Close precedent for capacity-specific vignette effects, not evidence-type inference. |
+| 2 | Ladak & Caviola (2025), *Public Skepticism about AI Consciousness* | **Verified, OSF preprint v2 Dec 2025** | DOI: https://doi.org/10.31234/osf.io/wvbya_v2 | Across preregistered future-AI experiments, average consciousness attribution remained low; expert endorsement, emotional connection, embodiment, digital-brain framing, and especially gradual human-to-digital continuity increased attribution; strongest scenarios polarized respondents. |
+| 3 | Ladak, Harris, & Anthis (2024), *Which Artificial Intelligences Do People Care About Most?* | **Verified, peer-reviewed CHI 2024** | DOI: https://doi.org/10.1145/3613904.3642403 | Conjoint experiment (N=1,163) varying 11 AI features; all increased moral consideration, with human-like embodiment and prosocial/emotional features among the strongest. Strong precedent for feature-specific moral concern. |
+| 4 | Kang, Kim, Yun, Bae, & Kim (2026), *Identifying features that shape perceived consciousness in LLM-based AI* | **Verified, Computers in Human Behavior Reports 21, 100901** | DOI: https://doi.org/10.1016/j.chbr.2025.100901 | Metacognitive self-reflection and own-emotion expression predicted consciousness attribution; knowledge-heavy text reduced it; respondents showed heterogeneous feature weighting. Empathy was not identified as an independent positive predictor in the reported significant results. |
+| 5 | Huebner (2010), *Commonsense concepts of phenomenal consciousness: Does anyone care about functional zombies?* | **Verified, Phenomenology and the Cognitive Sciences 9:133–155** | DOI: https://doi.org/10.1007/s11097-009-9126-6 | Experimental-philosophy precedent showing mental-state attribution differs across humans/robots/cyborgs even under roughly comparable functional descriptions; belief attribution is much less substrate-sensitive than pain/emotion attribution. Use as foundational, not AI-specific modern evidence. |
+| 6 | Colombatto & Fleming (2024), *Folk psychological attributions of consciousness to large language models* | **Verified, Neuroscience of Consciousness 2024(1): niae013** | DOI: https://doi.org/10.1093/nc/niae013 | U.S. sample N=300; mental capacities reduced to Experience and Intelligence dimensions; Experience, not Intelligence, tracked phenomenal-consciousness attribution; usage frequency was positively associated with consciousness attribution. |
+| 7 | Allen, Lewis, & Caviola (2026), *Moral Concern for AI* | **Verified, OSF preprint v3 Feb 2026** | DOI: https://doi.org/10.31234/osf.io/38a6j_v3 | AI Harm Game (N=498): participants were generally skeptical that AI could suffer yet often refrained from harming a responsive GPT-4o for a small reward. Direct precedent for behavioral restraint without confident suffering belief. **Do not cite as peer-reviewed unless publication status changes.** |
+| 8 | Mara, Bauer, Tschopp, Grosswieser, & Kraus (2026), *Beyond Disposition: AI Knowledge Predicts Anthropomorphization...* | **Verified, peer-reviewed CHI 2026** | DOI: https://doi.org/10.1145/3772318.3791005 | Lay N=307 and expert N=130 samples; higher AI knowledge predicted lower anthropomorphism, experts reported more knowledge and less anthropomorphism; anthropomorphism related to moral care/not switching off LaMDA against its will. |
+| 9 | Keijsers, Bartneck, & Eyssel (2022), *Pay Them No Mind* | **Verified, International Journal of Social Robotics 14:499–514** | DOI: https://doi.org/10.1007/s12369-021-00799-1 | Explicit robot-mind information altered condemnation/acceptability of abuse, but did not reliably reduce participants' own mistreatment. Useful warning that stated moral judgment and behavior do not automatically coincide. |
+| 10 | Gray, Gray, & Wegner (2007), *Dimensions of Mind Perception* | **Verified, Science 315:619** | DOI: https://doi.org/10.1126/science.1134475 | Foundational two-dimensional Experience/Agency structure; dimensions predicted different moral judgments. Use as historical conceptual grounding, not as a claim that all later folk concepts reduce to two factors. |
+| 11 | Weisman, Dweck, & Markman (2017), *Rethinking people's conceptions of mental life* | **Verified, PNAS 114:11374–11379** | DOI: https://doi.org/10.1073/pnas.1704347114 | Challenges treating Experience/Agency as a complete ontology of mental states; supports richer folk structure. Useful when discussing S3/S4 divergence cautiously. |
+| 12 | Sytsma & Machery (2010), *Two Conceptions of Subjective Experience* | **Verified, Philosophical Studies 151:299–327** | DOI: https://doi.org/10.1007/s11098-009-9439-x | Experimental-philosophy evidence that folk subjective-experience judgments differ from philosophers' phenomenal concept and are sensitive to valence/wording. Central caution against over-reading two Likert phrasings as a discovered folk ontology. |
+| 13 | Phelan (2026), *Attribution functionalism* | **Verified, Mind & Language 41(3):363–382; online Oct 2025** | DOI: https://doi.org/10.1111/mila.70000 | Argues that apparent embodiment/substrate effects can be confounded by functional information; functional information may proximally guide even phenomenal-state attribution. Important challenge to a strong function/phenomenology firewall interpretation. |
+| 14 | Butlin et al. (2026), *Identifying indicators of consciousness in AI systems* | **Verified, Trends in Cognitive Sciences 30(6):488–501; online Nov 2025** | DOI: https://doi.org/10.1016/j.tics.2025.10.011 | Theory-derived indicator framework for updating credence in AI consciousness. Use to contextualize mechanistic/architectural evidence as defeasible indicators, not as proof. Cite publication year **2026** in normal bibliography unless style uses online-first year. |
+| 15 | Chella (2026), *Sentient AI in robots and agents: prolegomena for an evidence-based research program* | **Verified, Frontiers in Psychology 17, published Aug 19 2026** | DOI: https://doi.org/10.3389/fpsyg.2026.1903644 | Explicitly separates sentience/consciousness, self-modeling, agency, moral patienthood, welfare, human attribution, and causal-mechanistic evidence levels. Very current conceptual context; perspective article, not empirical precedent. |
+
+## Additional verified adjacent precedents
+
+- Nijssen, Müller, van Baaren, & Paulus (2019), *Saving the Robot or the Human? Robots Who Feel Deserve Moral Care*. DOI: https://doi.org/10.1521/soco.2019.37.1.41  
+  Affective-state attribution, more than agency attribution, reduced willingness to sacrifice robots.
+
+- Appel, Izydorczyk, Weber, Mara, & Lischetzke (2020), *The uncanny of mind in a machine*. DOI: https://doi.org/10.1016/j.chb.2019.07.031  
+  Vignettes stipulated robot tool/agency/experience capacities; experience produced the strongest eeriness.
+
+- Vuong et al. (2023), *How AI’s Self-Prolongation Influences People’s Perceptions of Its Autonomous Mind*. DOI: https://doi.org/10.3390/bs13060470  
+  Cross-sectional N=266; belief that AI seeks continued functioning was associated with belief in an autonomous mind, stronger with greater interaction familiarity.
+
+## Corrections / guardrails relative to the external review
+
+1. **Butlin et al.** should normally be cited as **2026**, despite online publication in November 2025.
+2. **Allen, Lewis, & Caviola** remains an **OSF preprint** as verified on 2026-08-31; do not describe it as peer-reviewed.
+3. **Public Skepticism about AI Consciousness** is likewise an OSF preprint in the verified sources; describe its preregistration and sample accurately without implying journal publication.
+4. **Huebner (2010)** is a foundational robot/cyborg experimental-philosophy paper, but claims that it held all functional information perfectly constant should be phrased cautiously. The design manipulates embodiment/substrate while descriptions aim at comparable capacities.
+5. The reviewed literature supports a claim of **novel joint design / evidence-to-inference mapping**, not “first study to show cue-specific mind perception,” “first continuity effect,” or “first precaution without belief.”
+6. The strongest novelty language should remain **“appears to be”** until final manuscript search and reference chasing are complete.
+7. The paper should describe F1 as **post-vignette explicit evidential judgments**. It cannot establish temporally prior epistemic rules causing vignette judgments.
+
+## Provisional novelty statement cleared for drafting
+
+> Across the experimental literature verified for this review, the study appears unusual in jointly comparing behavioral, first-person affective, empathic-social, causal-mechanistic, and diachronic agency/continuity evidence within respondents while separately measuring functional affect-like processing, phenomenal attribution, system-directed welfare precaution, and general developer caution. Its contribution is best framed as an evidence-to-inference map rather than as the discovery that individual AI cues affect mind perception.

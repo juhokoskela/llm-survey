@@ -175,6 +175,8 @@ describe("derived backend fields", () => {
     expect(derived.technicalKnowledgeScore).toBe(4);
     expect(derived.technicalExpertiseTier).toBe(2);
     expect(derived.usageIntensity).toBe(2);
+    expect(derived.technicalClassificationAmbiguous).toBe(false);
+    expect(derived.usageClassificationAmbiguous).toBe(false);
     expect(derived.missingRequiredAnswersFlag).toBe(false);
     expect(derived.straightliningFlag).toBe(false);
     expect(derived.lowEnglishComfortFlag).toBe(false);
@@ -205,7 +207,30 @@ describe("derived backend fields", () => {
 
     expect(derived.lowEnglishComfortFlag).toBe(true);
     expect(derived.technicalExpertiseTier).toBe(0);
-    expect(derived.classificationAmbiguous).toBe(true);
+    expect(derived.technicalClassificationAmbiguous).toBe(true);
+  });
+
+  it("treats tier signals as independent evidence rather than a conflict", () => {
+    const answers = completeAnswerMap();
+    answers[answerInstanceId("B2_field_domain")] =
+      "Software development / software engineering / information technology (IT) / infrastructure";
+    answers[answerInstanceId("B7_builder_experience")] = "No";
+
+    const derived = deriveResponseFields(answers, 420);
+
+    expect(derived.technicalExpertiseTier).toBe(1);
+    expect(derived.technicalClassificationAmbiguous).toBe(false);
+  });
+
+  it("reports usage ambiguity separately from technical ambiguity", () => {
+    const answers = completeAnswerMap();
+    answers[answerInstanceId("B4_llm_frequency")] = "Never";
+    answers[answerInstanceId("B5_llm_hours")] = "11–20 hours";
+
+    const derived = deriveResponseFields(answers, 420);
+
+    expect(derived.technicalClassificationAmbiguous).toBe(false);
+    expect(derived.usageClassificationAmbiguous).toBe(true);
   });
 
   it("keeps derived classification compatible with old acronym-heavy pilot labels", () => {
